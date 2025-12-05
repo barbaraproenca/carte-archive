@@ -1,0 +1,37 @@
+name: Mise a jour des donnees
+
+on:
+  push:
+    paths:
+      - 'data/archives.xlsx'
+  workflow_dispatch:
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout du depot
+        uses: actions/checkout@v4
+      
+      - name: Installation de Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Installation des dependances
+        run: |
+          pip install pandas openpyxl
+      
+      - name: Conversion Excel vers JSON
+        run: |
+          python scripts/convert_excel_to_json.py data/archives.xlsx docs/data/archives.json
+      
+      - name: Commit et push des modifications
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/data/archives.json
+          git diff --staged --quiet || git commit -m "Mise a jour automatique des donnees JSON"
+          git push
+

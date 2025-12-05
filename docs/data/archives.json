@@ -1,0 +1,4565 @@
+{
+  "fonctions": [
+    {
+      "fonction": "ACTION SOCIALE, SOLIDARITÉ ET COHÉSION",
+      "Description": "La Métropole de Lille prend en charge plusieurs compétences relevant des champs de l’action sociale et permettant de garantir sa cohésion et d’assurer une solidarité active envers les plus démunis. Outre les volets sociaux de la politique de la ville et la gestion des aires d’accueil des gens du voyage, elle est chargée depuis 2017 de l’accompagnement au logement des personnes défavorisées (FSL) et de l’aide aux jeunes en difficulté sociale et professionnelle (FAJ). ",
+      "date_extreme_min": 1969,
+      "date_extreme_max": 2022,
+      "date_extreme_fonction": "1969/2022",
+      "Métrage réel": 526.21,
+      "Nombre d'entrée": 57,
+      "Thematique": "Protocole et relations publiques"
+    },
+    {
+      "fonction": "AMÉNAGEMENT ET RENOUVELLEMENT URBAIN",
+      "Description": "Depuis sa création en 1966, la MEL a vu ses compétences en matière d’aménagement s’accroître. De l’organisation des constructions scolaires dans les ZAC en passant par l’amélioration du parc immobilier bâti (résorption des courées) et la gestion des opérations d’aménagement d’intérêt métropolitain de tout type, elle est aussi chargée aujourd’hui de la planification urbaine sur son territoire (PLU2), façonnant ainsi l’espace métropolitain.",
+      "date_extreme_min": 1869,
+      "date_extreme_max": 2021,
+      "date_extreme_fonction": "1869/2021",
+      "Métrage réel": 2147.97,
+      "Nombre d'entrée": 656,
+      "Thematique": "Protocole et relations publiques"
+    },
+    {
+      "fonction": "CULTURE ET SPORT",
+      "Description": "Faire vivre un territoire, c’est contribuer à son enrichissement culturel et offrir des loisirs à ses habitants. À ce titre, la MEL est chargée depuis 1968 de la gestion du Stadium Nord et à l’organisation de manifestations sportives. En 1976, elle a pris en charge la gestion du Musée d’art moderne de Villeneuve-d’Ascq. Elle soutient financièrement de nombreux organismes culturels et sportifs, de même que les équipements d’envergure métropolitaine. ",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2022,
+      "date_extreme_fonction": "1968/2022",
+      "Métrage réel": 255.84,
+      "Nombre d'entrée": 72,
+      "Thematique": "Protocole et relations publiques"
+    },
+    {
+      "fonction": "ÉDUCATION, ENSEIGNEMENT ET RECHERCHE",
+      "Description": "A l’origine chargée de la construction et de l’entretien des établissements scolaires, la Métropole perd cette compétence, progressivement transférée aux communes, au Conseil général du Nord et à la Région Nord-Pas-de-Calais. Elle conserve toutefois la gestion du lycée horticole de Lomme jusqu'en 1996. Aujourd’hui, elle participe notamment aux programmes de soutien et d’aides aux établissements d’enseignement supérieur et de recherche et aux programmes de recherche, favorisant ainsi l’attractivité de son territoire.",
+      "date_extreme_min": 1980,
+      "date_extreme_max": 2019,
+      "date_extreme_fonction": "1980/2019",
+      "Métrage réel": 12.9,
+      "Nombre d'entrée": 4,
+      "Thematique": "Protocole et relations publiques"
+    },
+    {
+      "fonction": "ENVIRONNEMENT, HYGIÈNE ET CADRE DE VIE",
+      "Description": "Dès ses débuts, la Communauté urbaine de Lille exerce des compétences en matière de collecte de déchets, d’eau (récupération des eaux pluviales, distribution de l’eau potable et gestion des cours d’eau) et assainissement, de gestion des cimetières (jusqu’en 1983) et des crématoriums. Elle conserve encore aujourd’hui la gestion des crématoriums d'Herlies et Wattrelos, et le cimetière intercommunal de Wattrelos. En 2000, elle a par ailleurs pris en charge la compétence liée à la conservation du patrimoine naturel et paysager. Et aujourd’hui, c’est en matière climatique que son rôle s’amplifie, avec l’élaboration du plan climat-air-énergie métropolitain. ",
+      "date_extreme_min": 1837,
+      "date_extreme_max": 2022,
+      "date_extreme_fonction": "1837/2022",
+      "Métrage réel": 1003.784,
+      "Nombre d'entrée": 217,
+      "Thematique": "Protocole et relations publiques"
+    },
+    {
+      "fonction": "ESPACE PUBLIC, TRANSPORT ET MOBILITÉ",
+      "Description": "Dès ses débuts, la Communauté urbaine a exercé des compétences en matière de déplacement. Ce sont ses services qui ont notamment supervisé des opérations telle la réalisation des deux lignes de métro métropolitains. Mais ses compétences en matière de mobilité s’étendent également à d’autres réseaux : du tramway au bus, à l’aménagement et à la gouvernance des gares jusqu’à la voirie, les voies départementales – dont elle gérait déjà l’éclairage et la signalisation – ayant incorporées son domaine en 2017.",
+      "date_extreme_min": 1883,
+      "date_extreme_max": 2021,
+      "date_extreme_fonction": "1883/2021",
+      "Métrage réel": 1664.245,
+      "Nombre d'entrée": 413,
+      "Thematique": "Protocole et relations publiques"
+    },
+    {
+      "fonction": "ORGANISMES EXTÉRIEURS",
+      "Description": "Cette fonction rassemble l’ensemble des producteurs d’archives extérieurs à la Métropole, qu’il s’agisse aussi bien des communes membres de l’EPCI ayant déposé leurs archives (Lambersart, Verlinghem, Wasquehal et Wattrelos), que d’anciens syndicats ou sociétés d’économie mixtes et d’associations liées à la Métropole ou aux services métropolitains (reprise de compétences, fusion…).",
+      "date_extreme_min": 1457,
+      "date_extreme_max": 2020,
+      "date_extreme_fonction": "1457/2020",
+      "Métrage réel": 1224.69,
+      "Nombre d'entrée": 116,
+      "Thematique": "Protocole et relations publiques"
+    },
+    {
+      "fonction": "PILOTAGES POLITIQUE ET ADMINISTRATIF DE L’ACTION MÉTROPOLITAINE",
+      "Description": "Piloter la MEL, c’est lui donner un cap. Cap d’abord politique fixé par les élus métropolitains réunis en assemblée (le conseil communautaire puis métropolitain), avec à leur tête le Président de la Métropole. Cap ensuite administratif, mise en œuvre opérationnelle par les services administratifs des directives politiques votées démocratiquement.",
+      "date_extreme_min": 1932,
+      "date_extreme_max": 2022,
+      "date_extreme_fonction": "1932/2022",
+      "Métrage réel": 1580.605,
+      "Nombre d'entrée": 330,
+      "Thematique": "Protocole et relations publiques"
+    },
+    {
+      "fonction": "SUPPORTS À L’ADMINISTRATION",
+      "Description": "Pour mettre en œuvre la politique métropolitaine, les services métropolitains opérationnels s’appuient sur des services dits supports, qui assurent le fonctionnement administratif inhérent à toute administration : ressources humaines, finances, informatique ou archives, etc.",
+      "date_extreme_min": 1862,
+      "date_extreme_max": 2050,
+      "date_extreme_fonction": "1862/2050",
+      "Métrage réel": 4056.547,
+      "Nombre d'entrée": 956,
+      "Thematique": "Protocole et relations publiques"
+    },
+    {
+      "fonction": "VIE ÉCONOMIQUE, ATTRACTIVITÉ ET RAYONNEMENT DU TERRITOIRE",
+      "Description": "Faire vivre et faire connaître le territoire, renforcer son activité et favoriser sa transition économique sont des missions fondamentales dans lesquelles la Métropole s’investit au côté des acteurs privés et de ses partenaires publics : déjà chargée de services comme les Abattoirs et le Marché d’intérêt national (MIN) en 1967, elle prend la compétence développement économique en 2000 et est aujourd’hui un acteur de l’aménagement numérique, elle favorise l’implantation de pôles de compétitivité … C’est aussi à l’international que s’organise la promotion économique du territoire, dans le cadre d’actions de coopération transfrontalière et décentralisée.",
+      "date_extreme_min": 1901,
+      "date_extreme_max": 2020,
+      "date_extreme_fonction": "1901/2020",
+      "Métrage réel": 425.425,
+      "Nombre d'entrée": 164,
+      "Thematique": "Protocole et relations publiques"
+    }
+  ],
+  "thematiques": [
+    {
+      "Thematique": "Aides sociales",
+      "fonction": "ACTION SOCIALE, SOLIDARITÉ ET COHÉSION",
+      "date_extreme_min": 2004,
+      "date_extreme_max": 2022,
+      "date_extreme_thematique": "2004/2022",
+      "Métrage réel": 446.63,
+      "Nombre d'entrée": 28,
+      "Nombre de producteurs": 4
+    },
+    {
+      "Thematique": "Habitat et logement social",
+      "fonction": "ACTION SOCIALE, SOLIDARITÉ ET COHÉSION",
+      "date_extreme_min": 1969,
+      "date_extreme_max": 2019,
+      "date_extreme_thematique": "1969/2019",
+      "Métrage réel": 51.35,
+      "Nombre d'entrée": 20,
+      "Nombre de producteurs": 5
+    },
+    {
+      "Thematique": "Politique de la ville",
+      "fonction": "ACTION SOCIALE, SOLIDARITÉ ET COHÉSION",
+      "date_extreme_min": 1994,
+      "date_extreme_max": 2001,
+      "date_extreme_thematique": "1994/2001",
+      "Métrage réel": 3.43,
+      "Nombre d'entrée": 1,
+      "Nombre de producteurs": 1
+    },
+    {
+      "Thematique": "Politique d'accueil des gens du voyage",
+      "fonction": "ACTION SOCIALE, SOLIDARITÉ ET COHÉSION",
+      "date_extreme_min": 1991,
+      "date_extreme_max": 2020,
+      "date_extreme_thematique": "1991/2020",
+      "Métrage réel": 19.8,
+      "Nombre d'entrée": 6,
+      "Nombre de producteurs": 3
+    },
+    {
+      "Thematique": "Fonctionnement des services",
+      "fonction": "ACTION SOCIALE, SOLIDARITÉ ET COHÉSION",
+      "date_extreme_min": 2006,
+      "date_extreme_max": 2019,
+      "date_extreme_thematique": "2006/2019",
+      "Métrage réel": 5.0,
+      "Nombre d'entrée": 2,
+      "Nombre de producteurs": 2
+    },
+    {
+      "Thematique": "Patrimoine immobilier et foncier",
+      "fonction": "AMÉNAGEMENT ET RENOUVELLEMENT URBAIN",
+      "date_extreme_min": 1967,
+      "date_extreme_max": 2019,
+      "date_extreme_thematique": "1967/2019",
+      "Métrage réel": 248.05,
+      "Nombre d'entrée": 83,
+      "Nombre de producteurs": 11
+    },
+    {
+      "Thematique": "Amélioration de l'habitat",
+      "fonction": "AMÉNAGEMENT ET RENOUVELLEMENT URBAIN",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2018,
+      "date_extreme_thematique": "1968/2018",
+      "Métrage réel": 64.07000000000001,
+      "Nombre d'entrée": 31,
+      "Nombre de producteurs": 10
+    },
+    {
+      "Thematique": "Photographies",
+      "fonction": "AMÉNAGEMENT ET RENOUVELLEMENT URBAIN",
+      "date_extreme_min": 1973,
+      "date_extreme_max": 2004,
+      "date_extreme_thematique": "1973/2004",
+      "Métrage réel": 4.42,
+      "Nombre d'entrée": 6,
+      "Nombre de producteurs": 5
+    },
+    {
+      "Thematique": "Habitat et logement social",
+      "fonction": "AMÉNAGEMENT ET RENOUVELLEMENT URBAIN",
+      "date_extreme_min": 1954,
+      "date_extreme_max": 2019,
+      "date_extreme_thematique": "1954/2019",
+      "Métrage réel": 121.79,
+      "Nombre d'entrée": 40,
+      "Nombre de producteurs": 11
+    },
+    {
+      "Thematique": "Planification urbaine",
+      "fonction": "AMÉNAGEMENT ET RENOUVELLEMENT URBAIN",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2020,
+      "date_extreme_thematique": "1968/2020",
+      "Métrage réel": 250.3,
+      "Nombre d'entrée": 59,
+      "Nombre de producteurs": 19
+    },
+    {
+      "Thematique": "Constructions scolaires",
+      "fonction": "AMÉNAGEMENT ET RENOUVELLEMENT URBAIN",
+      "date_extreme_min": 1967,
+      "date_extreme_max": 1990,
+      "date_extreme_thematique": "1967/1990",
+      "Métrage réel": 41.01,
+      "Nombre d'entrée": 29,
+      "Nombre de producteurs": 5
+    },
+    {
+      "Thematique": "Urbanisme réglementaire",
+      "fonction": "AMÉNAGEMENT ET RENOUVELLEMENT URBAIN",
+      "date_extreme_min": 1976,
+      "date_extreme_max": 2020,
+      "date_extreme_thematique": "1976/2020",
+      "Métrage réel": 34.95,
+      "Nombre d'entrée": 6,
+      "Nombre de producteurs": 5
+    },
+    {
+      "Thematique": "Acquisitions et cessions immobilières et foncières",
+      "fonction": "AMÉNAGEMENT ET RENOUVELLEMENT URBAIN",
+      "date_extreme_min": 1869,
+      "date_extreme_max": 2021,
+      "date_extreme_thematique": "1869/2021",
+      "Métrage réel": 750.91,
+      "Nombre d'entrée": 226,
+      "Nombre de producteurs": 11
+    },
+    {
+      "Thematique": "Aménagement des réseaux",
+      "fonction": "AMÉNAGEMENT ET RENOUVELLEMENT URBAIN",
+      "date_extreme_min": 1965,
+      "date_extreme_max": 2018,
+      "date_extreme_thematique": "1965/2018",
+      "Métrage réel": 33.4,
+      "Nombre d'entrée": 20,
+      "Nombre de producteurs": 8
+    },
+    {
+      "Thematique": "Zones d'aménagement",
+      "fonction": "AMÉNAGEMENT ET RENOUVELLEMENT URBAIN",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2020,
+      "date_extreme_thematique": "1968/2020",
+      "Métrage réel": 157.65,
+      "Nombre d'entrée": 52,
+      "Nombre de producteurs": 16
+    },
+    {
+      "Thematique": "Fonctionnement des services",
+      "fonction": "AMÉNAGEMENT ET RENOUVELLEMENT URBAIN",
+      "date_extreme_min": 1966,
+      "date_extreme_max": 2020,
+      "date_extreme_thematique": "1966/2020",
+      "Métrage réel": 38.8,
+      "Nombre d'entrée": 20,
+      "Nombre de producteurs": 9
+    },
+    {
+      "Thematique": "Opération d'urbanisme",
+      "fonction": "AMÉNAGEMENT ET RENOUVELLEMENT URBAIN",
+      "date_extreme_min": 1963,
+      "date_extreme_max": 2020,
+      "date_extreme_thematique": "1963/2020",
+      "Métrage réel": 286.45,
+      "Nombre d'entrée": 49,
+      "Nombre de producteurs": 18
+    },
+    {
+      "Thematique": "Politique d'accueil des gens du voyage",
+      "fonction": "AMÉNAGEMENT ET RENOUVELLEMENT URBAIN",
+      "date_extreme_min": 1986,
+      "date_extreme_max": 2019,
+      "date_extreme_thematique": "1986/2019",
+      "Métrage réel": 25.95,
+      "Nombre d'entrée": 4,
+      "Nombre de producteurs": 2
+    },
+    {
+      "Thematique": "Politique d'aménagement",
+      "fonction": "AMÉNAGEMENT ET RENOUVELLEMENT URBAIN",
+      "date_extreme_min": 1950,
+      "date_extreme_max": 2020,
+      "date_extreme_thematique": "1950/2020",
+      "Métrage réel": 78.9,
+      "Nombre d'entrée": 22,
+      "Nombre de producteurs": 14
+    },
+    {
+      "Thematique": "Aménagement commercial",
+      "fonction": "AMÉNAGEMENT ET RENOUVELLEMENT URBAIN",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2019,
+      "date_extreme_thematique": "1968/2019",
+      "Métrage réel": 5.6,
+      "Nombre d'entrée": 7,
+      "Nombre de producteurs": 4
+    },
+    {
+      "Thematique": "Politique de la ville",
+      "fonction": "AMÉNAGEMENT ET RENOUVELLEMENT URBAIN",
+      "date_extreme_min": 9999,
+      "date_extreme_max": 2015,
+      "date_extreme_thematique": "9999/2015",
+      "Métrage réel": 4.18,
+      "Nombre d'entrée": 1,
+      "Nombre de producteurs": 1
+    },
+    {
+      "Thematique": "Relations internationales",
+      "fonction": "AMÉNAGEMENT ET RENOUVELLEMENT URBAIN",
+      "date_extreme_min": 9999,
+      "date_extreme_max": 2015,
+      "date_extreme_thematique": "9999/2015",
+      "Métrage réel": 1.54,
+      "Nombre d'entrée": 1,
+      "Nombre de producteurs": 1
+    },
+    {
+      "Thematique": "Culture",
+      "fonction": "CULTURE ET SPORT",
+      "date_extreme_min": 1970,
+      "date_extreme_max": 2021,
+      "date_extreme_thematique": "1970/2021",
+      "Métrage réel": 99.94,
+      "Nombre d'entrée": 26,
+      "Nombre de producteurs": 10
+    },
+    {
+      "Thematique": "Sport",
+      "fonction": "CULTURE ET SPORT",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2022,
+      "date_extreme_thematique": "1968/2022",
+      "Métrage réel": 155.9,
+      "Nombre d'entrée": 46,
+      "Nombre de producteurs": 6
+    },
+    {
+      "Thematique": "Relations avec les établissements d'enseignement",
+      "fonction": "ÉDUCATION, ENSEIGNEMENT ET RECHERCHE",
+      "date_extreme_min": 1980,
+      "date_extreme_max": 2019,
+      "date_extreme_thematique": "1980/2019",
+      "Métrage réel": 12.9,
+      "Nombre d'entrée": 4,
+      "Nombre de producteurs": 3
+    },
+    {
+      "Thematique": "Traitement des eaux usées",
+      "fonction": "ENVIRONNEMENT, HYGIÈNE ET CADRE DE VIE",
+      "date_extreme_min": 1861,
+      "date_extreme_max": 2022,
+      "date_extreme_thematique": "1861/2022",
+      "Métrage réel": 559.8100000000001,
+      "Nombre d'entrée": 99,
+      "Nombre de producteurs": 18
+    },
+    {
+      "Thematique": "Agriculture, espaces naturels",
+      "fonction": "ENVIRONNEMENT, HYGIÈNE ET CADRE DE VIE",
+      "date_extreme_min": 1971,
+      "date_extreme_max": 2019,
+      "date_extreme_thematique": "1971/2019",
+      "Métrage réel": 49.59,
+      "Nombre d'entrée": 12,
+      "Nombre de producteurs": 7
+    },
+    {
+      "Thematique": "Eau",
+      "fonction": "ENVIRONNEMENT, HYGIÈNE ET CADRE DE VIE",
+      "date_extreme_min": 1837,
+      "date_extreme_max": 2020,
+      "date_extreme_thematique": "1837/2020",
+      "Métrage réel": 110.38,
+      "Nombre d'entrée": 27,
+      "Nombre de producteurs": 12
+    },
+    {
+      "Thematique": "Fonctionnement des services",
+      "fonction": "ENVIRONNEMENT, HYGIÈNE ET CADRE DE VIE",
+      "date_extreme_min": 1974,
+      "date_extreme_max": 1987,
+      "date_extreme_thematique": "1974/1987",
+      "Métrage réel": 3.98,
+      "Nombre d'entrée": 2,
+      "Nombre de producteurs": 1
+    },
+    {
+      "Thematique": "Déchets",
+      "fonction": "ENVIRONNEMENT, HYGIÈNE ET CADRE DE VIE",
+      "date_extreme_min": 1969,
+      "date_extreme_max": 2021,
+      "date_extreme_thematique": "1969/2021",
+      "Métrage réel": 125.89,
+      "Nombre d'entrée": 27,
+      "Nombre de producteurs": 10
+    },
+    {
+      "Thematique": "Développement durable",
+      "fonction": "ENVIRONNEMENT, HYGIÈNE ET CADRE DE VIE",
+      "date_extreme_min": 1982,
+      "date_extreme_max": 2017,
+      "date_extreme_thematique": "1982/2017",
+      "Métrage réel": 9.0,
+      "Nombre d'entrée": 6,
+      "Nombre de producteurs": 5
+    },
+    {
+      "Thematique": "Environnement",
+      "fonction": "ENVIRONNEMENT, HYGIÈNE ET CADRE DE VIE",
+      "date_extreme_min": 1972,
+      "date_extreme_max": 2002,
+      "date_extreme_thematique": "1972/2002",
+      "Métrage réel": 25.27,
+      "Nombre d'entrée": 15,
+      "Nombre de producteurs": 2
+    },
+    {
+      "Thematique": "Funérailles et lieux de sépultures",
+      "fonction": "ENVIRONNEMENT, HYGIÈNE ET CADRE DE VIE",
+      "date_extreme_min": 1981,
+      "date_extreme_max": 2021,
+      "date_extreme_thematique": "1981/2021",
+      "Métrage réel": 100.4,
+      "Nombre d'entrée": 25,
+      "Nombre de producteurs": 4
+    },
+    {
+      "Thematique": "Energie",
+      "fonction": "ENVIRONNEMENT, HYGIÈNE ET CADRE DE VIE",
+      "date_extreme_min": 2001,
+      "date_extreme_max": 2014,
+      "date_extreme_thematique": "2001/2014",
+      "Métrage réel": 15.85,
+      "Nombre d'entrée": 1,
+      "Nombre de producteurs": 1
+    },
+    {
+      "Thematique": "Eau et assainissement",
+      "fonction": "ENVIRONNEMENT, HYGIÈNE ET CADRE DE VIE",
+      "date_extreme_min": 1991,
+      "date_extreme_max": 2015,
+      "date_extreme_thematique": "1991/2015",
+      "Métrage réel": 3.614,
+      "Nombre d'entrée": 3,
+      "Nombre de producteurs": 2
+    },
+    {
+      "Thematique": "Voirie",
+      "fonction": "ESPACE PUBLIC, TRANSPORT ET MOBILITÉ",
+      "date_extreme_min": 1883,
+      "date_extreme_max": 2021,
+      "date_extreme_thematique": "1883/2021",
+      "Métrage réel": 692.95,
+      "Nombre d'entrée": 211,
+      "Nombre de producteurs": 20
+    },
+    {
+      "Thematique": "Transports et déplacements",
+      "fonction": "ESPACE PUBLIC, TRANSPORT ET MOBILITÉ",
+      "date_extreme_min": 1961,
+      "date_extreme_max": 2020,
+      "date_extreme_thematique": "1961/2020",
+      "Métrage réel": 958.795,
+      "Nombre d'entrée": 190,
+      "Nombre de producteurs": 28
+    },
+    {
+      "Thematique": "Politique de mobilité",
+      "fonction": "ESPACE PUBLIC, TRANSPORT ET MOBILITÉ",
+      "date_extreme_min": 1974,
+      "date_extreme_max": 2017,
+      "date_extreme_thematique": "1974/2017",
+      "Métrage réel": 12.05,
+      "Nombre d'entrée": 9,
+      "Nombre de producteurs": 7
+    },
+    {
+      "Thematique": "Photographies",
+      "fonction": "ESPACE PUBLIC, TRANSPORT ET MOBILITÉ",
+      "date_extreme_min": 1983,
+      "date_extreme_max": 1983,
+      "date_extreme_thematique": "1983/1983",
+      "Métrage réel": 0.45,
+      "Nombre d'entrée": 3,
+      "Nombre de producteurs": 3
+    },
+    {
+      "Thematique": "Archives communales",
+      "fonction": "ORGANISMES EXTÉRIEURS",
+      "date_extreme_min": 1457,
+      "date_extreme_max": 2017,
+      "date_extreme_thematique": "1457/2017",
+      "Métrage réel": 657.27,
+      "Nombre d'entrée": 4,
+      "Nombre de producteurs": 4
+    },
+    {
+      "Thematique": "Action sociale",
+      "fonction": "ORGANISMES EXTÉRIEURS",
+      "date_extreme_min": 1957,
+      "date_extreme_max": 2018,
+      "date_extreme_thematique": "1957/2018",
+      "Métrage réel": 52.17,
+      "Nombre d'entrée": 14,
+      "Nombre de producteurs": 5
+    },
+    {
+      "Thematique": "Environnement et cadre de vie",
+      "fonction": "ORGANISMES EXTÉRIEURS",
+      "date_extreme_min": 1863,
+      "date_extreme_max": 2020,
+      "date_extreme_thematique": "1863/2020",
+      "Métrage réel": 44.71,
+      "Nombre d'entrée": 10,
+      "Nombre de producteurs": 9
+    },
+    {
+      "Thematique": "Aménagement et renouvellement urbain",
+      "fonction": "ORGANISMES EXTÉRIEURS",
+      "date_extreme_min": 1977,
+      "date_extreme_max": 2018,
+      "date_extreme_thematique": "1977/2018",
+      "Métrage réel": 45.42,
+      "Nombre d'entrée": 8,
+      "Nombre de producteurs": 5
+    },
+    {
+      "Thematique": "Vie économique, attractivité et rayonnement",
+      "fonction": "ORGANISMES EXTÉRIEURS",
+      "date_extreme_min": 1986,
+      "date_extreme_max": 2020,
+      "date_extreme_thematique": "1986/2020",
+      "Métrage réel": 118.14,
+      "Nombre d'entrée": 13,
+      "Nombre de producteurs": 8
+    },
+    {
+      "Thematique": "Espace public, transport et mobilité",
+      "fonction": "ORGANISMES EXTÉRIEURS",
+      "date_extreme_min": 1850,
+      "date_extreme_max": 2020,
+      "date_extreme_thematique": "1850/2020",
+      "Métrage réel": 102.14,
+      "Nombre d'entrée": 12,
+      "Nombre de producteurs": 5
+    },
+    {
+      "Thematique": "Archives issues d'anciennes communautés de communes",
+      "fonction": "ORGANISMES EXTÉRIEURS",
+      "date_extreme_min": 1948,
+      "date_extreme_max": 2019,
+      "date_extreme_thematique": "1948/2019",
+      "Métrage réel": 106.27,
+      "Nombre d'entrée": 3,
+      "Nombre de producteurs": 3
+    },
+    {
+      "Thematique": "Archives syndicales",
+      "fonction": "ORGANISMES EXTÉRIEURS",
+      "date_extreme_min": 1964,
+      "date_extreme_max": 2020,
+      "date_extreme_thematique": "1964/2020",
+      "Métrage réel": 9.6,
+      "Nombre d'entrée": 2,
+      "Nombre de producteurs": 2
+    },
+    {
+      "Thematique": "Aides sociales",
+      "fonction": "ORGANISMES EXTÉRIEURS",
+      "date_extreme_min": 2011,
+      "date_extreme_max": 2017,
+      "date_extreme_thematique": "2011/2017",
+      "Métrage réel": 5.65,
+      "Nombre d'entrée": 1,
+      "Nombre de producteurs": 1
+    },
+    {
+      "Thematique": "Archives personnelles",
+      "fonction": "ORGANISMES EXTÉRIEURS",
+      "date_extreme_min": 1970,
+      "date_extreme_max": 2020,
+      "date_extreme_thematique": "1970/2020",
+      "Métrage réel": 8.03,
+      "Nombre d'entrée": 13,
+      "Nombre de producteurs": 11
+    },
+    {
+      "Thematique": "Œuvres sociales",
+      "fonction": "ORGANISMES EXTÉRIEURS",
+      "date_extreme_min": 1969,
+      "date_extreme_max": 2019,
+      "date_extreme_thematique": "1969/2019",
+      "Métrage réel": 75.29,
+      "Nombre d'entrée": 36,
+      "Nombre de producteurs": 1
+    },
+    {
+      "Thematique": "Gouvernance politique",
+      "fonction": "PILOTAGES POLITIQUE ET ADMINISTRATIF DE L’ACTION MÉTROPOLITAINE",
+      "date_extreme_min": 1967,
+      "date_extreme_max": 2020,
+      "date_extreme_thematique": "1967/2020",
+      "Métrage réel": 279.55,
+      "Nombre d'entrée": 64,
+      "Nombre de producteurs": 11
+    },
+    {
+      "Thematique": "Aménagement et urbanisme",
+      "fonction": "PILOTAGES POLITIQUE ET ADMINISTRATIF DE L’ACTION MÉTROPOLITAINE",
+      "date_extreme_min": 1976,
+      "date_extreme_max": 2018,
+      "date_extreme_thematique": "1976/2018",
+      "Métrage réel": 71.84,
+      "Nombre d'entrée": 9,
+      "Nombre de producteurs": 4
+    },
+    {
+      "Thematique": "Communication et protocole",
+      "fonction": "PILOTAGES POLITIQUE ET ADMINISTRATIF DE L’ACTION MÉTROPOLITAINE",
+      "date_extreme_min": 1932,
+      "date_extreme_max": 2022,
+      "date_extreme_thematique": "1932/2022",
+      "Métrage réel": 94.86,
+      "Nombre d'entrée": 40,
+      "Nombre de producteurs": 9
+    },
+    {
+      "Thematique": "Eau et assainissement",
+      "fonction": "PILOTAGES POLITIQUE ET ADMINISTRATIF DE L’ACTION MÉTROPOLITAINE",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2019,
+      "date_extreme_thematique": "1968/2019",
+      "Métrage réel": 29.9,
+      "Nombre d'entrée": 5,
+      "Nombre de producteurs": 4
+    },
+    {
+      "Thematique": "Partenaires extérieurs",
+      "fonction": "PILOTAGES POLITIQUE ET ADMINISTRATIF DE L’ACTION MÉTROPOLITAINE",
+      "date_extreme_min": 1971,
+      "date_extreme_max": 1997,
+      "date_extreme_thematique": "1971/1997",
+      "Métrage réel": 9.0,
+      "Nombre d'entrée": 8,
+      "Nombre de producteurs": 2
+    },
+    {
+      "Thematique": "Gouvernance de l'administration",
+      "fonction": "PILOTAGES POLITIQUE ET ADMINISTRATIF DE L’ACTION MÉTROPOLITAINE",
+      "date_extreme_min": 1963,
+      "date_extreme_max": 2022,
+      "date_extreme_thematique": "1963/2022",
+      "Métrage réel": 103.395,
+      "Nombre d'entrée": 33,
+      "Nombre de producteurs": 20
+    },
+    {
+      "Thematique": "Transports, espace public et mobilité",
+      "fonction": "PILOTAGES POLITIQUE ET ADMINISTRATIF DE L’ACTION MÉTROPOLITAINE",
+      "date_extreme_min": 1969,
+      "date_extreme_max": 2016,
+      "date_extreme_thematique": "1969/2016",
+      "Métrage réel": 37.85,
+      "Nombre d'entrée": 12,
+      "Nombre de producteurs": 5
+    },
+    {
+      "Thematique": "Administration générale",
+      "fonction": "PILOTAGES POLITIQUE ET ADMINISTRATIF DE L’ACTION MÉTROPOLITAINE",
+      "date_extreme_min": 1967,
+      "date_extreme_max": 2019,
+      "date_extreme_thematique": "1967/2019",
+      "Métrage réel": 249.63,
+      "Nombre d'entrée": 72,
+      "Nombre de producteurs": 16
+    },
+    {
+      "Thematique": "Gouvernance territoriale",
+      "fonction": "PILOTAGES POLITIQUE ET ADMINISTRATIF DE L’ACTION MÉTROPOLITAINE",
+      "date_extreme_min": 1991,
+      "date_extreme_max": 2019,
+      "date_extreme_thematique": "1991/2019",
+      "Métrage réel": 18.7,
+      "Nombre d'entrée": 11,
+      "Nombre de producteurs": 5
+    },
+    {
+      "Thematique": "Finances",
+      "fonction": "PILOTAGES POLITIQUE ET ADMINISTRATIF DE L’ACTION MÉTROPOLITAINE",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2018,
+      "date_extreme_thematique": "1968/2018",
+      "Métrage réel": 80.82000000000001,
+      "Nombre d'entrée": 23,
+      "Nombre de producteurs": 7
+    },
+    {
+      "Thematique": "Ressources humaines",
+      "fonction": "PILOTAGES POLITIQUE ET ADMINISTRATIF DE L’ACTION MÉTROPOLITAINE",
+      "date_extreme_min": 1970,
+      "date_extreme_max": 1997,
+      "date_extreme_thematique": "1970/1997",
+      "Métrage réel": 8.78,
+      "Nombre d'entrée": 9,
+      "Nombre de producteurs": 2
+    },
+    {
+      "Thematique": "Développement économique et social",
+      "fonction": "PILOTAGES POLITIQUE ET ADMINISTRATIF DE L’ACTION MÉTROPOLITAINE",
+      "date_extreme_min": 1998,
+      "date_extreme_max": 2019,
+      "date_extreme_thematique": "1998/2019",
+      "Métrage réel": 15.1,
+      "Nombre d'entrée": 7,
+      "Nombre de producteurs": 3
+    },
+    {
+      "Thematique": "Conseils communautaire et métropolitain",
+      "fonction": "PILOTAGES POLITIQUE ET ADMINISTRATIF DE L’ACTION MÉTROPOLITAINE",
+      "date_extreme_min": 1967,
+      "date_extreme_max": 2021,
+      "date_extreme_thematique": "1967/2021",
+      "Métrage réel": 558.16,
+      "Nombre d'entrée": 27,
+      "Nombre de producteurs": 6
+    },
+    {
+      "Thematique": "Affaires juridiques, contentieux et assurances",
+      "fonction": "PILOTAGES POLITIQUE ET ADMINISTRATIF DE L’ACTION MÉTROPOLITAINE",
+      "date_extreme_min": 1971,
+      "date_extreme_max": 1997,
+      "date_extreme_thematique": "1971/1997",
+      "Métrage réel": 12.38,
+      "Nombre d'entrée": 6,
+      "Nombre de producteurs": 2
+    },
+    {
+      "Thematique": "Culture et sport",
+      "fonction": "PILOTAGES POLITIQUE ET ADMINISTRATIF DE L’ACTION MÉTROPOLITAINE",
+      "date_extreme_min": 1976,
+      "date_extreme_max": 2009,
+      "date_extreme_thematique": "1976/2009",
+      "Métrage réel": 10.0,
+      "Nombre d'entrée": 3,
+      "Nombre de producteurs": 3
+    },
+    {
+      "Thematique": "Audit",
+      "fonction": "PILOTAGES POLITIQUE ET ADMINISTRATIF DE L’ACTION MÉTROPOLITAINE",
+      "date_extreme_min": 2015,
+      "date_extreme_max": 2017,
+      "date_extreme_thematique": "2015/2017",
+      "Métrage réel": 0.64,
+      "Nombre d'entrée": 1,
+      "Nombre de producteurs": 1
+    },
+    {
+      "Thematique": "Ressources humaines",
+      "fonction": "SUPPORTS À L’ADMINISTRATION",
+      "date_extreme_min": 1862,
+      "date_extreme_max": 2023,
+      "date_extreme_thematique": "1862/2023",
+      "Métrage réel": 866.815,
+      "Nombre d'entrée": 255,
+      "Nombre de producteurs": 44
+    },
+    {
+      "Thematique": "Finances",
+      "fonction": "SUPPORTS À L’ADMINISTRATION",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2020,
+      "date_extreme_thematique": "1968/2020",
+      "Métrage réel": 1093.6,
+      "Nombre d'entrée": 241,
+      "Nombre de producteurs": 32
+    },
+    {
+      "Thematique": "Patrimoine immobilier et foncier",
+      "fonction": "SUPPORTS À L’ADMINISTRATION",
+      "date_extreme_min": 1967,
+      "date_extreme_max": 2022,
+      "date_extreme_thematique": "1967/2022",
+      "Métrage réel": 196.24,
+      "Nombre d'entrée": 56,
+      "Nombre de producteurs": 11
+    },
+    {
+      "Thematique": "Affaires juridiques, contentieux et assurances",
+      "fonction": "SUPPORTS À L’ADMINISTRATION",
+      "date_extreme_min": 1868,
+      "date_extreme_max": 2023,
+      "date_extreme_thematique": "1868/2023",
+      "Métrage réel": 181.28,
+      "Nombre d'entrée": 92,
+      "Nombre de producteurs": 15
+    },
+    {
+      "Thematique": "Marchés publics",
+      "fonction": "SUPPORTS À L’ADMINISTRATION",
+      "date_extreme_min": 1966,
+      "date_extreme_max": 2023,
+      "date_extreme_thematique": "1966/2023",
+      "Métrage réel": 1396.342,
+      "Nombre d'entrée": 227,
+      "Nombre de producteurs": 38
+    },
+    {
+      "Thematique": "Moyens généraux",
+      "fonction": "SUPPORTS À L’ADMINISTRATION",
+      "date_extreme_min": 1981,
+      "date_extreme_max": 2014,
+      "date_extreme_thematique": "1981/2014",
+      "Métrage réel": 12.6,
+      "Nombre d'entrée": 10,
+      "Nombre de producteurs": 3
+    },
+    {
+      "Thematique": "Communication",
+      "fonction": "SUPPORTS À L’ADMINISTRATION",
+      "date_extreme_min": 1978,
+      "date_extreme_max": 2019,
+      "date_extreme_thematique": "1978/2019",
+      "Métrage réel": 76.36,
+      "Nombre d'entrée": 18,
+      "Nombre de producteurs": 9
+    },
+    {
+      "Thematique": "Restaurant collectif",
+      "fonction": "SUPPORTS À L’ADMINISTRATION",
+      "date_extreme_min": 1984,
+      "date_extreme_max": 2021,
+      "date_extreme_thematique": "1984/2021",
+      "Métrage réel": 3.0,
+      "Nombre d'entrée": 9,
+      "Nombre de producteurs": 3
+    },
+    {
+      "Thematique": "Systèmes d'information",
+      "fonction": "SUPPORTS À L’ADMINISTRATION",
+      "date_extreme_min": 1970,
+      "date_extreme_max": 2019,
+      "date_extreme_thematique": "1970/2019",
+      "Métrage réel": 32.84,
+      "Nombre d'entrée": 24,
+      "Nombre de producteurs": 8
+    },
+    {
+      "Thematique": "Archives et documentation",
+      "fonction": "SUPPORTS À L’ADMINISTRATION",
+      "date_extreme_min": 1983,
+      "date_extreme_max": 2050,
+      "date_extreme_thematique": "1983/2050",
+      "Métrage réel": 7.97,
+      "Nombre d'entrée": 8,
+      "Nombre de producteurs": 3
+    },
+    {
+      "Thematique": "Contrôle de gestion",
+      "fonction": "SUPPORTS À L’ADMINISTRATION",
+      "date_extreme_min": 1974,
+      "date_extreme_max": 2007,
+      "date_extreme_thematique": "1974/2007",
+      "Métrage réel": 21.7,
+      "Nombre d'entrée": 8,
+      "Nombre de producteurs": 2
+    },
+    {
+      "Thematique": "Courrier",
+      "fonction": "SUPPORTS À L’ADMINISTRATION",
+      "date_extreme_min": 2016,
+      "date_extreme_max": 2022,
+      "date_extreme_thematique": "2016/2022",
+      "Métrage réel": 167.8,
+      "Nombre d'entrée": 8,
+      "Nombre de producteurs": 1
+    },
+    {
+      "Thematique": "Relations internationales",
+      "fonction": "VIE ÉCONOMIQUE, ATTRACTIVITÉ ET RAYONNEMENT DU TERRITOIRE",
+      "date_extreme_min": 1989,
+      "date_extreme_max": 2019,
+      "date_extreme_thematique": "1989/2019",
+      "Métrage réel": 38.575,
+      "Nombre d'entrée": 21,
+      "Nombre de producteurs": 13
+    },
+    {
+      "Thematique": "Développement économique",
+      "fonction": "VIE ÉCONOMIQUE, ATTRACTIVITÉ ET RAYONNEMENT DU TERRITOIRE",
+      "date_extreme_min": 1901,
+      "date_extreme_max": 2019,
+      "date_extreme_thematique": "1901/2019",
+      "Métrage réel": 171.06,
+      "Nombre d'entrée": 49,
+      "Nombre de producteurs": 18
+    },
+    {
+      "Thematique": "Aménagement économique",
+      "fonction": "VIE ÉCONOMIQUE, ATTRACTIVITÉ ET RAYONNEMENT DU TERRITOIRE",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2020,
+      "date_extreme_thematique": "1968/2020",
+      "Métrage réel": 98.96000000000001,
+      "Nombre d'entrée": 32,
+      "Nombre de producteurs": 8
+    },
+    {
+      "Thematique": "Communication",
+      "fonction": "VIE ÉCONOMIQUE, ATTRACTIVITÉ ET RAYONNEMENT DU TERRITOIRE",
+      "date_extreme_min": 1979,
+      "date_extreme_max": 2019,
+      "date_extreme_thematique": "1979/2019",
+      "Métrage réel": 68.27,
+      "Nombre d'entrée": 38,
+      "Nombre de producteurs": 4
+    },
+    {
+      "Thematique": "Protocole et relations publiques",
+      "fonction": "VIE ÉCONOMIQUE, ATTRACTIVITÉ ET RAYONNEMENT DU TERRITOIRE",
+      "date_extreme_min": 1950,
+      "date_extreme_max": 2018,
+      "date_extreme_thematique": "1950/2018",
+      "Métrage réel": 48.56,
+      "Nombre d'entrée": 24,
+      "Nombre de producteurs": 6
+    }
+  ],
+  "producteurs": [
+    {
+      "Numéro Ligèo": 105388,
+      "Nom": "Conseil départemental du Nord",
+      "date_extreme_min": 1850,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1850/2020",
+      "Métrage réel": 104.72,
+      "Nombre d'entrée": 18
+    },
+    {
+      "Numéro Ligèo": 831,
+      "Nom": "Service Ville renouvelée - Habitat",
+      "date_extreme_min": 1988,
+      "date_extreme_max": 2003,
+      "date_extreme_producteur": "1988/2003",
+      "Métrage réel": 16.88,
+      "Nombre d'entrée": 5
+    },
+    {
+      "Numéro Ligèo": 832,
+      "Nom": "Service Habitat",
+      "date_extreme_min": 2000,
+      "date_extreme_max": 2007,
+      "date_extreme_producteur": "2000/2007",
+      "Métrage réel": 1.5,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 665,
+      "Nom": "Service Gens du voyage",
+      "date_extreme_min": 2004,
+      "date_extreme_max": 2010,
+      "date_extreme_producteur": "2004/2010",
+      "Métrage réel": 1.2,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1561,
+      "Nom": "Service Habitat privé et politique de solidarité",
+      "date_extreme_min": 1969,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1969/2019",
+      "Métrage réel": 239.1,
+      "Nombre d'entrée": 22
+    },
+    {
+      "Numéro Ligèo": 1538,
+      "Nom": "Actif - Direction Relations avec les usagers, citoyenneté et jeunesse",
+      "date_extreme_min": 1972,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1972/2019",
+      "Métrage réel": 21.3,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1540,
+      "Nom": "Actif - Service Citoyenneté et jeunesse",
+      "date_extreme_min": 2007,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "2007/2019",
+      "Métrage réel": 40.75,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1539,
+      "Nom": "Actif - Service Relations avec les usagers",
+      "date_extreme_min": 2010,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "2010/2019",
+      "Métrage réel": 2.6,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1559,
+      "Nom": "Actif - Direction Habitat",
+      "date_extreme_min": 1971,
+      "date_extreme_max": 2016,
+      "date_extreme_producteur": "1971/2016",
+      "Métrage réel": 17.2,
+      "Nombre d'entrée": 9
+    },
+    {
+      "Numéro Ligèo": 400051,
+      "Nom": "Actif - Unité fonctionnelle Fonds de solidarité logement",
+      "date_extreme_min": 2004,
+      "date_extreme_max": 2022,
+      "date_extreme_producteur": "2004/2022",
+      "Métrage réel": 206.2,
+      "Nombre d'entrée": 14
+    },
+    {
+      "Numéro Ligèo": 1562,
+      "Nom": "Actif - Service Politique d'accueil des gens du voyage",
+      "date_extreme_min": 1986,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1986/2020",
+      "Métrage réel": 20.9,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 1642,
+      "Nom": "Etablissement public d'aménagement de Lille-Est (EPALE)",
+      "date_extreme_min": 1978,
+      "date_extreme_max": 1983,
+      "date_extreme_producteur": "1978/1983",
+      "Métrage réel": 0.5,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 266506,
+      "Nom": "La Fabrique des quartiers",
+      "date_extreme_min": 2013,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "2013/2017",
+      "Métrage réel": 1.7,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 601,
+      "Nom": "Communauté urbaine de Lille",
+      "date_extreme_min": 1971,
+      "date_extreme_max": 1996,
+      "date_extreme_producteur": "1971/1996",
+      "Métrage réel": 68.1,
+      "Nombre d'entrée": 11
+    },
+    {
+      "Numéro Ligèo": 613,
+      "Nom": "Services juridique et immobilier - Quatrième Direction administrative",
+      "date_extreme_min": 1966,
+      "date_extreme_max": 2000,
+      "date_extreme_producteur": "1966/2000",
+      "Métrage réel": 102.87,
+      "Nombre d'entrée": 38
+    },
+    {
+      "Numéro Ligèo": 615,
+      "Nom": "Action foncière - Quatrième Direction administrative",
+      "date_extreme_min": 1869,
+      "date_extreme_max": 1999,
+      "date_extreme_producteur": "1869/1999",
+      "Métrage réel": 284.77,
+      "Nombre d'entrée": 149
+    },
+    {
+      "Numéro Ligèo": 619,
+      "Nom": "Construction et entretien des immeubles - Septième Direction administrative",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 1986,
+      "date_extreme_producteur": "1968/1986",
+      "Métrage réel": 6.7,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 620,
+      "Nom": "Architecture - Septième Direction administrative",
+      "date_extreme_min": 1963,
+      "date_extreme_max": 1994,
+      "date_extreme_producteur": "1963/1994",
+      "Métrage réel": 155.73,
+      "Nombre d'entrée": 77
+    },
+    {
+      "Numéro Ligèo": 621,
+      "Nom": "Aménagement et urbanisme - Huitième Direction",
+      "date_extreme_min": 1973,
+      "date_extreme_max": 2015,
+      "date_extreme_producteur": "1973/2015",
+      "Métrage réel": 21.95,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 834,
+      "Nom": "Gestion interne (Aménagement et cadre de vie)",
+      "date_extreme_min": 1994,
+      "date_extreme_max": 2005,
+      "date_extreme_producteur": "1994/2005",
+      "Métrage réel": 3.72,
+      "Nombre d'entrée": 8
+    },
+    {
+      "Numéro Ligèo": 812,
+      "Nom": "Direction Aménagement et renouvellement urbain",
+      "date_extreme_min": 1966,
+      "date_extreme_max": 2007,
+      "date_extreme_producteur": "1966/2007",
+      "Métrage réel": 46.93,
+      "Nombre d'entrée": 15
+    },
+    {
+      "Numéro Ligèo": 818,
+      "Nom": "Service Aménagement des territoires",
+      "date_extreme_min": 1970,
+      "date_extreme_max": 2003,
+      "date_extreme_producteur": "1970/2003",
+      "Métrage réel": 20.28,
+      "Nombre d'entrée": 7
+    },
+    {
+      "Numéro Ligèo": 824,
+      "Nom": "Service Aménagement et développement des territoires",
+      "date_extreme_min": 1987,
+      "date_extreme_max": 2004,
+      "date_extreme_producteur": "1987/2004",
+      "Métrage réel": 1.7,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 787,
+      "Nom": "Service Urbamatique et prestations graphiques",
+      "date_extreme_min": 1989,
+      "date_extreme_max": 2004,
+      "date_extreme_producteur": "1989/2004",
+      "Métrage réel": 8.94,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 780,
+      "Nom": "Direction Ville renouvelée et politique foncière",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2016,
+      "date_extreme_producteur": "1968/2016",
+      "Métrage réel": 11.7,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 782,
+      "Nom": "Ville renouvelée, Foncier, ZAD, DPU",
+      "date_extreme_min": 1966,
+      "date_extreme_max": 1999,
+      "date_extreme_producteur": "1966/1999",
+      "Métrage réel": 55.0,
+      "Nombre d'entrée": 20
+    },
+    {
+      "Numéro Ligèo": 789,
+      "Nom": "Direction Développement de la métropole",
+      "date_extreme_min": 1980,
+      "date_extreme_max": 2009,
+      "date_extreme_producteur": "1980/2009",
+      "Métrage réel": 66.5,
+      "Nombre d'entrée": 11
+    },
+    {
+      "Numéro Ligèo": 784,
+      "Nom": "Direction Urbanisme et aménagement",
+      "date_extreme_min": 1987,
+      "date_extreme_max": 2000,
+      "date_extreme_producteur": "1987/2000",
+      "Métrage réel": 2.4,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1320,
+      "Nom": "Direction Équipements et grands projets",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 1994,
+      "date_extreme_producteur": "1968/1994",
+      "Métrage réel": 60.0,
+      "Nombre d'entrée": 23
+    },
+    {
+      "Numéro Ligèo": 1318,
+      "Nom": "Développement urbain",
+      "date_extreme_min": 1961,
+      "date_extreme_max": 2009,
+      "date_extreme_producteur": "1961/2009",
+      "Métrage réel": 162.97,
+      "Nombre d'entrée": 69
+    },
+    {
+      "Numéro Ligèo": 249061,
+      "Nom": "Direction de l'Informatique et des données urbaines",
+      "date_extreme_min": 1970,
+      "date_extreme_max": 2003,
+      "date_extreme_producteur": "1970/2003",
+      "Métrage réel": 3.7,
+      "Nombre d'entrée": 5
+    },
+    {
+      "Numéro Ligèo": 249062,
+      "Nom": "Direction Urbanisme, Aménagement et Habitat",
+      "date_extreme_min": 1969,
+      "date_extreme_max": 1995,
+      "date_extreme_producteur": "1969/1995",
+      "Métrage réel": 73.15,
+      "Nombre d'entrée": 26
+    },
+    {
+      "Numéro Ligèo": 658,
+      "Nom": "Service Renouvellement urbain",
+      "date_extreme_min": 1993,
+      "date_extreme_max": 2011,
+      "date_extreme_producteur": "1993/2011",
+      "Métrage réel": 3.5,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1376,
+      "Nom": "Aménagement urbain",
+      "date_extreme_min": 1991,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "1991/2017",
+      "Métrage réel": 5.5,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 636,
+      "Nom": "Coordination des grands équipements",
+      "date_extreme_min": 2003,
+      "date_extreme_max": 2011,
+      "date_extreme_producteur": "2003/2011",
+      "Métrage réel": 0.0,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 642,
+      "Nom": "Mission Planification contractuelle Contrat d'agglomération - GPV",
+      "date_extreme_min": 1997,
+      "date_extreme_max": 2003,
+      "date_extreme_producteur": "1997/2003",
+      "Métrage réel": 7.5,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 276869,
+      "Nom": "Mission stratégique CPA Aménagement, habitat et développement territorial et social",
+      "date_extreme_min": 1994,
+      "date_extreme_max": 2021,
+      "date_extreme_producteur": "1994/2021",
+      "Métrage réel": 4.4,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 786,
+      "Nom": "Service Droit de l'urbanisme et de l'aménagement",
+      "date_extreme_min": 1972,
+      "date_extreme_max": 2009,
+      "date_extreme_producteur": "1972/2009",
+      "Métrage réel": 64.74000000000001,
+      "Nombre d'entrée": 11
+    },
+    {
+      "Numéro Ligèo": 656,
+      "Nom": "Service Planification urbaine et urbanisme",
+      "date_extreme_min": 1994,
+      "date_extreme_max": 2016,
+      "date_extreme_producteur": "1994/2016",
+      "Métrage réel": 7.4,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 659,
+      "Nom": "Service Développement urbain et grands projets",
+      "date_extreme_min": 1985,
+      "date_extreme_max": 2010,
+      "date_extreme_producteur": "1985/2010",
+      "Métrage réel": 25.6,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 854,
+      "Nom": "Direction Foncier",
+      "date_extreme_min": 1970,
+      "date_extreme_max": 2016,
+      "date_extreme_producteur": "1970/2016",
+      "Métrage réel": 3.88,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 865,
+      "Nom": "Service Acquisitions",
+      "date_extreme_min": 1981,
+      "date_extreme_max": 2010,
+      "date_extreme_producteur": "1981/2010",
+      "Métrage réel": 115.96,
+      "Nombre d'entrée": 30
+    },
+    {
+      "Numéro Ligèo": 871,
+      "Nom": "Service Gestion du patrimoine",
+      "date_extreme_min": 1967,
+      "date_extreme_max": 2012,
+      "date_extreme_producteur": "1967/2012",
+      "Métrage réel": 74.4,
+      "Nombre d'entrée": 19
+    },
+    {
+      "Numéro Ligèo": 1431,
+      "Nom": "Service Droit de l'aménagement et de l'urbanisme",
+      "date_extreme_min": 1978,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "1978/2017",
+      "Métrage réel": 13.7,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1432,
+      "Nom": "Unité fonctionnelle Droit des sols",
+      "date_extreme_min": 1973,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "1973/2014",
+      "Métrage réel": 16.7,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1577,
+      "Nom": "Service Maîtrise d'œuvre, architecture",
+      "date_extreme_min": 1967,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "1967/2014",
+      "Métrage réel": 69.69,
+      "Nombre d'entrée": 13
+    },
+    {
+      "Numéro Ligèo": 1574,
+      "Nom": "Service Assistance à maîtrise d'ouvrage",
+      "date_extreme_min": 1990,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1990/2018",
+      "Métrage réel": 5.91,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 1578,
+      "Nom": "Service sols et grands équipements",
+      "date_extreme_min": 1990,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1990/2020",
+      "Métrage réel": 25.7,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1576,
+      "Nom": "Service Génie civil et énergies",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1968/2019",
+      "Métrage réel": 24.1,
+      "Nombre d'entrée": 10
+    },
+    {
+      "Numéro Ligèo": 267112,
+      "Nom": "Unité fonctionnelle Stratégie foncière",
+      "date_extreme_min": 1973,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1973/2019",
+      "Métrage réel": 22.15,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1583,
+      "Nom": "Mission stratégique Elaboration du SCOT et révision du PLU intercommunal",
+      "date_extreme_min": 1993,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1993/2018",
+      "Métrage réel": 13.1,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1405,
+      "Nom": "Métropole européenne de Lille",
+      "date_extreme_min": 9999,
+      "date_extreme_max": 0,
+      "date_extreme_producteur": "9999/0",
+      "Métrage réel": 95.5,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 256104,
+      "Nom": "Actif - Direction Accompagnement juridique en aménagement des territoires",
+      "date_extreme_min": 1983,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1983/2020",
+      "Métrage réel": 32.8,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 256098,
+      "Nom": "Actif - Service Ingénierie juridique des territoires",
+      "date_extreme_min": 1975,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1975/2019",
+      "Métrage réel": 19.3,
+      "Nombre d'entrée": 7
+    },
+    {
+      "Numéro Ligèo": 256097,
+      "Nom": "Actif - Unité fonctionnelle Autorisations d'urbanisme",
+      "date_extreme_min": 2011,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "2011/2020",
+      "Métrage réel": 18.4,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1438,
+      "Nom": "Actif - Service Pilotage, expertises et grands contrats",
+      "date_extreme_min": 1976,
+      "date_extreme_max": 2023,
+      "date_extreme_producteur": "1976/2023",
+      "Métrage réel": 52.2,
+      "Nombre d'entrée": 11
+    },
+    {
+      "Numéro Ligèo": 1585,
+      "Nom": "Actif - Direction Donnée et information géographique",
+      "date_extreme_min": 1950,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "1950/2017",
+      "Métrage réel": 5.34,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1587,
+      "Nom": "Actif - Service Géomatique et cartographie",
+      "date_extreme_min": 1996,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "1996/2017",
+      "Métrage réel": 4.5,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1497,
+      "Nom": "Actif - Service Projets et maintenance du patrimoine",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2022,
+      "date_extreme_producteur": "1968/2022",
+      "Métrage réel": 19.5,
+      "Nombre d'entrée": 8
+    },
+    {
+      "Numéro Ligèo": 1436,
+      "Nom": "Actif - Service Archives",
+      "date_extreme_min": 1970,
+      "date_extreme_max": 2050,
+      "date_extreme_producteur": "1970/2050",
+      "Métrage réel": 28.31,
+      "Nombre d'entrée": 16
+    },
+    {
+      "Numéro Ligèo": 250461,
+      "Nom": "Actif - Direction Accompagnement, partenariats et Europe",
+      "date_extreme_min": 2000,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "2000/2020",
+      "Métrage réel": 7.5,
+      "Nombre d'entrée": 5
+    },
+    {
+      "Numéro Ligèo": 391391,
+      "Nom": "Actif - Direction Planification urbaine, programmation et stratégies territoriales",
+      "date_extreme_min": 2012,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "2012/2019",
+      "Métrage réel": 0.9,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1584,
+      "Nom": "Actif - Service Planification urbaine",
+      "date_extreme_min": 1969,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1969/2019",
+      "Métrage réel": 41.8,
+      "Nombre d'entrée": 11
+    },
+    {
+      "Numéro Ligèo": 1570,
+      "Nom": "Actif - Direction Urbanisme, aménagement et ville",
+      "date_extreme_min": 2011,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "2011/2020",
+      "Métrage réel": 1.7,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1572,
+      "Nom": "Actif - Service Aménagement",
+      "date_extreme_min": 1971,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1971/2020",
+      "Métrage réel": 73.73,
+      "Nombre d'entrée": 16
+    },
+    {
+      "Numéro Ligèo": 1571,
+      "Nom": "Actif - Service Politique de la ville",
+      "date_extreme_min": 2000,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "2000/2019",
+      "Métrage réel": 9.9,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1560,
+      "Nom": "Actif - Service Plan local de l'habitat",
+      "date_extreme_min": 1983,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1983/2019",
+      "Métrage réel": 82.65,
+      "Nombre d'entrée": 11
+    },
+    {
+      "Numéro Ligèo": 1567,
+      "Nom": "Actif - Direction Stratégie et opérations foncières",
+      "date_extreme_min": 1993,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1993/2020",
+      "Métrage réel": 2.6,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 868,
+      "Nom": "Actif - Service Action foncière",
+      "date_extreme_min": 1953,
+      "date_extreme_max": 2021,
+      "date_extreme_producteur": "1953/2021",
+      "Métrage réel": 304.67,
+      "Nombre d'entrée": 39
+    },
+    {
+      "Numéro Ligèo": 1573,
+      "Nom": "Actif - Direction Assistance à maîtrise d'ouvrage et maîtrise d'œuvre",
+      "date_extreme_min": 1975,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1975/2018",
+      "Métrage réel": 62.73,
+      "Nombre d'entrée": 9
+    },
+    {
+      "Numéro Ligèo": 276821,
+      "Nom": "Actif - Service Aménagement des territoires et architecture",
+      "date_extreme_min": 2004,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "2004/2019",
+      "Métrage réel": 2.4,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 484818,
+      "Nom": "ASALAE_GED_Sharepoint",
+      "date_extreme_min": 2009,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "2009/2020",
+      "Métrage réel": 170.709,
+      "Nombre d'entrée": 30
+    },
+    {
+      "Numéro Ligèo": 1664,
+      "Nom": "Union de l'agglomération tourquennoise (UAT) (1986-2001)",
+      "date_extreme_min": 1986,
+      "date_extreme_max": 2001,
+      "date_extreme_producteur": "1986/2001",
+      "Métrage réel": 35.97,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 764,
+      "Nom": "Direction Rayonnement de la métropole",
+      "date_extreme_min": 1970,
+      "date_extreme_max": 2003,
+      "date_extreme_producteur": "1970/2003",
+      "Métrage réel": 3.6,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 281271,
+      "Nom": "Service culture",
+      "date_extreme_min": 1991,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1991/2019",
+      "Métrage réel": 18.8,
+      "Nombre d'entrée": 5
+    },
+    {
+      "Numéro Ligèo": 765,
+      "Nom": "Service Sports",
+      "date_extreme_min": 1999,
+      "date_extreme_max": 2013,
+      "date_extreme_producteur": "1999/2013",
+      "Métrage réel": 48.68,
+      "Nombre d'entrée": 8
+    },
+    {
+      "Numéro Ligèo": 796,
+      "Nom": "Pôle Rayonnement de la métropole",
+      "date_extreme_min": 2004,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "2004/2020",
+      "Métrage réel": 8.52,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 805,
+      "Nom": "Direction Culture",
+      "date_extreme_min": 1980,
+      "date_extreme_max": 2016,
+      "date_extreme_producteur": "1980/2016",
+      "Métrage réel": 25.09,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 808,
+      "Nom": "Service Grand stade et équipements sportifs",
+      "date_extreme_min": 2003,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "2003/2014",
+      "Métrage réel": 6.7,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 1551,
+      "Nom": "Actif - Direction Culture et tourisme",
+      "date_extreme_min": 1999,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1999/2020",
+      "Métrage réel": 20.28,
+      "Nombre d'entrée": 5
+    },
+    {
+      "Numéro Ligèo": 769,
+      "Nom": "Actif - Service Culture",
+      "date_extreme_min": 1997,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1997/2020",
+      "Métrage réel": 7.6,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1554,
+      "Nom": "Actif - Unité fonctionnelle Musée de la bataille de Fromelles",
+      "date_extreme_min": 2006,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "2006/2019",
+      "Métrage réel": 2.9,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 807,
+      "Nom": "Actif - Direction Sports",
+      "date_extreme_min": 1974,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1974/2019",
+      "Métrage réel": 50.1,
+      "Nombre d'entrée": 20
+    },
+    {
+      "Numéro Ligèo": 768,
+      "Nom": "Actif - Service Stadium",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "1968/2017",
+      "Métrage réel": 37.62,
+      "Nombre d'entrée": 8
+    },
+    {
+      "Numéro Ligèo": 809,
+      "Nom": "Actif - Service Projets, exploitation, pilotage d'équipements sportifs",
+      "date_extreme_min": 2000,
+      "date_extreme_max": 2016,
+      "date_extreme_producteur": "2000/2016",
+      "Métrage réel": 6.4,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1556,
+      "Nom": "Actif - Unité fonctionnelle Politique sportive",
+      "date_extreme_min": 1991,
+      "date_extreme_max": 2022,
+      "date_extreme_producteur": "1991/2022",
+      "Métrage réel": 6.4,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 735,
+      "Nom": "Service Intelligence et stratégie économique",
+      "date_extreme_min": 2000,
+      "date_extreme_max": 2008,
+      "date_extreme_producteur": "2000/2008",
+      "Métrage réel": 0.5,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 276918,
+      "Nom": "Actif - Service Innovation, recherche et digital",
+      "date_extreme_min": 1971,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1971/2019",
+      "Métrage réel": 22.45,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 1650,
+      "Nom": "Service municipal des eaux de Roubaix-Tourcoing",
+      "date_extreme_min": 1861,
+      "date_extreme_max": 1992,
+      "date_extreme_producteur": "1861/1992",
+      "Métrage réel": 13.55,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1651,
+      "Nom": "Espace naturel Lille Métropole (ENLM)",
+      "date_extreme_min": 1985,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1985/2018",
+      "Métrage réel": 18.89,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1654,
+      "Nom": "Voies navigables de France (VNF)",
+      "date_extreme_min": 1837,
+      "date_extreme_max": 2009,
+      "date_extreme_producteur": "1837/2009",
+      "Métrage réel": 51.87,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 616,
+      "Nom": "Eau, assainissement, ordures ménagères - Cinquième Direction administrative",
+      "date_extreme_min": 1896,
+      "date_extreme_max": 1979,
+      "date_extreme_producteur": "1896/1979",
+      "Métrage réel": 1.8,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 617,
+      "Nom": "Services publics - Cinquième Direction administrative",
+      "date_extreme_min": 1914,
+      "date_extreme_max": 1990,
+      "date_extreme_producteur": "1914/1990",
+      "Métrage réel": 83.94,
+      "Nombre d'entrée": 25
+    },
+    {
+      "Numéro Ligèo": 848,
+      "Nom": "Service Développement durable",
+      "date_extreme_min": 2004,
+      "date_extreme_max": 2005,
+      "date_extreme_producteur": "2004/2005",
+      "Métrage réel": 0.5,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 851,
+      "Nom": "Service Espace naturel métropolitain",
+      "date_extreme_min": 2000,
+      "date_extreme_max": 2015,
+      "date_extreme_producteur": "2000/2015",
+      "Métrage réel": 9.85,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 646,
+      "Nom": "Direction Stratégie des territoires et développement durable",
+      "date_extreme_min": 2002,
+      "date_extreme_max": 2008,
+      "date_extreme_producteur": "2002/2008",
+      "Métrage réel": 1.2,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 648,
+      "Nom": "Mission stratégie et développement durable",
+      "date_extreme_min": 2007,
+      "date_extreme_max": 2012,
+      "date_extreme_producteur": "2007/2012",
+      "Métrage réel": 1.4,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1364,
+      "Nom": "Direction Eau",
+      "date_extreme_min": 1906,
+      "date_extreme_max": 2012,
+      "date_extreme_producteur": "1906/2012",
+      "Métrage réel": 7.9,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1368,
+      "Nom": "Gestion interne (Eau)",
+      "date_extreme_min": 1992,
+      "date_extreme_max": 2001,
+      "date_extreme_producteur": "1992/2001",
+      "Métrage réel": 7.0,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1369,
+      "Nom": "Gestion financière, administrative et juridique (Eau)",
+      "date_extreme_min": 1980,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "1980/2014",
+      "Métrage réel": 197.4,
+      "Nombre d'entrée": 28
+    },
+    {
+      "Numéro Ligèo": 1370,
+      "Nom": "Service Production et distribution d'eau potable",
+      "date_extreme_min": 1962,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "1962/2014",
+      "Métrage réel": 23.0,
+      "Nombre d'entrée": 8
+    },
+    {
+      "Numéro Ligèo": 1372,
+      "Nom": "Service Unité centrale (Eau)",
+      "date_extreme_min": 1995,
+      "date_extreme_max": 2013,
+      "date_extreme_producteur": "1995/2013",
+      "Métrage réel": 15.7,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1399,
+      "Nom": "Direction Résidus urbains",
+      "date_extreme_min": 1979,
+      "date_extreme_max": 1995,
+      "date_extreme_producteur": "1979/1995",
+      "Métrage réel": 1.2,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1243,
+      "Nom": "Service Documentation et archives",
+      "date_extreme_min": 1983,
+      "date_extreme_max": 2012,
+      "date_extreme_producteur": "1983/2012",
+      "Métrage réel": 6.1,
+      "Nombre d'entrée": 7
+    },
+    {
+      "Numéro Ligèo": 249060,
+      "Nom": "Direction Écologie urbaine",
+      "date_extreme_min": 1893,
+      "date_extreme_max": 1998,
+      "date_extreme_producteur": "1893/1998",
+      "Métrage réel": 68.59,
+      "Nombre d'entrée": 38
+    },
+    {
+      "Numéro Ligèo": 1633,
+      "Nom": "Direction Energie",
+      "date_extreme_min": 2001,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "2001/2014",
+      "Métrage réel": 15.85,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1548,
+      "Nom": "Service Espaces naturels métropolitains (ENM)",
+      "date_extreme_min": 1994,
+      "date_extreme_max": 2016,
+      "date_extreme_producteur": "1994/2016",
+      "Métrage réel": 2.7,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1608,
+      "Nom": "Service Collecte des déchets ménagers",
+      "date_extreme_min": 1994,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1994/2020",
+      "Métrage réel": 27.9,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 1609,
+      "Nom": "Service Déchetteries et déchets encombrants",
+      "date_extreme_min": 2007,
+      "date_extreme_max": 2016,
+      "date_extreme_producteur": "2007/2016",
+      "Métrage réel": 4.0,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 391390,
+      "Nom": "Service Relais nature et environnement",
+      "date_extreme_min": 1979,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1979/2019",
+      "Métrage réel": 3.55,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1610,
+      "Nom": "Service Recyclage et valorisation",
+      "date_extreme_min": 1978,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1978/2019",
+      "Métrage réel": 50.6,
+      "Nombre d'entrée": 5
+    },
+    {
+      "Numéro Ligèo": 1624,
+      "Nom": "Service Etudes, prospectives et conduite d'opérations",
+      "date_extreme_min": 1984,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1984/2020",
+      "Métrage réel": 68.75,
+      "Nombre d'entrée": 11
+    },
+    {
+      "Numéro Ligèo": 1628,
+      "Nom": "Service Traitement des eaux usées",
+      "date_extreme_min": 1964,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "1964/2017",
+      "Métrage réel": 60.9,
+      "Nombre d'entrée": 10
+    },
+    {
+      "Numéro Ligèo": 1549,
+      "Nom": "Unité fonctionnelle Agriculture et dynamiques territoriales",
+      "date_extreme_min": 1981,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1981/2019",
+      "Métrage réel": 10.1,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1455,
+      "Nom": "Actif - Centre de services partagés CSP finances TECHNIQUE - Unité fonctionnelle Unités territoriales",
+      "date_extreme_min": 2006,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "2006/2019",
+      "Métrage réel": 19.83,
+      "Nombre d'entrée": 5
+    },
+    {
+      "Numéro Ligèo": 1547,
+      "Nom": "Actif - Direction Nature, agriculture et environnement",
+      "date_extreme_min": 1971,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1971/2018",
+      "Métrage réel": 4.3,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1543,
+      "Nom": "Actif - Service Crématoriums",
+      "date_extreme_min": 1994,
+      "date_extreme_max": 2015,
+      "date_extreme_producteur": "1994/2015",
+      "Métrage réel": 41.1,
+      "Nombre d'entrée": 13
+    },
+    {
+      "Numéro Ligèo": 1544,
+      "Nom": "Actif - Unité fonctionnelle Crématorium d'Herlies",
+      "date_extreme_min": 2015,
+      "date_extreme_max": 2021,
+      "date_extreme_producteur": "2015/2021",
+      "Métrage réel": 23.5,
+      "Nombre d'entrée": 5
+    },
+    {
+      "Numéro Ligèo": 1545,
+      "Nom": "Actif - Unité fonctionnelle Crématorium de Wattrelos",
+      "date_extreme_min": 2016,
+      "date_extreme_max": 2021,
+      "date_extreme_producteur": "2016/2021",
+      "Métrage réel": 27.7,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 262165,
+      "Nom": "Actif - Unité fonctionnelle Trame verte et bleue",
+      "date_extreme_min": 1982,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1982/2018",
+      "Métrage réel": 12.7,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 1590,
+      "Nom": "Actif - Direction générale déléguée Réseaux, services, mobilité et transports",
+      "date_extreme_min": 1976,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "1976/2017",
+      "Métrage réel": 8.8,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 276868,
+      "Nom": "Actif - Direction Transitions énergie climat",
+      "date_extreme_min": 1983,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "1983/2017",
+      "Métrage réel": 4.0,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1607,
+      "Nom": "Actif - Direction Déchets ménagers",
+      "date_extreme_min": 1969,
+      "date_extreme_max": 2021,
+      "date_extreme_producteur": "1969/2021",
+      "Métrage réel": 32.1,
+      "Nombre d'entrée": 8
+    },
+    {
+      "Numéro Ligèo": 1623,
+      "Nom": "Actif - Direction Eau et assainissement",
+      "date_extreme_min": 1985,
+      "date_extreme_max": 2021,
+      "date_extreme_producteur": "1985/2021",
+      "Métrage réel": 43.09999999999999,
+      "Nombre d'entrée": 7
+    },
+    {
+      "Numéro Ligèo": 1625,
+      "Nom": "Actif - Service Pilotage, contrôle des opérateurs, qualité",
+      "date_extreme_min": 2006,
+      "date_extreme_max": 2022,
+      "date_extreme_producteur": "2006/2022",
+      "Métrage réel": 6.4,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1626,
+      "Nom": "Actif - Service Veille sanitaire et écologique",
+      "date_extreme_min": 1973,
+      "date_extreme_max": 2007,
+      "date_extreme_producteur": "1973/2007",
+      "Métrage réel": 0.8,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1630,
+      "Nom": "Actif - Unité territoriale Lille - Seclin (Eau)",
+      "date_extreme_min": 1872,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1872/2018",
+      "Métrage réel": 8.85,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 1629,
+      "Nom": "Actif - Unité territoriale Roubaix - Villeneuve d'Ascq (Eau)",
+      "date_extreme_min": 1974,
+      "date_extreme_max": 2006,
+      "date_extreme_producteur": "1974/2006",
+      "Métrage réel": 14.87,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1632,
+      "Nom": "Actif - Unité territoriale Tourcoing - Armentières (Eau)",
+      "date_extreme_min": 1986,
+      "date_extreme_max": 2009,
+      "date_extreme_producteur": "1986/2009",
+      "Métrage réel": 55.8,
+      "Nombre d'entrée": 7
+    },
+    {
+      "Numéro Ligèo": 1663,
+      "Nom": "Actif - Direction Sourcéo",
+      "date_extreme_min": 2006,
+      "date_extreme_max": 2015,
+      "date_extreme_producteur": "2006/2015",
+      "Métrage réel": 7.9,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1656,
+      "Nom": "Paul Deffontaine, vice - président en charge de la collecte et du traitement des résidus urbains. (1990-1998)",
+      "date_extreme_min": 1990,
+      "date_extreme_max": 1998,
+      "date_extreme_producteur": "1990/1998",
+      "Métrage réel": 0.05,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 618,
+      "Nom": "Voirie, transports urbains - Sixième Direction administrative",
+      "date_extreme_min": 1960,
+      "date_extreme_max": 2005,
+      "date_extreme_producteur": "1960/2005",
+      "Métrage réel": 412.94,
+      "Nombre d'entrée": 147
+    },
+    {
+      "Numéro Ligèo": 1321,
+      "Nom": "Circulation et voirie",
+      "date_extreme_min": 1969,
+      "date_extreme_max": 1999,
+      "date_extreme_producteur": "1969/1999",
+      "Métrage réel": 100.3,
+      "Nombre d'entrée": 46
+    },
+    {
+      "Numéro Ligèo": 1383,
+      "Nom": "Direction Voirie, infrastructures et circulation",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 1999,
+      "date_extreme_producteur": "1968/1999",
+      "Métrage réel": 90.77,
+      "Nombre d'entrée": 13
+    },
+    {
+      "Numéro Ligèo": 1386,
+      "Nom": "Service Maîtrise d'œuvre métro",
+      "date_extreme_min": 1992,
+      "date_extreme_max": 1992,
+      "date_extreme_producteur": "1992/1992",
+      "Métrage réel": 0.17,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1394,
+      "Nom": "Unité territoriale de Tourcoing (Voirie)",
+      "date_extreme_min": 9999,
+      "date_extreme_max": 0,
+      "date_extreme_producteur": "9999/0",
+      "Métrage réel": 0.25,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1348,
+      "Nom": "Direction Exploitation des transports collectifs",
+      "date_extreme_min": 1969,
+      "date_extreme_max": 2004,
+      "date_extreme_producteur": "1969/2004",
+      "Métrage réel": 159.77,
+      "Nombre d'entrée": 49
+    },
+    {
+      "Numéro Ligèo": 1355,
+      "Nom": "Gestion interne (Exploitation des transports collectifs)",
+      "date_extreme_min": 1992,
+      "date_extreme_max": 1996,
+      "date_extreme_producteur": "1992/1996",
+      "Métrage réel": 2.0,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1395,
+      "Nom": "Direction Voirie - Espaces publics",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 1985,
+      "date_extreme_producteur": "1968/1985",
+      "Métrage réel": 4.82,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 1388,
+      "Nom": "Service Unité centrale (Voirie)",
+      "date_extreme_min": 1986,
+      "date_extreme_max": 2011,
+      "date_extreme_producteur": "1986/2011",
+      "Métrage réel": 3.3,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1396,
+      "Nom": "Service Grandes infrastructures",
+      "date_extreme_min": 1979,
+      "date_extreme_max": 2007,
+      "date_extreme_producteur": "1979/2007",
+      "Métrage réel": 25.44,
+      "Nombre d'entrée": 9
+    },
+    {
+      "Numéro Ligèo": 1356,
+      "Nom": "Direction Transports collectifs et stationnement",
+      "date_extreme_min": 2003,
+      "date_extreme_max": 2006,
+      "date_extreme_producteur": "2003/2006",
+      "Métrage réel": 7.1,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1351,
+      "Nom": "Service Pilotage et coordination : SMT Transpole",
+      "date_extreme_min": 1985,
+      "date_extreme_max": 2004,
+      "date_extreme_producteur": "1985/2004",
+      "Métrage réel": 41.8,
+      "Nombre d'entrée": 8
+    },
+    {
+      "Numéro Ligèo": 1357,
+      "Nom": "Service Stationnement",
+      "date_extreme_min": 1998,
+      "date_extreme_max": 2007,
+      "date_extreme_producteur": "1998/2007",
+      "Métrage réel": 3.0,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1362,
+      "Nom": "Service Exploitation et sécurisation du réseau",
+      "date_extreme_min": 2000,
+      "date_extreme_max": 2011,
+      "date_extreme_producteur": "2000/2011",
+      "Métrage réel": 36.8,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 1354,
+      "Nom": "Service Maîtrise d'ouvrage financière",
+      "date_extreme_min": 1979,
+      "date_extreme_max": 2007,
+      "date_extreme_producteur": "1979/2007",
+      "Métrage réel": 149.31,
+      "Nombre d'entrée": 8
+    },
+    {
+      "Numéro Ligèo": 1350,
+      "Nom": "Service Exploitation et sécurité du réseau",
+      "date_extreme_min": 1991,
+      "date_extreme_max": 2003,
+      "date_extreme_producteur": "1991/2003",
+      "Métrage réel": 25.0,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1361,
+      "Nom": "Service Gestion administrative opérationnelle",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1968/2020",
+      "Métrage réel": 132.51,
+      "Nombre d'entrée": 13
+    },
+    {
+      "Numéro Ligèo": 1251,
+      "Nom": "Service Etudes et développement",
+      "date_extreme_min": 1978,
+      "date_extreme_max": 2003,
+      "date_extreme_producteur": "1978/2003",
+      "Métrage réel": 19.23,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1347,
+      "Nom": "Service Etudes de déplacements",
+      "date_extreme_min": 2000,
+      "date_extreme_max": 2006,
+      "date_extreme_producteur": "2000/2006",
+      "Métrage réel": 0.5,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1592,
+      "Nom": "Service Etudes, méthodes expertises",
+      "date_extreme_min": 1987,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1987/2018",
+      "Métrage réel": 5.8,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1593,
+      "Nom": "Service Voies nouvelles, ouvrages",
+      "date_extreme_min": 1969,
+      "date_extreme_max": 2016,
+      "date_extreme_producteur": "1969/2016",
+      "Métrage réel": 21.25,
+      "Nombre d'entrée": 8
+    },
+    {
+      "Numéro Ligèo": 1397,
+      "Nom": "Gestion interne (Espace public et voirie)",
+      "date_extreme_min": 1991,
+      "date_extreme_max": 2006,
+      "date_extreme_producteur": "1991/2006",
+      "Métrage réel": 164.74,
+      "Nombre d'entrée": 23
+    },
+    {
+      "Numéro Ligèo": 1619,
+      "Nom": "CPA Mobilité transports",
+      "date_extreme_min": 2011,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "2011/2014",
+      "Métrage réel": 5.0,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1575,
+      "Nom": "Actif - Service Voirie et réseaux divers",
+      "date_extreme_min": 1997,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1997/2019",
+      "Métrage réel": 10.1,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1604,
+      "Nom": "Actif - Direction Mobilité",
+      "date_extreme_min": 2015,
+      "date_extreme_max": 2016,
+      "date_extreme_producteur": "2015/2016",
+      "Métrage réel": 11.4,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1605,
+      "Nom": "Actif - Service Politiques de déplacements",
+      "date_extreme_min": 2006,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "2006/2017",
+      "Métrage réel": 1.6,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1612,
+      "Nom": "Actif - Direction Transports",
+      "date_extreme_min": 1979,
+      "date_extreme_max": 2022,
+      "date_extreme_producteur": "1979/2022",
+      "Métrage réel": 11.25,
+      "Nombre d'entrée": 8
+    },
+    {
+      "Numéro Ligèo": 1618,
+      "Nom": "Actif - Service Exploitation et sécurisation",
+      "date_extreme_min": 1992,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1992/2020",
+      "Métrage réel": 19.0,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 1613,
+      "Nom": "Actif - Service Evolution du métro",
+      "date_extreme_min": 2010,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "2010/2020",
+      "Métrage réel": 8.45,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1616,
+      "Nom": "Actif - Service Evolution du réseau",
+      "date_extreme_min": 1997,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "1997/2014",
+      "Métrage réel": 1.3,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1615,
+      "Nom": "Actif - Service Maintenance",
+      "date_extreme_min": 1979,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1979/2018",
+      "Métrage réel": 59.12,
+      "Nombre d'entrée": 23
+    },
+    {
+      "Numéro Ligèo": 1591,
+      "Nom": "Actif - Direction Espace public et voirie",
+      "date_extreme_min": 1970,
+      "date_extreme_max": 2015,
+      "date_extreme_producteur": "1970/2015",
+      "Métrage réel": 26.5,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1596,
+      "Nom": "Actif - Service Gestion du domaine public",
+      "date_extreme_min": 1966,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "1966/2014",
+      "Métrage réel": 38.94,
+      "Nombre d'entrée": 8
+    },
+    {
+      "Numéro Ligèo": 391179,
+      "Nom": "Actif - Service Aménagement, qualité des espaces publics et ouvrages",
+      "date_extreme_min": 1891,
+      "date_extreme_max": 2021,
+      "date_extreme_producteur": "1891/2021",
+      "Métrage réel": 114.45,
+      "Nombre d'entrée": 7
+    },
+    {
+      "Numéro Ligèo": 391182,
+      "Nom": "Actif - Service Maîtrise d'ouvrage",
+      "date_extreme_min": 1985,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "1985/2017",
+      "Métrage réel": 11.4,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1598,
+      "Nom": "Actif - Service Unité territoriale Lille - Seclin (Voirie)",
+      "date_extreme_min": 1883,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "1883/2017",
+      "Métrage réel": 48.6,
+      "Nombre d'entrée": 12
+    },
+    {
+      "Numéro Ligèo": 1599,
+      "Nom": "Actif - Service Unité territoriale Marcq-en-Baroeul - La Bassée (Voirie)",
+      "date_extreme_min": 1981,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1981/2020",
+      "Métrage réel": 81.51,
+      "Nombre d'entrée": 8
+    },
+    {
+      "Numéro Ligèo": 1600,
+      "Nom": "Actif - Service Unité territoriale Tourcoing - Armentières (Voirie)",
+      "date_extreme_min": 2000,
+      "date_extreme_max": 2006,
+      "date_extreme_producteur": "2000/2006",
+      "Métrage réel": 0.0,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1660,
+      "Nom": "Systra (1980-2000)",
+      "date_extreme_min": 1980,
+      "date_extreme_max": 2000,
+      "date_extreme_producteur": "1980/2000",
+      "Métrage réel": 24.98,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 61328,
+      "Nom": "Commune de Wasquehal",
+      "date_extreme_min": 1603,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "1603/2017",
+      "Métrage réel": 160.43,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 111219,
+      "Nom": "Commune de Verlinghem",
+      "date_extreme_min": 1704,
+      "date_extreme_max": 2011,
+      "date_extreme_producteur": "1704/2011",
+      "Métrage réel": 55.9,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 61329,
+      "Nom": "Commune de Lambersart",
+      "date_extreme_min": 1738,
+      "date_extreme_max": 2008,
+      "date_extreme_producteur": "1738/2008",
+      "Métrage réel": 270.59,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1653,
+      "Nom": "Commune de Lille",
+      "date_extreme_min": 1933,
+      "date_extreme_max": 2013,
+      "date_extreme_producteur": "1933/2013",
+      "Métrage réel": 7.100000000000001,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 180067,
+      "Nom": "Commune de Wambrechies",
+      "date_extreme_min": 1457,
+      "date_extreme_max": 2008,
+      "date_extreme_producteur": "1457/2008",
+      "Métrage réel": 170.35,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 456312,
+      "Nom": "SIVA Deûle",
+      "date_extreme_min": 1977,
+      "date_extreme_max": 2004,
+      "date_extreme_producteur": "1977/2004",
+      "Métrage réel": 2.65,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1648,
+      "Nom": "Syndicat intercommunal à vocation unique de Ravennes-les-Francs",
+      "date_extreme_min": 1989,
+      "date_extreme_max": 2002,
+      "date_extreme_producteur": "1989/2002",
+      "Métrage réel": 4.52,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1641,
+      "Nom": "Syndicat Intercommunal de l'Aggomération roubaisienne (SIAR)",
+      "date_extreme_min": 1987,
+      "date_extreme_max": 2002,
+      "date_extreme_producteur": "1987/2002",
+      "Métrage réel": 44.94,
+      "Nombre d'entrée": 5
+    },
+    {
+      "Numéro Ligèo": 1649,
+      "Nom": "Syndicat intercommunal à vocation unique de Croix - Wasquehal",
+      "date_extreme_min": 1985,
+      "date_extreme_max": 2002,
+      "date_extreme_producteur": "1985/2002",
+      "Métrage réel": 1.32,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 249696,
+      "Nom": "Syndicat mixte d'exploitation des transports en commun (SMT)",
+      "date_extreme_min": 1978,
+      "date_extreme_max": 1997,
+      "date_extreme_producteur": "1978/1997",
+      "Métrage réel": 3.0,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 318496,
+      "Nom": "Syndicat intercommunal d'adduction d'eau potable (SIAEP)",
+      "date_extreme_min": 1977,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1977/2020",
+      "Métrage réel": 7.46,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 320498,
+      "Nom": "Syndicat mixte des gens du voyage (SMGDV)",
+      "date_extreme_min": 1981,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "1981/2014",
+      "Métrage réel": 14.27,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1647,
+      "Nom": "Syndicat intercommunal d'assainissement du Bassin de l'Espierre",
+      "date_extreme_min": 1863,
+      "date_extreme_max": 1977,
+      "date_extreme_producteur": "1863/1977",
+      "Métrage réel": 15.6,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 318494,
+      "Nom": "Syndicat intercommunal d’assainissement du sud-ouest de Lille (SIASOL)",
+      "date_extreme_min": 1970,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1970/2018",
+      "Métrage réel": 7.81,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 50563,
+      "Nom": "Communauté de communes des Weppes",
+      "date_extreme_min": 1948,
+      "date_extreme_max": 2016,
+      "date_extreme_producteur": "1948/2016",
+      "Métrage réel": 37.31,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 318492,
+      "Nom": "Communauté de communes de la Haute Deûle (CCHD)",
+      "date_extreme_min": 1977,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1977/2019",
+      "Métrage réel": 66.26,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 318493,
+      "Nom": "Communauté de communes de Provin-Bauvin (CCPB)",
+      "date_extreme_min": 1996,
+      "date_extreme_max": 2003,
+      "date_extreme_producteur": "1996/2003",
+      "Métrage réel": 2.7,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 388775,
+      "Nom": "SEM Plateforme multimodale de Lomme-Sequedin",
+      "date_extreme_min": 1987,
+      "date_extreme_max": 2012,
+      "date_extreme_producteur": "1987/2012",
+      "Métrage réel": 12.6,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1640,
+      "Nom": "Groupement d'intérêt public Lille Métropole Rénovation Urbaine (GIP LMRU)",
+      "date_extreme_min": 1991,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "1991/2017",
+      "Métrage réel": 17.8,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 195639,
+      "Nom": "Aire métropolitaine de Lille",
+      "date_extreme_min": 2003,
+      "date_extreme_max": 2016,
+      "date_extreme_producteur": "2003/2016",
+      "Métrage réel": 1.9,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 401255,
+      "Nom": "Comité d'organisation Lille métropole Capitale mondiale du Design",
+      "date_extreme_min": 2018,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "2018/2020",
+      "Métrage réel": 3.06,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 412138,
+      "Nom": "Confédération Générale du Travail (CGT)",
+      "date_extreme_min": 1964,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1964/2020",
+      "Métrage réel": 7.1,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 412140,
+      "Nom": "Fédération Syndicale Unitaire (FSU)",
+      "date_extreme_min": 1994,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1994/2019",
+      "Métrage réel": 2.5,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 759,
+      "Nom": "Direction Développement économique",
+      "date_extreme_min": 1991,
+      "date_extreme_max": 2007,
+      "date_extreme_producteur": "1991/2007",
+      "Métrage réel": 15.5,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 1657,
+      "Nom": "Comité d'Action Sociale (CAS) (1969-2019)",
+      "date_extreme_min": 1969,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1969/2019",
+      "Métrage réel": 75.69,
+      "Nombre d'entrée": 37
+    },
+    {
+      "Numéro Ligèo": 1658,
+      "Nom": "Observatoire Communautaire de l'Environnement (OCE) (1989-1998)",
+      "date_extreme_min": 1989,
+      "date_extreme_max": 1998,
+      "date_extreme_producteur": "1989/1998",
+      "Métrage réel": 2.3,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 50564,
+      "Nom": "SAEM Haute Borne (1986-2018)",
+      "date_extreme_min": 1986,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1986/2018",
+      "Métrage réel": 45.83,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1662,
+      "Nom": "Technopole Lille Métropole (TLM) (1996-2012)",
+      "date_extreme_min": 1996,
+      "date_extreme_max": 2012,
+      "date_extreme_producteur": "1996/2012",
+      "Métrage réel": 0.9,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1661,
+      "Nom": "Transpole (1899-1988)",
+      "date_extreme_min": 1899,
+      "date_extreme_max": 1988,
+      "date_extreme_producteur": "1899/1988",
+      "Métrage réel": 26.45,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 3,
+      "Nom": "Anonyme (1989-1995)",
+      "date_extreme_min": 1989,
+      "date_extreme_max": 1995,
+      "date_extreme_producteur": "1989/1995",
+      "Métrage réel": 1.14,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 419633,
+      "Nom": "Antoine MICHEL @",
+      "date_extreme_min": 9999,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "9999/2020",
+      "Métrage réel": 0.13,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 419635,
+      "Nom": "Blandine GILLOT @",
+      "date_extreme_min": 9999,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "9999/2020",
+      "Métrage réel": 0.16,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 419629,
+      "Nom": "Christophe DELANNOY @",
+      "date_extreme_min": 9999,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "9999/2020",
+      "Métrage réel": 0.23,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 2,
+      "Nom": "Comité d'organisation Lille métropole Capitale mondiale du Design @(2020-2020)",
+      "date_extreme_min": 9999,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "9999/2020",
+      "Métrage réel": 3.25,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 419634,
+      "Nom": "Florence LONGUEPEE @",
+      "date_extreme_min": 9999,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "9999/2020",
+      "Métrage réel": 0.9,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 419628,
+      "Nom": "François FAUCOGNEY @ ",
+      "date_extreme_min": 9999,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "9999/2020",
+      "Métrage réel": 1.2,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 419638,
+      "Nom": "Hélène BERGES @",
+      "date_extreme_min": 9999,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "9999/2020",
+      "Métrage réel": 0.03,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 419630,
+      "Nom": "Hélène JOURDAIN @",
+      "date_extreme_min": 9999,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "9999/2020",
+      "Métrage réel": 0.3,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 419632,
+      "Nom": "Rut LERNER-BERTRAND @",
+      "date_extreme_min": 9999,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "9999/2020",
+      "Métrage réel": 0.13,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 419636,
+      "Nom": "Xavier HUET @",
+      "date_extreme_min": 9999,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "9999/2020",
+      "Métrage réel": 0.5,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 419637,
+      "Nom": "Yannick DENECKER @",
+      "date_extreme_min": 9999,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "9999/2020",
+      "Métrage réel": 0.5,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1410,
+      "Nom": "Groupe Socialistes, radicaux, citoyens et personnalités",
+      "date_extreme_min": 1983,
+      "date_extreme_max": 2007,
+      "date_extreme_producteur": "1983/2007",
+      "Métrage réel": 0.6,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 605,
+      "Nom": "Secrétariat général",
+      "date_extreme_min": 1966,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1966/2018",
+      "Métrage réel": 258.09,
+      "Nombre d'entrée": 99
+    },
+    {
+      "Numéro Ligèo": 998,
+      "Nom": "Service Secrétariat des instances et courrier",
+      "date_extreme_min": 1984,
+      "date_extreme_max": 2000,
+      "date_extreme_producteur": "1984/2000",
+      "Métrage réel": 1.1,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 684,
+      "Nom": "Pôle Finances et programmation pluriannuelle",
+      "date_extreme_min": 1996,
+      "date_extreme_max": 1997,
+      "date_extreme_producteur": "1996/1997",
+      "Métrage réel": 1.9,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 716,
+      "Nom": "Pôle Finances et gestion",
+      "date_extreme_min": 1969,
+      "date_extreme_max": 2012,
+      "date_extreme_producteur": "1969/2012",
+      "Métrage réel": 45.72,
+      "Nombre d'entrée": 9
+    },
+    {
+      "Numéro Ligèo": 1363,
+      "Nom": "Pôle Espace public, écologie et Services urbains",
+      "date_extreme_min": 2002,
+      "date_extreme_max": 2011,
+      "date_extreme_producteur": "2002/2011",
+      "Métrage réel": 10.0,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 752,
+      "Nom": "Pôle Développement de la métropole",
+      "date_extreme_min": 2006,
+      "date_extreme_max": 2008,
+      "date_extreme_producteur": "2006/2008",
+      "Métrage réel": 0.8999999999999999,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 915,
+      "Nom": "Pôle Ressources humaines et administration",
+      "date_extreme_min": 1973,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "1973/2014",
+      "Métrage réel": 40.7,
+      "Nombre d'entrée": 10
+    },
+    {
+      "Numéro Ligèo": 1287,
+      "Nom": "Gestion interne (Moyens généraux)",
+      "date_extreme_min": 1972,
+      "date_extreme_max": 2004,
+      "date_extreme_producteur": "1972/2004",
+      "Métrage réel": 9.9,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 1241,
+      "Nom": "Service Assemblées",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "1968/2014",
+      "Métrage réel": 52.14,
+      "Nombre d'entrée": 8
+    },
+    {
+      "Numéro Ligèo": 969,
+      "Nom": "Direction Administration générale",
+      "date_extreme_min": 1967,
+      "date_extreme_max": 2012,
+      "date_extreme_producteur": "1967/2012",
+      "Métrage réel": 2.8,
+      "Nombre d'entrée": 7
+    },
+    {
+      "Numéro Ligèo": 971,
+      "Nom": "Service Assemblées et courrier",
+      "date_extreme_min": 1989,
+      "date_extreme_max": 2009,
+      "date_extreme_producteur": "1989/2009",
+      "Métrage réel": 0.2,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1345,
+      "Nom": "Pôle Mobilité et transports",
+      "date_extreme_min": 1972,
+      "date_extreme_max": 2008,
+      "date_extreme_producteur": "1972/2008",
+      "Métrage réel": 25.2,
+      "Nombre d'entrée": 5
+    },
+    {
+      "Numéro Ligèo": 1307,
+      "Nom": "Direction générale des Services opérationnels",
+      "date_extreme_min": 1974,
+      "date_extreme_max": 1996,
+      "date_extreme_producteur": "1974/1996",
+      "Métrage réel": 16.8,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1342,
+      "Nom": "Direction générale des Services techniques",
+      "date_extreme_min": 1978,
+      "date_extreme_max": 1988,
+      "date_extreme_producteur": "1978/1988",
+      "Métrage réel": 3.08,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1398,
+      "Nom": "Gestion financière, administrative et juridique (Espace public et voirie)",
+      "date_extreme_min": 1999,
+      "date_extreme_max": 2011,
+      "date_extreme_producteur": "1999/2011",
+      "Métrage réel": 57.4,
+      "Nombre d'entrée": 15
+    },
+    {
+      "Numéro Ligèo": 1418,
+      "Nom": "Direction Protocole",
+      "date_extreme_min": 1991,
+      "date_extreme_max": 2016,
+      "date_extreme_producteur": "1991/2016",
+      "Métrage réel": 14.36,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 650,
+      "Nom": "Direction Coordination territoriale et proximité",
+      "date_extreme_min": 2000,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "2000/2014",
+      "Métrage réel": 2.2,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 652,
+      "Nom": "Mission coopération territoriale",
+      "date_extreme_min": 2004,
+      "date_extreme_max": 2008,
+      "date_extreme_producteur": "2004/2008",
+      "Métrage réel": 1.4,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 629,
+      "Nom": "Planification et pilotage de gestion (direction)",
+      "date_extreme_min": 1990,
+      "date_extreme_max": 1998,
+      "date_extreme_producteur": "1990/1998",
+      "Métrage réel": 7.4,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 634,
+      "Nom": "Mission Evaluation et planification",
+      "date_extreme_min": 1993,
+      "date_extreme_max": 2009,
+      "date_extreme_producteur": "1993/2009",
+      "Métrage réel": 4.9,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 628,
+      "Nom": "Secrétariat général et audit interne",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 1995,
+      "date_extreme_producteur": "1968/1995",
+      "Métrage réel": 26.48,
+      "Nombre d'entrée": 18
+    },
+    {
+      "Numéro Ligèo": 1480,
+      "Nom": "Direction Pilotage, organisation et modernisation",
+      "date_extreme_min": 2002,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "2002/2020",
+      "Métrage réel": 6.69,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1412,
+      "Nom": "Pôle Communication, presse et protocole",
+      "date_extreme_min": 1932,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1932/2019",
+      "Métrage réel": 37.08,
+      "Nombre d'entrée": 5
+    },
+    {
+      "Numéro Ligèo": 1425,
+      "Nom": "Pôle Secrétariat général",
+      "date_extreme_min": 1998,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1998/2019",
+      "Métrage réel": 5.5,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 195969,
+      "Nom": "Direction Modernisation, document et performance",
+      "date_extreme_min": 2008,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "2008/2019",
+      "Métrage réel": 1.5,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1445,
+      "Nom": "Direction Qualité du Service public",
+      "date_extreme_min": 2003,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "2003/2017",
+      "Métrage réel": 3.8,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1446,
+      "Nom": "Service Evaluation des politiques publiques",
+      "date_extreme_min": 2006,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "2006/2017",
+      "Métrage réel": 1.4,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1579,
+      "Nom": "Direction générale adjointe Planification stratégique et gouvernance",
+      "date_extreme_min": 1963,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1963/2020",
+      "Métrage réel": 3.1,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1588,
+      "Nom": "Direction Gouvernance territoriale",
+      "date_extreme_min": 1999,
+      "date_extreme_max": 2016,
+      "date_extreme_producteur": "1999/2016",
+      "Métrage réel": 1.7,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1589,
+      "Nom": "Mission stratégique CPA Planification stratégique et gouvernance",
+      "date_extreme_min": 2000,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "2000/2019",
+      "Métrage réel": 2.4,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 276865,
+      "Nom": "Mission stratégique Nouvelle Métropole",
+      "date_extreme_min": 2017,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "2017/2019",
+      "Métrage réel": 1.3,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1406,
+      "Nom": "Actif - Présidence",
+      "date_extreme_min": 2005,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "2005/2020",
+      "Métrage réel": 1.59,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1411,
+      "Nom": "Actif - Cabinet ",
+      "date_extreme_min": 1966,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1966/2020",
+      "Métrage réel": 258.56,
+      "Nombre d'entrée": 59
+    },
+    {
+      "Numéro Ligèo": 280698,
+      "Nom": "Actif - Service Protocole",
+      "date_extreme_min": 1950,
+      "date_extreme_max": 2022,
+      "date_extreme_producteur": "1950/2022",
+      "Métrage réel": 13.8,
+      "Nombre d'entrée": 5
+    },
+    {
+      "Numéro Ligèo": 1421,
+      "Nom": "Actif - Direction générale des services",
+      "date_extreme_min": 1982,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1982/2020",
+      "Métrage réel": 44.45,
+      "Nombre d'entrée": 7
+    },
+    {
+      "Numéro Ligèo": 1448,
+      "Nom": "Actif - Direction Gouvernance institutionnelle",
+      "date_extreme_min": 1967,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1967/2019",
+      "Métrage réel": 427.71,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 1449,
+      "Nom": "Actif - Service Secrétariat des séances et des actes",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2021,
+      "date_extreme_producteur": "1968/2021",
+      "Métrage réel": 76.46000000000001,
+      "Nombre d'entrée": 10
+    },
+    {
+      "Numéro Ligèo": 1409,
+      "Nom": "Actif - Personnels auprès des groupes politiques",
+      "date_extreme_min": 1983,
+      "date_extreme_max": 2006,
+      "date_extreme_producteur": "1983/2006",
+      "Métrage réel": 4.5,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1408,
+      "Nom": "Actif - Personnels auprès des vice-présidents",
+      "date_extreme_min": 2001,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "2001/2014",
+      "Métrage réel": 3.8,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 276864,
+      "Nom": "Actif - Mission stratégique Médiation, déontologie, éthique",
+      "date_extreme_min": 2017,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "2017/2019",
+      "Métrage réel": 0.1,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 459178,
+      "Nom": "Actif - Direction générale adjointe secrétariat général et administration",
+      "date_extreme_min": 1997,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1997/2019",
+      "Métrage réel": 2.0,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1513,
+      "Nom": "Actif - Mission stratégique CPA Secrétariat général et administration",
+      "date_extreme_min": 1997,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1997/2018",
+      "Métrage réel": 1.3,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1636,
+      "Nom": "Actif - Direction Culture interne et managériale",
+      "date_extreme_min": 1993,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1993/2019",
+      "Métrage réel": 13.0,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 1635,
+      "Nom": "Actif - Direction Recherche et développement",
+      "date_extreme_min": 2014,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "2014/2019",
+      "Métrage réel": 0.6000000000000001,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1451,
+      "Nom": "Actif - Pôle Finances",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1968/2018",
+      "Métrage réel": 19.8,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1453,
+      "Nom": "Actif - Direction Gestion financière",
+      "date_extreme_min": 1987,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1987/2019",
+      "Métrage réel": 9.399999999999999,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1518,
+      "Nom": "Actif - Pôle Développement économique et emploi",
+      "date_extreme_min": 2003,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "2003/2019",
+      "Métrage réel": 9.7,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 1536,
+      "Nom": "Actif - Mission stratégique CPA Développement économique et emploi",
+      "date_extreme_min": 2002,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "2002/2020",
+      "Métrage réel": 7.300000000000001,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 275494,
+      "Nom": "Actif - Direction gouvernance & dialogue territoriaux",
+      "date_extreme_min": 1991,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1991/2019",
+      "Métrage réel": 17.4,
+      "Nombre d'entrée": 9
+    },
+    {
+      "Numéro Ligèo": 1603,
+      "Nom": "Actif - Mission stratégique CPA Réseaux, services, mobilité et transports",
+      "date_extreme_min": 1985,
+      "date_extreme_max": 2016,
+      "date_extreme_producteur": "1985/2016",
+      "Métrage réel": 5.600000000000001,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 610,
+      "Nom": "Personnels - Deuxième Direction administrative",
+      "date_extreme_min": 1862,
+      "date_extreme_max": 1998,
+      "date_extreme_producteur": "1862/1998",
+      "Métrage réel": 134.74,
+      "Nombre d'entrée": 30
+    },
+    {
+      "Numéro Ligèo": 611,
+      "Nom": "Affaires financières - Troisième Direction administrative",
+      "date_extreme_min": 1969,
+      "date_extreme_max": 1991,
+      "date_extreme_producteur": "1969/1991",
+      "Métrage réel": 6.1,
+      "Nombre d'entrée": 5
+    },
+    {
+      "Numéro Ligèo": 810,
+      "Nom": "Pôle Aménagement et cadre de vie",
+      "date_extreme_min": 2006,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "2006/2014",
+      "Métrage réel": 0.9,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 836,
+      "Nom": "Gestion financière, administrative et juridique (Aménagement et cadre de vie)",
+      "date_extreme_min": 1999,
+      "date_extreme_max": 2009,
+      "date_extreme_producteur": "1999/2009",
+      "Métrage réel": 22.7,
+      "Nombre d'entrée": 9
+    },
+    {
+      "Numéro Ligèo": 645,
+      "Nom": "Secrétariat général (Développement territorial et durable)",
+      "date_extreme_min": 2007,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "2007/2014",
+      "Métrage réel": 4.4,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 688,
+      "Nom": "Service Ressources et gestion financière",
+      "date_extreme_min": 1992,
+      "date_extreme_max": 1992,
+      "date_extreme_producteur": "1992/1992",
+      "Métrage réel": 0.0,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 721,
+      "Nom": "Direction Comptabilité et financements",
+      "date_extreme_min": 2010,
+      "date_extreme_max": 2013,
+      "date_extreme_producteur": "2010/2013",
+      "Métrage réel": 60.7,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 724,
+      "Nom": "Service Comptabilité et gestion patrimoniale",
+      "date_extreme_min": 1969,
+      "date_extreme_max": 2012,
+      "date_extreme_producteur": "1969/2012",
+      "Métrage réel": 78.8,
+      "Nombre d'entrée": 7
+    },
+    {
+      "Numéro Ligèo": 717,
+      "Nom": "Service Assurances",
+      "date_extreme_min": 1988,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1988/2018",
+      "Métrage réel": 18.1,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 708,
+      "Nom": "Service Gestion financière",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "1968/2017",
+      "Métrage réel": 65.6,
+      "Nombre d'entrée": 11
+    },
+    {
+      "Numéro Ligèo": 712,
+      "Nom": "Service Risques et assurances",
+      "date_extreme_min": 1985,
+      "date_extreme_max": 2009,
+      "date_extreme_producteur": "1985/2009",
+      "Métrage réel": 21.84,
+      "Nombre d'entrée": 14
+    },
+    {
+      "Numéro Ligèo": 706,
+      "Nom": "Service Programmation et observatoire fiscal",
+      "date_extreme_min": 1978,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1978/2019",
+      "Métrage réel": 7.02,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 696,
+      "Nom": "Service Budget et comptabilité",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2010,
+      "date_extreme_producteur": "1968/2010",
+      "Métrage réel": 294.23,
+      "Nombre d'entrée": 41
+    },
+    {
+      "Numéro Ligèo": 1403,
+      "Nom": "Gestion interne (Résidus urbains)",
+      "date_extreme_min": 1990,
+      "date_extreme_max": 1997,
+      "date_extreme_producteur": "1990/1997",
+      "Métrage réel": 3.4,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1404,
+      "Nom": "Gestion financière, administrative et juridique (Résidus urbains)",
+      "date_extreme_min": 1996,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "1996/2014",
+      "Métrage réel": 25.0,
+      "Nombre d'entrée": 5
+    },
+    {
+      "Numéro Ligèo": 779,
+      "Nom": "Gestion financière, administrative et juridique (Pôle Développement de la Métropole)",
+      "date_extreme_min": 1998,
+      "date_extreme_max": 2008,
+      "date_extreme_producteur": "1998/2008",
+      "Métrage réel": 8.299999999999999,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 917,
+      "Nom": "Direction Ressources humaines",
+      "date_extreme_min": 2011,
+      "date_extreme_max": 2012,
+      "date_extreme_producteur": "2011/2012",
+      "Métrage réel": 5.2,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 941,
+      "Nom": "Service Pilotage et politiques RH",
+      "date_extreme_min": 2001,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "2001/2014",
+      "Métrage réel": 22.56,
+      "Nombre d'entrée": 7
+    },
+    {
+      "Numéro Ligèo": 956,
+      "Nom": "Service Pilotage RH et dialogue social",
+      "date_extreme_min": 2010,
+      "date_extreme_max": 2011,
+      "date_extreme_producteur": "2010/2011",
+      "Métrage réel": 2.6,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 920,
+      "Nom": "Service Gestion administrative du personnel",
+      "date_extreme_min": 1956,
+      "date_extreme_max": 1996,
+      "date_extreme_producteur": "1956/1996",
+      "Métrage réel": 21.7,
+      "Nombre d'entrée": 10
+    },
+    {
+      "Numéro Ligèo": 931,
+      "Nom": "Service Prévention, suivi médical et social",
+      "date_extreme_min": 1947,
+      "date_extreme_max": 2016,
+      "date_extreme_producteur": "1947/2016",
+      "Métrage réel": 2.7,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 961,
+      "Nom": "Service Statut, vie administrative et paie",
+      "date_extreme_min": 1974,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "1974/2017",
+      "Métrage réel": 58.9,
+      "Nombre d'entrée": 15
+    },
+    {
+      "Numéro Ligèo": 964,
+      "Nom": "Service Recrutement et mobilité",
+      "date_extreme_min": 1997,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "1997/2014",
+      "Métrage réel": 6.8,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 965,
+      "Nom": "Service Formation, orientation et communication interne",
+      "date_extreme_min": 1993,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "1993/2014",
+      "Métrage réel": 13.7,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 966,
+      "Nom": "Service Conditions de travail et politiques sociales",
+      "date_extreme_min": 1984,
+      "date_extreme_max": 2012,
+      "date_extreme_producteur": "1984/2012",
+      "Métrage réel": 25.6,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 894,
+      "Nom": "Service Relations sociales",
+      "date_extreme_min": 1989,
+      "date_extreme_max": 2010,
+      "date_extreme_producteur": "1989/2010",
+      "Métrage réel": 2.7,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1289,
+      "Nom": "Gestion financière, administrative et juridique (Moyens généraux)",
+      "date_extreme_min": 1996,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "1996/2014",
+      "Métrage réel": 45.9,
+      "Nombre d'entrée": 25
+    },
+    {
+      "Numéro Ligèo": 1281,
+      "Nom": "Service Achats et logistique",
+      "date_extreme_min": 2004,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "2004/2014",
+      "Métrage réel": 32.0,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 1285,
+      "Nom": "Service Parc automobile",
+      "date_extreme_min": 1976,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "1976/2017",
+      "Métrage réel": 1.9,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1303,
+      "Nom": "Service Gestion technique des bâtiments",
+      "date_extreme_min": 1969,
+      "date_extreme_max": 2005,
+      "date_extreme_producteur": "1969/2005",
+      "Métrage réel": 2.3,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1302,
+      "Nom": "Service Sécurité",
+      "date_extreme_min": 2006,
+      "date_extreme_max": 2011,
+      "date_extreme_producteur": "2006/2011",
+      "Métrage réel": 0.1,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1305,
+      "Nom": "Service Restaurant",
+      "date_extreme_min": 1984,
+      "date_extreme_max": 2012,
+      "date_extreme_producteur": "1984/2012",
+      "Métrage réel": 5.0,
+      "Nombre d'entrée": 8
+    },
+    {
+      "Numéro Ligèo": 1304,
+      "Nom": "Service Déplacement des agents",
+      "date_extreme_min": 2007,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "2007/2018",
+      "Métrage réel": 4.8,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1249,
+      "Nom": "Direction Systèmes d'information",
+      "date_extreme_min": 1970,
+      "date_extreme_max": 2015,
+      "date_extreme_producteur": "1970/2015",
+      "Métrage réel": 4.300000000000001,
+      "Nombre d'entrée": 7
+    },
+    {
+      "Numéro Ligèo": 1260,
+      "Nom": "Gestion interne (Systèmes d'information)",
+      "date_extreme_min": 1993,
+      "date_extreme_max": 2005,
+      "date_extreme_producteur": "1993/2005",
+      "Métrage réel": 20.34,
+      "Nombre d'entrée": 5
+    },
+    {
+      "Numéro Ligèo": 1262,
+      "Nom": "Gestion financière, administrative et juridique (Systèmes d'information)",
+      "date_extreme_min": 1971,
+      "date_extreme_max": 2012,
+      "date_extreme_producteur": "1971/2012",
+      "Métrage réel": 34.9,
+      "Nombre d'entrée": 12
+    },
+    {
+      "Numéro Ligèo": 1101,
+      "Nom": "Direction Affaires juridiques et administration",
+      "date_extreme_min": 1986,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "1986/2014",
+      "Métrage réel": 2.9,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1104,
+      "Nom": "Service Affaires juridiques et marchés publics",
+      "date_extreme_min": 1973,
+      "date_extreme_max": 2013,
+      "date_extreme_producteur": "1973/2013",
+      "Métrage réel": 34.0,
+      "Nombre d'entrée": 9
+    },
+    {
+      "Numéro Ligèo": 733,
+      "Nom": "Secrétariat général (Développement économique)",
+      "date_extreme_min": 1999,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "1999/2014",
+      "Métrage réel": 23.3,
+      "Nombre d'entrée": 9
+    },
+    {
+      "Numéro Ligèo": 800,
+      "Nom": "Secrétariat général (Rayonnement de la métropole)",
+      "date_extreme_min": 2003,
+      "date_extreme_max": 2016,
+      "date_extreme_producteur": "2003/2016",
+      "Métrage réel": 24.4,
+      "Nombre d'entrée": 14
+    },
+    {
+      "Numéro Ligèo": 1341,
+      "Nom": "Contrôle administratif et financier",
+      "date_extreme_min": 1994,
+      "date_extreme_max": 1996,
+      "date_extreme_producteur": "1994/1996",
+      "Métrage réel": 1.7,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1358,
+      "Nom": "Gestion interne (Transports collectifs et stationnement)",
+      "date_extreme_min": 1978,
+      "date_extreme_max": 2005,
+      "date_extreme_producteur": "1978/2005",
+      "Métrage réel": 256.84,
+      "Nombre d'entrée": 12
+    },
+    {
+      "Numéro Ligèo": 1359,
+      "Nom": "Gestion financière, administrative et juridique (Transports collectifs et stationnement)",
+      "date_extreme_min": 1993,
+      "date_extreme_max": 2007,
+      "date_extreme_producteur": "1993/2007",
+      "Métrage réel": 19.0,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1390,
+      "Nom": "Gestion interne (Voirie, infrastructures et circulation)",
+      "date_extreme_min": 1990,
+      "date_extreme_max": 1999,
+      "date_extreme_producteur": "1990/1999",
+      "Métrage réel": 11.2,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 249183,
+      "Nom": "Direction du personnel",
+      "date_extreme_min": 1875,
+      "date_extreme_max": 1995,
+      "date_extreme_producteur": "1875/1995",
+      "Métrage réel": 35.5,
+      "Nombre d'entrée": 22
+    },
+    {
+      "Numéro Ligèo": 626,
+      "Nom": "Direction des Systèmes et contrôle de gestion",
+      "date_extreme_min": 1974,
+      "date_extreme_max": 1997,
+      "date_extreme_producteur": "1974/1997",
+      "Métrage réel": 23.2,
+      "Nombre d'entrée": 12
+    },
+    {
+      "Numéro Ligèo": 249808,
+      "Nom": "Systèmes d'information et pilotage de gestion (direction)",
+      "date_extreme_min": 1982,
+      "date_extreme_max": 1999,
+      "date_extreme_producteur": "1982/1999",
+      "Métrage réel": 8.8,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 625,
+      "Nom": "Ressources humaines",
+      "date_extreme_min": 1958,
+      "date_extreme_max": 1999,
+      "date_extreme_producteur": "1958/1999",
+      "Métrage réel": 66.5,
+      "Nombre d'entrée": 35
+    },
+    {
+      "Numéro Ligèo": 624,
+      "Nom": "Finances",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 1998,
+      "date_extreme_producteur": "1968/1998",
+      "Métrage réel": 137.25,
+      "Nombre d'entrée": 66
+    },
+    {
+      "Numéro Ligèo": 1468,
+      "Nom": "Pôle Ressources humaines",
+      "date_extreme_min": 1970,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1970/2019",
+      "Métrage réel": 35.8,
+      "Nombre d'entrée": 5
+    },
+    {
+      "Numéro Ligèo": 195975,
+      "Nom": "Equipe Accueil et qualité",
+      "date_extreme_min": 2011,
+      "date_extreme_max": 2015,
+      "date_extreme_producteur": "2011/2015",
+      "Métrage réel": 3.2,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1474,
+      "Nom": "Service Formation et développement des compétences",
+      "date_extreme_min": 2008,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "2008/2014",
+      "Métrage réel": 0.3,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1473,
+      "Nom": "Unité fonctionnelle Restaurant",
+      "date_extreme_min": 2005,
+      "date_extreme_max": 2009,
+      "date_extreme_producteur": "2005/2009",
+      "Métrage réel": 0.0,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 654,
+      "Nom": "Secrétariat général (Aménagement et habitat)",
+      "date_extreme_min": 1992,
+      "date_extreme_max": 2015,
+      "date_extreme_producteur": "1992/2015",
+      "Métrage réel": 63.53,
+      "Nombre d'entrée": 10
+    },
+    {
+      "Numéro Ligèo": 1634,
+      "Nom": "Pôle Innovation et dialogues",
+      "date_extreme_min": 2015,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "2015/2019",
+      "Métrage réel": 0.3,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1427,
+      "Nom": "Direction Affaires juridiques",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2016,
+      "date_extreme_producteur": "1968/2016",
+      "Métrage réel": 19.04,
+      "Nombre d'entrée": 30
+    },
+    {
+      "Numéro Ligèo": 876,
+      "Nom": "Direction Ressources humaines et organisation",
+      "date_extreme_min": 1996,
+      "date_extreme_max": 2005,
+      "date_extreme_producteur": "1996/2005",
+      "Métrage réel": 1.4,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 913,
+      "Nom": "Gestion financière, administrative et juridique (Ressources humaines)",
+      "date_extreme_min": 1990,
+      "date_extreme_max": 2008,
+      "date_extreme_producteur": "1990/2008",
+      "Métrage réel": 3.2,
+      "Nombre d'entrée": 9
+    },
+    {
+      "Numéro Ligèo": 883,
+      "Nom": "Service Emploi et accompagnement des personnels",
+      "date_extreme_min": 1994,
+      "date_extreme_max": 2008,
+      "date_extreme_producteur": "1994/2008",
+      "Métrage réel": 5.5,
+      "Nombre d'entrée": 8
+    },
+    {
+      "Numéro Ligèo": 929,
+      "Nom": "Service Formation et communication interne",
+      "date_extreme_min": 1985,
+      "date_extreme_max": 2008,
+      "date_extreme_producteur": "1985/2008",
+      "Métrage réel": 15.1,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 878,
+      "Nom": "Service Statut et vie administrative",
+      "date_extreme_min": 1967,
+      "date_extreme_max": 2010,
+      "date_extreme_producteur": "1967/2010",
+      "Métrage réel": 85.075,
+      "Nombre d'entrée": 26
+    },
+    {
+      "Numéro Ligèo": 1479,
+      "Nom": "Service Pilotage statutaire et protection sociale",
+      "date_extreme_min": 1990,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "1990/2017",
+      "Métrage réel": 38.3,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 1429,
+      "Nom": "Service Ingénierie juridique et assurances",
+      "date_extreme_min": 1980,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "1980/2017",
+      "Métrage réel": 11.3,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 1462,
+      "Nom": "Service Ordonnancement et qualité",
+      "date_extreme_min": 2006,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "2006/2017",
+      "Métrage réel": 181.8,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 259792,
+      "Nom": "Unité fonctionnelle Appui au pilotage et expertise",
+      "date_extreme_min": 1999,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1999/2018",
+      "Métrage réel": 15.5,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 256101,
+      "Nom": "Unité fonctionnelle Ingénierie juridique centrale",
+      "date_extreme_min": 1972,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1972/2018",
+      "Métrage réel": 2.7,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 256095,
+      "Nom": "Actif - Direction Ingénierie juridique et Assurances",
+      "date_extreme_min": 1868,
+      "date_extreme_max": 2023,
+      "date_extreme_producteur": "1868/2023",
+      "Métrage réel": 11.0,
+      "Nombre d'entrée": 5
+    },
+    {
+      "Numéro Ligèo": 256102,
+      "Nom": "Actif - Unité fonctionnelle Assurances",
+      "date_extreme_min": 1990,
+      "date_extreme_max": 2021,
+      "date_extreme_producteur": "1990/2021",
+      "Métrage réel": 26.2,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 1437,
+      "Nom": "Actif - Direction Commande publique",
+      "date_extreme_min": 2011,
+      "date_extreme_max": 2022,
+      "date_extreme_producteur": "2011/2022",
+      "Métrage réel": 10.732,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1439,
+      "Nom": "Actif - Service Marchés publics (CSP Marchés)",
+      "date_extreme_min": 2006,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "2006/2019",
+      "Métrage réel": 36.3,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 1442,
+      "Nom": "Actif - Centre de services partagés CSP marchés TECHNIQUE - Unité fonctionnelle Espace public et réseau",
+      "date_extreme_min": 2005,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "2005/2020",
+      "Métrage réel": 58.8,
+      "Nombre d'entrée": 8
+    },
+    {
+      "Numéro Ligèo": 1441,
+      "Nom": "Actif - Centre de services partagés CSP marchés SUPPORT",
+      "date_extreme_min": 2010,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "2010/2019",
+      "Métrage réel": 8.4,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1443,
+      "Nom": "Actif - Centre de services partagés CSP marchés TERRITOIRES",
+      "date_extreme_min": 2005,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "2005/2020",
+      "Métrage réel": 85.5,
+      "Nombre d'entrée": 11
+    },
+    {
+      "Numéro Ligèo": 1459,
+      "Nom": "Actif - Centre de services partagés CSP finances TECHNIQUE - Unité fonctionnelle Central",
+      "date_extreme_min": 2003,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "2003/2019",
+      "Métrage réel": 16.4,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1457,
+      "Nom": "Actif - Centre de services partagés CSP finances SUPPORT",
+      "date_extreme_min": 1984,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1984/2020",
+      "Métrage réel": 36.6,
+      "Nombre d'entrée": 8
+    },
+    {
+      "Numéro Ligèo": 1461,
+      "Nom": "Actif - Centre de services partagés CSP finances TECHNIQUE - Unité fonctionnelle Services",
+      "date_extreme_min": 1999,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1999/2019",
+      "Métrage réel": 14.1,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1460,
+      "Nom": "Actif - Centre de services partagés CSP finances TERRITOIRES",
+      "date_extreme_min": 1991,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1991/2020",
+      "Métrage réel": 19.4,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 1440,
+      "Nom": "Actif - Centre de services partagés CSP marchés TECHNIQUE - Unité fonctionnelle Services urbains",
+      "date_extreme_min": 1991,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1991/2018",
+      "Métrage réel": 35.90000000000001,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1498,
+      "Nom": "Actif - Service Stratégie et économie du patrimoine",
+      "date_extreme_min": 1966,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1966/2020",
+      "Métrage réel": 32.28,
+      "Nombre d'entrée": 11
+    },
+    {
+      "Numéro Ligèo": 1501,
+      "Nom": "Actif - Service Logistique",
+      "date_extreme_min": 1998,
+      "date_extreme_max": 2010,
+      "date_extreme_producteur": "1998/2010",
+      "Métrage réel": 0.9,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1434,
+      "Nom": "Actif - Service Courrier",
+      "date_extreme_min": 2016,
+      "date_extreme_max": 2022,
+      "date_extreme_producteur": "2016/2022",
+      "Métrage réel": 167.8,
+      "Nombre d'entrée": 8
+    },
+    {
+      "Numéro Ligèo": 1503,
+      "Nom": "Actif - Service Ressources partagées",
+      "date_extreme_min": 1995,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1995/2019",
+      "Métrage réel": 11.7,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1511,
+      "Nom": "Actif - Unité fonctionnelle Services et déplacements",
+      "date_extreme_min": 1997,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1997/2019",
+      "Métrage réel": 0.8,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1488,
+      "Nom": "Actif - Direction Systèmes d'information et de communication",
+      "date_extreme_min": 1993,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1993/2020",
+      "Métrage réel": 15.2,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1489,
+      "Nom": "Actif - Service Intégration et développement applicatif",
+      "date_extreme_min": 1989,
+      "date_extreme_max": 2004,
+      "date_extreme_producteur": "1989/2004",
+      "Métrage réel": 1.0,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 694016,
+      "Nom": "Actif - Direction générale adjointe Ressources humaines, innovation et dialogues",
+      "date_extreme_min": 2017,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "2017/2020",
+      "Métrage réel": 1.5,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 276871,
+      "Nom": "Actif - Mission stratégique CPA Ressources humaines - Innovation et dialogues",
+      "date_extreme_min": 1988,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1988/2018",
+      "Métrage réel": 0.5,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1423,
+      "Nom": "Actif - Mission stratégique Médecine de prévention",
+      "date_extreme_min": 1905,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1905/2019",
+      "Métrage réel": 31.2,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 276882,
+      "Nom": "Actif - Mission stratégique Contrôle et conformité RH",
+      "date_extreme_min": 2013,
+      "date_extreme_max": 2023,
+      "date_extreme_producteur": "2013/2023",
+      "Métrage réel": 0.4,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 263489,
+      "Nom": "Actif - Direction vie de l'agent.e",
+      "date_extreme_min": 2001,
+      "date_extreme_max": 2021,
+      "date_extreme_producteur": "2001/2021",
+      "Métrage réel": 10.0,
+      "Nombre d'entrée": 5
+    },
+    {
+      "Numéro Ligèo": 1485,
+      "Nom": "Actif - Service Correspondants RH",
+      "date_extreme_min": 2016,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "2016/2018",
+      "Métrage réel": 10.6,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 195973,
+      "Nom": "Actif - Service Formation et documentation",
+      "date_extreme_min": 2002,
+      "date_extreme_max": 2015,
+      "date_extreme_producteur": "2002/2015",
+      "Métrage réel": 7.2,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 248438,
+      "Nom": "Actif - Service Action sociale, conciergerie et restaurant",
+      "date_extreme_min": 1995,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1995/2020",
+      "Métrage réel": 26.3,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 276919,
+      "Nom": "Actif - Unité fonctionnelle Protection sociale et retraite",
+      "date_extreme_min": 1981,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1981/2019",
+      "Métrage réel": 7.3,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 276910,
+      "Nom": "Actif - Direction Pilotage et administration RH",
+      "date_extreme_min": 2002,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "2002/2020",
+      "Métrage réel": 15.2,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 195974,
+      "Nom": "Actif - Service Recrutement",
+      "date_extreme_min": 2011,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "2011/2020",
+      "Métrage réel": 24.3,
+      "Nombre d'entrée": 8
+    },
+    {
+      "Numéro Ligèo": 1478,
+      "Nom": "Actif - Service Gestion individuelle de la paie et de la carrière",
+      "date_extreme_min": 1969,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1969/2018",
+      "Métrage réel": 27.1,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 276920,
+      "Nom": "Actif - Unité fonctionnelle Analyse statutaire",
+      "date_extreme_min": 1999,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1999/2019",
+      "Métrage réel": 0.8999999999999999,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1637,
+      "Nom": "Actif - Unité fonctionnelle communication interne",
+      "date_extreme_min": 2015,
+      "date_extreme_max": 2015,
+      "date_extreme_producteur": "2015/2015",
+      "Métrage réel": 0.0,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1639,
+      "Nom": "Actif - Mission stratégique Dialogue social",
+      "date_extreme_min": 1975,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1975/2019",
+      "Métrage réel": 5.7,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1466,
+      "Nom": "Actif - Direction Stratégie financière",
+      "date_extreme_min": 1993,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1993/2019",
+      "Métrage réel": 5.8,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 719,
+      "Nom": "Actif - Service Budget et programmation",
+      "date_extreme_min": 1998,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1998/2018",
+      "Métrage réel": 5.2,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1467,
+      "Nom": "Actif - Observatoire fiscal et dotations",
+      "date_extreme_min": 1979,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1979/2018",
+      "Métrage réel": 11.7,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 723,
+      "Nom": "Actif - Service Dette et garanties d'emprunt",
+      "date_extreme_min": 1973,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1973/2019",
+      "Métrage réel": 33.8,
+      "Nombre d'entrée": 11
+    },
+    {
+      "Numéro Ligèo": 973,
+      "Nom": "Actif - Service Contrôle de gestion",
+      "date_extreme_min": 1988,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1988/2019",
+      "Métrage réel": 47.2,
+      "Nombre d'entrée": 9
+    },
+    {
+      "Numéro Ligèo": 1454,
+      "Nom": "Actif - Service Réalisation financière",
+      "date_extreme_min": 1994,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1994/2019",
+      "Métrage réel": 163.25,
+      "Nombre d'entrée": 15
+    },
+    {
+      "Numéro Ligèo": 1465,
+      "Nom": "Actif - Service Expertises financières",
+      "date_extreme_min": 1993,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1993/2019",
+      "Métrage réel": 19.3,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 1,
+      "Nom": "ASALAE_Finances",
+      "date_extreme_min": 9999,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "9999/2019",
+      "Métrage réel": 16.4,
+      "Nombre d'entrée": 38
+    },
+    {
+      "Numéro Ligèo": 5,
+      "Nom": "Communication interne @",
+      "date_extreme_min": 2015,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "2015/2017",
+      "Métrage réel": 38.6,
+      "Nombre d'entrée": 7
+    },
+    {
+      "Numéro Ligèo": 1646,
+      "Nom": "Eurométropole Lille-Courtrai-Tournai",
+      "date_extreme_min": 2011,
+      "date_extreme_max": 2016,
+      "date_extreme_producteur": "2011/2016",
+      "Métrage réel": 1.2,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 606,
+      "Nom": "Abattoirs - Marchés",
+      "date_extreme_min": 1901,
+      "date_extreme_max": 1989,
+      "date_extreme_producteur": "1901/1989",
+      "Métrage réel": 1.2,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 791,
+      "Nom": "Service Développement économique",
+      "date_extreme_min": 2002,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "2002/2019",
+      "Métrage réel": 3.9,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 761,
+      "Nom": "Service Accueil et développement des entreprises",
+      "date_extreme_min": 1999,
+      "date_extreme_max": 2007,
+      "date_extreme_producteur": "1999/2007",
+      "Métrage réel": 11.3,
+      "Nombre d'entrée": 5
+    },
+    {
+      "Numéro Ligèo": 728,
+      "Nom": "Pôle Développement économique",
+      "date_extreme_min": 1988,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1988/2018",
+      "Métrage réel": 17.12,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 739,
+      "Nom": "Service Recherche et innovation",
+      "date_extreme_min": 1993,
+      "date_extreme_max": 2008,
+      "date_extreme_producteur": "1993/2008",
+      "Métrage réel": 3.3,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 741,
+      "Nom": "Service Accompagnement des entreprises et du commerce",
+      "date_extreme_min": 1997,
+      "date_extreme_max": 2011,
+      "date_extreme_producteur": "1997/2011",
+      "Métrage réel": 7.3,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 804,
+      "Nom": "Service Attractivité et solidarités internationales",
+      "date_extreme_min": 1990,
+      "date_extreme_max": 2013,
+      "date_extreme_producteur": "1990/2013",
+      "Métrage réel": 9.700000000000001,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 773,
+      "Nom": "Pôle Relations internationales",
+      "date_extreme_min": 2000,
+      "date_extreme_max": 2007,
+      "date_extreme_producteur": "2000/2007",
+      "Métrage réel": 1.2,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 772,
+      "Nom": "Direction Relations internationales",
+      "date_extreme_min": 1998,
+      "date_extreme_max": 1998,
+      "date_extreme_producteur": "1998/1998",
+      "Métrage réel": 0.0,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 775,
+      "Nom": "Service Coopération décentralisée",
+      "date_extreme_min": 1992,
+      "date_extreme_max": 2003,
+      "date_extreme_producteur": "1992/2003",
+      "Métrage réel": 2.4,
+      "Nombre d'entrée": 3
+    },
+    {
+      "Numéro Ligèo": 603,
+      "Nom": "Direction Relations presse",
+      "date_extreme_min": 1992,
+      "date_extreme_max": 2009,
+      "date_extreme_producteur": "1992/2009",
+      "Métrage réel": 3.4,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1419,
+      "Nom": "Service Technique et opérationnel",
+      "date_extreme_min": 2014,
+      "date_extreme_max": 2015,
+      "date_extreme_producteur": "2014/2015",
+      "Métrage réel": 3.0,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 50776,
+      "Nom": "Equipe administrative",
+      "date_extreme_min": 2015,
+      "date_extreme_max": 2015,
+      "date_extreme_producteur": "2015/2015",
+      "Métrage réel": 0.7,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 602,
+      "Nom": "Direction Protocole et relations publiques",
+      "date_extreme_min": 1988,
+      "date_extreme_max": 2008,
+      "date_extreme_producteur": "1988/2008",
+      "Métrage réel": 20.2,
+      "Nombre d'entrée": 14
+    },
+    {
+      "Numéro Ligèo": 651,
+      "Nom": "Direction Euro-métropole et partenariats européens",
+      "date_extreme_min": 1989,
+      "date_extreme_max": 2012,
+      "date_extreme_producteur": "1989/2012",
+      "Métrage réel": 13.5,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 653,
+      "Nom": "Mission partenariats et projets européens",
+      "date_extreme_min": 2000,
+      "date_extreme_max": 2010,
+      "date_extreme_producteur": "2000/2010",
+      "Métrage réel": 3.3,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 627,
+      "Nom": "Stratégies et développement",
+      "date_extreme_min": 1984,
+      "date_extreme_max": 1993,
+      "date_extreme_producteur": "1984/1993",
+      "Métrage réel": 39.6,
+      "Nombre d'entrée": 7
+    },
+    {
+      "Numéro Ligèo": 1529,
+      "Nom": "Direction Stratégie, recherche, innovation et enseignement supérieur",
+      "date_extreme_min": 2015,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "2015/2018",
+      "Métrage réel": 0.3,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1526,
+      "Nom": "Direction Attractivité et coopérations internationales",
+      "date_extreme_min": 1988,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1988/2018",
+      "Métrage réel": 8.1,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 1528,
+      "Nom": "Service Relations internationales",
+      "date_extreme_min": 2000,
+      "date_extreme_max": 2013,
+      "date_extreme_producteur": "2000/2013",
+      "Métrage réel": 1.0,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1523,
+      "Nom": "Service Solutions entreprises",
+      "date_extreme_min": 2002,
+      "date_extreme_max": 2012,
+      "date_extreme_producteur": "2002/2012",
+      "Métrage réel": 9.8,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 1420,
+      "Nom": "Direction Presse",
+      "date_extreme_min": 1979,
+      "date_extreme_max": 1989,
+      "date_extreme_producteur": "1979/1989",
+      "Métrage réel": 29.1,
+      "Nombre d'entrée": 2
+    },
+    {
+      "Numéro Ligèo": 276913,
+      "Nom": "Mission stratégique Développement économique des territoires et emploi",
+      "date_extreme_min": 1998,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "1998/2019",
+      "Métrage réel": 7.2,
+      "Nombre d'entrée": 7
+    },
+    {
+      "Numéro Ligèo": 1413,
+      "Nom": "Actif - Direction Communication",
+      "date_extreme_min": 1983,
+      "date_extreme_max": 2014,
+      "date_extreme_producteur": "1983/2014",
+      "Métrage réel": 35.27,
+      "Nombre d'entrée": 34
+    },
+    {
+      "Numéro Ligèo": 276914,
+      "Nom": "Actif - Direction Parcours entreprises",
+      "date_extreme_min": 1983,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1983/2018",
+      "Métrage réel": 8.0,
+      "Nombre d'entrée": 4
+    },
+    {
+      "Numéro Ligèo": 275978,
+      "Nom": "Actif - Service animation et services",
+      "date_extreme_min": 1977,
+      "date_extreme_max": 2018,
+      "date_extreme_producteur": "1977/2018",
+      "Métrage réel": 11.3,
+      "Nombre d'entrée": 6
+    },
+    {
+      "Numéro Ligèo": 321475,
+      "Nom": "Actif - Unité Fonctionnelle Plateforme de services",
+      "date_extreme_min": 2002,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "2002/2017",
+      "Métrage réel": 4.6,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 276916,
+      "Nom": "Actif - Service Aménagement économique et implantation",
+      "date_extreme_min": 1968,
+      "date_extreme_max": 2020,
+      "date_extreme_producteur": "1968/2020",
+      "Métrage réel": 42.5,
+      "Nombre d'entrée": 19
+    },
+    {
+      "Numéro Ligèo": 276915,
+      "Nom": "Actif - Direction Attractivité et innovation",
+      "date_extreme_min": 2008,
+      "date_extreme_max": 2015,
+      "date_extreme_producteur": "2008/2015",
+      "Métrage réel": 0.7,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 276917,
+      "Nom": "Actif - Service attractivité et action internationale",
+      "date_extreme_min": 2017,
+      "date_extreme_max": 2019,
+      "date_extreme_producteur": "2017/2019",
+      "Métrage réel": 0.2,
+      "Nombre d'entrée": 1
+    },
+    {
+      "Numéro Ligèo": 4,
+      "Nom": "Développement économique @",
+      "date_extreme_min": 2004,
+      "date_extreme_max": 2017,
+      "date_extreme_producteur": "2004/2017",
+      "Métrage réel": 29.0,
+      "Nombre d'entrée": 1
+    }
+  ]
+}

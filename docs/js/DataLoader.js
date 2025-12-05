@@ -87,7 +87,10 @@ export class DataLoader {
         metrage: func['Métrage réel'] || 0,
         nombreEntrees: func["Nombre d'entrée"] || 0,
         url: func.url || '',
-        urlRecherche: func.url_recherche || 'https://www.archives13.fr/archive/recherche/fonds/n:93'
+        urlRecherche: func.url_recherche || 'https://www.archives13.fr/archive/recherche/fonds/n:93',
+        nbInventairesEnLigne: func.nb_inventaires_en_ligne || 0,
+        nbNoticesEnLigne: func.nb_notices_en_ligne || 0,
+        inventairesPrincipaux: func.inventaires_principaux || []
       });
       colors.push(functionColors[func.fonction] || '#888888');
     }

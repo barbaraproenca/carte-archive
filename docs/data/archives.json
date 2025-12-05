@@ -10,7 +10,46 @@
       "Nombre d'entrée": 45,
       "Thematique": "Fonds anciens",
       "url": "https://www.archives13.fr/n/archives-anciennes/n:101",
-      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93",
+      "nb_inventaires_en_ligne": 110,
+      "nb_notices_en_ligne": 82014,
+      "inventaires_principaux": [
+        {
+          "cote": "2 C",
+          "titre": "Contrôle des actes",
+          "dates": "1692-1829",
+          "nb_notices": 2688,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_2368268"
+        },
+        {
+          "cote": "309 E",
+          "titre": "Etude Zeender (Aix-en-Provence)",
+          "dates": "1331 - 1945",
+          "nb_notices": 2376,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_1913433"
+        },
+        {
+          "cote": "376 E",
+          "titre": "Etude Claire Camille / Thomas Camille (Salon-de-Provence)",
+          "dates": "1301-1939",
+          "nb_notices": 2177,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_1782980"
+        },
+        {
+          "cote": "308 E",
+          "titre": "Etude Les Notaires des Allées (Aix-en-Provence)",
+          "dates": "1277 - 1912",
+          "nb_notices": 2125,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_1903514"
+        },
+        {
+          "cote": "302 E",
+          "titre": "Étude Les notaires des Allées (Aix-en-Provence)",
+          "dates": "1301 - 1933",
+          "nb_notices": 2057,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_1876139"
+        }
+      ]
     },
     {
       "fonction": "ARCHIVES REVOLUTIONNAIRES",
@@ -22,7 +61,18 @@
       "Nombre d'entrée": 25,
       "Thematique": "Fonds revolutionnaires",
       "url": "https://www.archives13.fr/n/archives-revolutionnaires/n:102",
-      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93",
+      "nb_inventaires_en_ligne": 1,
+      "nb_notices_en_ligne": 3664,
+      "inventaires_principaux": [
+        {
+          "cote": "L",
+          "titre": "Administrations et tribunaux de l'époque révolutionnaire",
+          "dates": "1789-an VIII",
+          "nb_notices": 3664,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_1072239"
+        }
+      ]
     },
     {
       "fonction": "ARCHIVES MODERNES ET CONTEMPORAINES",
@@ -34,7 +84,46 @@
       "Nombre d'entrée": 1500,
       "Thematique": "Fonds publics modernes",
       "url": "https://www.archives13.fr/n/archives-modernes-et-contemporaines/n:103",
-      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93",
+      "nb_inventaires_en_ligne": 815,
+      "nb_notices_en_ligne": 118462,
+      "inventaires_principaux": [
+        {
+          "cote": "2 U",
+          "titre": "Cour d'appel d'Aix-en-Provence et cour d'assises des Bouches-du-Rhône",
+          "dates": "1790-1968",
+          "nb_notices": 8127,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_2088365"
+        },
+        {
+          "cote": "4 U",
+          "titre": "Justices de paix et tribunaux de simple police des Bouches-du-Rhône",
+          "dates": "1704-1974",
+          "nb_notices": 6497,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_2423203"
+        },
+        {
+          "cote": "Tribunal de commerce de Marseille (1756-1960)",
+          "titre": "Tribunal de commerce de Marseille (1756-1960)",
+          "dates": "",
+          "nb_notices": 6118,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_2685349"
+        },
+        {
+          "cote": "3 U 1, 1 W, 2 W, 108 W, 1594 W, 1797 W",
+          "titre": "Tribunal de première instance d'Aix-en-Provence",
+          "dates": "1789-1978",
+          "nb_notices": 5604,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_12669"
+        },
+        {
+          "cote": "3046 W",
+          "titre": "Conseil général. - Cabinet du président, activités",
+          "dates": "1993-2014",
+          "nb_notices": 1901,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_2623640"
+        }
+      ]
     },
     {
       "fonction": "ARCHIVES HOSPITALIERES",
@@ -46,7 +135,10 @@
       "Nombre d'entrée": 120,
       "Thematique": "Sante et assistance",
       "url": "https://www.archives13.fr/n/archives-hospitalieres/n:104",
-      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93",
+      "nb_inventaires_en_ligne": 0,
+      "nb_notices_en_ligne": 0,
+      "inventaires_principaux": []
     },
     {
       "fonction": "ARCHIVES COMMUNALES ET INTERCOMMUNALES DEPOSEES",
@@ -58,7 +150,10 @@
       "Nombre d'entrée": 200,
       "Thematique": "Fonds communaux",
       "url": "https://www.archives13.fr/n/archives-communales-et-intercommunales-deposees/n:105",
-      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93",
+      "nb_inventaires_en_ligne": 0,
+      "nb_notices_en_ligne": 0,
+      "inventaires_principaux": []
     },
     {
       "fonction": "ARCHIVES PRIVEES",
@@ -70,7 +165,46 @@
       "Nombre d'entrée": 350,
       "Thematique": "Fonds prives",
       "url": "https://www.archives13.fr/n/archives-privees/n:106",
-      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93",
+      "nb_inventaires_en_ligne": 51,
+      "nb_notices_en_ligne": 10594,
+      "inventaires_principaux": [
+        {
+          "cote": "35 J",
+          "titre": "Actes de catholicité du diocèse de Marseille",
+          "dates": "1791-1923",
+          "nb_notices": 2941,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_3891828"
+        },
+        {
+          "cote": "315 J",
+          "titre": "Fédération départementale du Parti communiste français",
+          "dates": "1912-2017",
+          "nb_notices": 1105,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_2104916"
+        },
+        {
+          "cote": "250 J",
+          "titre": "Mario Fabre (architecte)",
+          "dates": "1964-2005",
+          "nb_notices": 722,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_541652"
+        },
+        {
+          "cote": "65 J",
+          "titre": "René Egger (architecte)",
+          "dates": "1948-1990",
+          "nb_notices": 631,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_1053865"
+        },
+        {
+          "cote": "34 J",
+          "titre": "Fabrique de la basilique de Notre-Dame de la Garde",
+          "dates": "1627-1976",
+          "nb_notices": 462,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_11390"
+        }
+      ]
     },
     {
       "fonction": "FONDS ICONOGRAPHIQUES ET AUDIOVISUELS",
@@ -82,7 +216,39 @@
       "Nombre d'entrée": 180,
       "Thematique": "Images et sons",
       "url": "https://www.archives13.fr/n/fonds-iconographiques-et-audiovisuels/n:107",
-      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93",
+      "nb_inventaires_en_ligne": 4,
+      "nb_notices_en_ligne": 202,
+      "inventaires_principaux": [
+        {
+          "cote": "155 Fi",
+          "titre": "Constat d'état des dommages de guerre dans les ports de Marseille et de Port-de-Bouc : reportage photographique",
+          "dates": "1944-1944",
+          "nb_notices": 87,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_1906623"
+        },
+        {
+          "cote": "174 Fi",
+          "titre": "Arles, [Les Baux-de-Provence], Glanum, Tarascon / Jacques Bontillot",
+          "dates": "1968-1971",
+          "nb_notices": 78,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_3225535"
+        },
+        {
+          "cote": "170 Fi",
+          "titre": "[Les Baux-de-Provence et le site archéologique de Glanum] / Patrice Millet, photographe",
+          "dates": "1976",
+          "nb_notices": 23,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_3225511"
+        },
+        {
+          "cote": "160 Fi",
+          "titre": "P.L.M. [Paris-Lyon-Méditerranée] Ligne de Miramas à L'Estaque 7e et 8e lots. Ouvrages d'art / François Mercier, ingénieur ; Louis Fréchin, dessinateur. – [Marseille], [1915].",
+          "dates": "",
+          "nb_notices": 14,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_2241291"
+        }
+      ]
     },
     {
       "fonction": "BIBLIOTHEQUE",
@@ -94,7 +260,10 @@
       "Nombre d'entrée": 90,
       "Thematique": "Documentation",
       "url": "https://www.archives13.fr/n/bibliotheque/n:108",
-      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93",
+      "nb_inventaires_en_ligne": 0,
+      "nb_notices_en_ligne": 0,
+      "inventaires_principaux": []
     },
     {
       "fonction": "ETAT CIVIL",
@@ -106,7 +275,18 @@
       "Nombre d'entrée": 400,
       "Thematique": "Genealogie",
       "url": "https://www.archives13.fr/n/etat-civil/n:109",
-      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93",
+      "nb_inventaires_en_ligne": 1,
+      "nb_notices_en_ligne": 139,
+      "inventaires_principaux": [
+        {
+          "cote": "385 E",
+          "titre": "Etude Aglot (Aubagne)",
+          "dates": "1798-1905",
+          "nb_notices": 139,
+          "url": "https://www.archives13.fr/archive/fonds/FRAD013_1811081"
+        }
+      ]
     },
     {
       "fonction": "ARCHIVES NOTARIALES",
@@ -118,7 +298,10 @@
       "Nombre d'entrée": 500,
       "Thematique": "Actes notaries",
       "url": "https://www.archives13.fr/n/archives-notariales/n:110",
-      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93",
+      "nb_inventaires_en_ligne": 0,
+      "nb_notices_en_ligne": 0,
+      "inventaires_principaux": []
     }
   ],
   "thematiques": [
@@ -634,5 +817,13 @@
       "Nombre d'entrée": 3,
       "Thematique": "Fonds familiaux et personnels"
     }
-  ]
+  ],
+  "metadata": {
+    "inventaires_en_ligne": {
+      "total_inventaires": 982,
+      "total_notices": 215075,
+      "date_extraction": "",
+      "source": "https://www.archives13.fr/archive/recherche/fonds/n:93"
+    }
+  }
 }

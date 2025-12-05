@@ -176,11 +176,19 @@ Dates: %{customdata.dateExtreme}<br>
           <span class="stat-label">versements</span>
         </div>
       `;
-      if (customdata.nombreProducteurs) {
+      if (customdata.nbInventairesEnLigne) {
         statsHtml += `
-          <div class="stat">
-            <span class="stat-value">${customdata.nombreProducteurs}</span>
-            <span class="stat-label">producteurs</span>
+          <div class="stat stat-online">
+            <span class="stat-value">${customdata.nbInventairesEnLigne}</span>
+            <span class="stat-label">inventaires en ligne</span>
+          </div>
+        `;
+      }
+      if (customdata.nbNoticesEnLigne) {
+        statsHtml += `
+          <div class="stat stat-online">
+            <span class="stat-value">${customdata.nbNoticesEnLigne.toLocaleString()}</span>
+            <span class="stat-label">notices</span>
           </div>
         `;
       }

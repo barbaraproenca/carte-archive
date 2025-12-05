@@ -78,28 +78,34 @@ export class DataLoader {
     values.push(0);
     customdata.push({
       type: 'root',
-      description: 'Fonds des Archives departementales des Bouches-du-Rhone'
+      description: 'Fonds des Archives departementales des Bouches-du-Rhone',
+      hoverText: 'Cliquez sur une categorie pour explorer',
+      statsText: '982 inventaires en ligne',
+      url: 'https://www.archives13.fr'
     });
     colors.push('#6366F1');
 
-    // Niveau 1: Fonctions
+    // Niveau 1: Fonctions (categories)
     for (const func of this.rawData.fonctions) {
       const funcId = func.fonction;
+      const nbInv = func.nb_inventaires_en_ligne || 0;
+      const nbNot = func.nb_notices_en_ligne || 0;
+      const desc = func.Description || '';
+      const shortDesc = desc.length > 120 ? desc.substring(0, 120) + '...' : desc;
+      
       ids.push(funcId);
       labels.push(func.fonction);
       parents.push(rootId);
-      values.push(func['Métrage réel'] || 0);
+      values.push(nbNot || 1);
       customdata.push({
         type: 'fonction',
-        description: func.Description || '',
-        dateExtreme: func.date_extreme_fonction || '',
-        metrage: func['Métrage réel'] || 0,
-        nombreEntrees: func["Nombre d'entrée"] || 0,
+        description: desc,
+        hoverText: shortDesc || 'Categorie d\'archives',
+        statsText: `${nbInv} inventaires | ${nbNot.toLocaleString()} notices`,
         url: func.url || '',
         urlRecherche: func.url_recherche || 'https://www.archives13.fr/archive/recherche/fonds/n:93',
-        nbInventairesEnLigne: func.nb_inventaires_en_ligne || 0,
-        nbNoticesEnLigne: func.nb_notices_en_ligne || 0,
-        inventairesPrincipaux: func.inventaires_principaux || []
+        nbInventairesEnLigne: nbInv,
+        nbNoticesEnLigne: nbNot
       });
       colors.push(functionColors[func.fonction] || '#888888');
     }
@@ -110,22 +116,24 @@ export class DataLoader {
       const themeName = theme.Thématique || theme.Thematique;
       const themeId = `${funcName}/${themeName}`;
       const inventaires = theme.inventaires || [];
+      const nbInv = inventaires.length;
+      const nbNot = theme.nb_notices || 0;
+      const desc = theme.Description || `${nbInv} inventaires en ligne`;
       
       ids.push(themeId);
       labels.push(themeName);
       parents.push(funcName);
-      values.push(theme['Métrage réel'] || theme.nb_notices || 0);
+      values.push(nbNot || 1);
       customdata.push({
         type: 'thematique',
         fonction: funcName,
-        description: theme.Description || `${inventaires.length} inventaires en ligne`,
-        metrage: theme['Métrage réel'] || 0,
-        nombreEntrees: theme["Nombre d'entrée"] || inventaires.length,
-        nbInventaires: theme.nb_inventaires || inventaires.length,
-        nbNotices: theme.nb_notices || 0,
+        description: desc,
+        hoverText: desc,
+        statsText: `${nbInv} inventaires | ${nbNot.toLocaleString()} notices`,
+        nbInventaires: nbInv,
+        nbNotices: nbNot,
         url: functionUrls[funcName] || '',
-        urlRecherche: functionSearchUrls[funcName] || 'https://www.archives13.fr/archive/recherche/fonds/n:93',
-        inventaires: inventaires
+        urlRecherche: functionSearchUrls[funcName] || ''
       });
       const parentColor = functionColors[funcName] || '#888888';
       colors.push(this.adjustColor(parentColor, 0.12));
@@ -133,18 +141,23 @@ export class DataLoader {
       // Niveau 3: Inventaires individuels
       for (const inv of inventaires) {
         const invId = `${themeId}/${inv.cote}`;
+        const titre = inv.titre || '';
+        const dates = inv.dates || '';
+        const nbNotices = inv.nb_notices || 0;
+        
         ids.push(invId);
         labels.push(inv.cote);
         parents.push(themeId);
-        values.push(inv.nb_notices || 1);
+        values.push(nbNotices || 1);
         customdata.push({
           type: 'inventaire',
           cote: inv.cote,
-          titre: inv.titre,
-          dates: inv.dates,
-          nbNotices: inv.nb_notices || 0,
-          url: inv.url || '',
-          urlRecherche: inv.url || ''
+          titre: titre,
+          dates: dates,
+          hoverText: `<b>${titre}</b><br>Dates: ${dates}`,
+          statsText: `${nbNotices.toLocaleString()} notices`,
+          nbNotices: nbNotices,
+          url: inv.url || ''
         });
         colors.push(this.adjustColor(parentColor, 0.25));
       }

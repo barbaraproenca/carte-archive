@@ -88,20 +88,22 @@ export class DataLoader {
 
     // Niveau 2: Thematiques
     for (const theme of this.rawData.thematiques) {
-      const themeId = `${theme.fonction}/${theme.Thematique}`;
+      const funcName = theme.Fonction || theme.fonction;
+      const themeName = theme.Thématique || theme.Thematique;
+      const themeId = `${funcName}/${themeName}`;
       ids.push(themeId);
-      labels.push(theme.Thematique);
-      parents.push(theme.fonction);
+      labels.push(themeName);
+      parents.push(funcName);
       values.push(theme['Métrage réel'] || 0);
       customdata.push({
         type: 'thematique',
-        fonction: theme.fonction,
+        fonction: funcName,
         dateExtreme: theme.date_extreme_thematique || '',
         metrage: theme['Métrage réel'] || 0,
         nombreEntrees: theme["Nombre d'entrée"] || 0,
         nombreProducteurs: theme['Nombre de producteurs'] || 0
       });
-      const parentColor = functionColors[theme.fonction] || '#888888';
+      const parentColor = functionColors[funcName] || '#888888';
       colors.push(this.adjustColor(parentColor, 0.15));
     }
 
@@ -120,11 +122,13 @@ export class DataLoader {
     // Grouper les thematiques par fonction
     const themesByFunction = {};
     for (const theme of this.rawData.thematiques) {
-      if (!themesByFunction[theme.fonction]) {
-        themesByFunction[theme.fonction] = [];
+      const funcName = theme.Fonction || theme.fonction;
+      const themeName = theme.Thématique || theme.Thematique;
+      if (!themesByFunction[funcName]) {
+        themesByFunction[funcName] = [];
       }
-      themesByFunction[theme.fonction].push({
-        name: theme.Thematique,
+      themesByFunction[funcName].push({
+        name: themeName,
         value: theme['Métrage réel'] || 0,
         dateExtreme: theme.date_extreme_thematique || '',
         nombreEntrees: theme["Nombre d'entrée"] || 0

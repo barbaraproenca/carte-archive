@@ -120,25 +120,8 @@ export class DataLoader {
       });
       const parentColor = functionColors[funcName] || '#888888';
       colors.push(this.adjustColor(parentColor, 0.15));
-      
-      // Niveau 3: Inventaires individuels
-      for (const inv of inventaires) {
-        const invId = `${themeId}/${inv.cote}`;
-        ids.push(invId);
-        labels.push(inv.cote);
-        parents.push(themeId);
-        values.push(inv.nb_notices || 1);
-        customdata.push({
-          type: 'inventaire',
-          cote: inv.cote,
-          titre: inv.titre,
-          dates: inv.dates,
-          nbNotices: inv.nb_notices || 0,
-          url: inv.url || '',
-          urlRecherche: inv.url || ''
-        });
-        colors.push(this.adjustColor(parentColor, 0.3));
-      }
+      // Les inventaires sont stockes dans customdata mais pas affiches dans le treemap
+      // Ils apparaissent uniquement dans la liste laterale
     }
 
     return { ids, labels, parents, values, customdata, colors, functionColors };

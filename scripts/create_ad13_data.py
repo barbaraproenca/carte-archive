@@ -10,6 +10,9 @@ Note: Les metrages sont estimatifs et doivent etre ajustes avec les donnees reel
 import pandas as pd
 from pathlib import Path
 
+# Base URL du site AD13
+AD13_BASE_URL = "https://www.archives13.fr"
+
 # Donnees des Fonctions (grandes categories de fonds)
 fonctions_data = [
     {
@@ -20,7 +23,8 @@ fonctions_data = [
         "date_extreme_fonction": "814/1789",
         "Métrage réel": 2500.0,
         "Nombre d'entrée": 45,
-        "Thematique": "Fonds anciens"
+        "Thematique": "Fonds anciens",
+        "url": f"{AD13_BASE_URL}/n/archives-anciennes/n:101"
     },
     {
         "fonction": "ARCHIVES REVOLUTIONNAIRES",
@@ -30,7 +34,8 @@ fonctions_data = [
         "date_extreme_fonction": "1789/1800",
         "Métrage réel": 800.0,
         "Nombre d'entrée": 25,
-        "Thematique": "Fonds revolutionnaires"
+        "Thematique": "Fonds revolutionnaires",
+        "url": f"{AD13_BASE_URL}/n/archives-revolutionnaires/n:102"
     },
     {
         "fonction": "ARCHIVES MODERNES ET CONTEMPORAINES",
@@ -40,7 +45,8 @@ fonctions_data = [
         "date_extreme_fonction": "1800/2024",
         "Métrage réel": 35000.0,
         "Nombre d'entrée": 1500,
-        "Thematique": "Fonds publics modernes"
+        "Thematique": "Fonds publics modernes",
+        "url": f"{AD13_BASE_URL}/n/archives-modernes-et-contemporaines/n:103"
     },
     {
         "fonction": "ARCHIVES HOSPITALIERES",
@@ -50,7 +56,8 @@ fonctions_data = [
         "date_extreme_fonction": "1500/2020",
         "Métrage réel": 3000.0,
         "Nombre d'entrée": 120,
-        "Thematique": "Sante et assistance"
+        "Thematique": "Sante et assistance",
+        "url": f"{AD13_BASE_URL}/n/archives-hospitalieres/n:104"
     },
     {
         "fonction": "ARCHIVES COMMUNALES ET INTERCOMMUNALES DEPOSEES",
@@ -60,7 +67,8 @@ fonctions_data = [
         "date_extreme_fonction": "1200/1940",
         "Métrage réel": 5000.0,
         "Nombre d'entrée": 200,
-        "Thematique": "Fonds communaux"
+        "Thematique": "Fonds communaux",
+        "url": f"{AD13_BASE_URL}/n/archives-communales-et-intercommunales-deposees/n:105"
     },
     {
         "fonction": "ARCHIVES PRIVEES",
@@ -70,7 +78,8 @@ fonctions_data = [
         "date_extreme_fonction": "1100/2023",
         "Métrage réel": 4000.0,
         "Nombre d'entrée": 350,
-        "Thematique": "Fonds prives"
+        "Thematique": "Fonds prives",
+        "url": f"{AD13_BASE_URL}/n/archives-privees/n:106"
     },
     {
         "fonction": "FONDS ICONOGRAPHIQUES ET AUDIOVISUELS",
@@ -80,7 +89,8 @@ fonctions_data = [
         "date_extreme_fonction": "1850/2024",
         "Métrage réel": 2000.0,
         "Nombre d'entrée": 180,
-        "Thematique": "Images et sons"
+        "Thematique": "Images et sons",
+        "url": f"{AD13_BASE_URL}/n/fonds-iconographiques-et-audiovisuels/n:107"
     },
     {
         "fonction": "BIBLIOTHEQUE",
@@ -90,7 +100,8 @@ fonctions_data = [
         "date_extreme_fonction": "1600/2024",
         "Métrage réel": 1500.0,
         "Nombre d'entrée": 90,
-        "Thematique": "Documentation"
+        "Thematique": "Documentation",
+        "url": f"{AD13_BASE_URL}/n/bibliotheque/n:108"
     },
     {
         "fonction": "ETAT CIVIL",
@@ -100,7 +111,8 @@ fonctions_data = [
         "date_extreme_fonction": "1530/2023",
         "Métrage réel": 6000.0,
         "Nombre d'entrée": 400,
-        "Thematique": "Genealogie"
+        "Thematique": "Genealogie",
+        "url": f"{AD13_BASE_URL}/n/etat-civil/n:109"
     },
     {
         "fonction": "ARCHIVES NOTARIALES",
@@ -110,7 +122,8 @@ fonctions_data = [
         "date_extreme_fonction": "1300/1950",
         "Métrage réel": 8000.0,
         "Nombre d'entrée": 500,
-        "Thematique": "Actes notaries"
+        "Thematique": "Actes notaries",
+        "url": f"{AD13_BASE_URL}/n/archives-notariales/n:110"
     }
 ]
 

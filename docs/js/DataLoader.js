@@ -49,11 +49,13 @@ export class DataLoader {
       '#00ACC1', '#8D6E63', '#5E35B1', '#43A047', '#FB8C00'
     ];
 
-    // Construire le mapping des couleurs dynamiquement
+    // Construire le mapping des couleurs et URLs dynamiquement
     const functionColors = {};
+    const functionUrls = {};
     if (this.rawData.fonctions) {
       this.rawData.fonctions.forEach((func, index) => {
         functionColors[func.fonction] = colorPalette[index % colorPalette.length];
+        functionUrls[func.fonction] = func.url || '';
       });
     }
 
@@ -81,7 +83,8 @@ export class DataLoader {
         description: func.Description || '',
         dateExtreme: func.date_extreme_fonction || '',
         metrage: func['Métrage réel'] || 0,
-        nombreEntrees: func["Nombre d'entrée"] || 0
+        nombreEntrees: func["Nombre d'entrée"] || 0,
+        url: func.url || ''
       });
       colors.push(functionColors[func.fonction] || '#888888');
     }
@@ -101,7 +104,8 @@ export class DataLoader {
         dateExtreme: theme.date_extreme_thematique || '',
         metrage: theme['Métrage réel'] || 0,
         nombreEntrees: theme["Nombre d'entrée"] || 0,
-        nombreProducteurs: theme['Nombre de producteurs'] || 0
+        nombreProducteurs: theme['Nombre de producteurs'] || 0,
+        url: functionUrls[funcName] || ''
       });
       const parentColor = functionColors[funcName] || '#888888';
       colors.push(this.adjustColor(parentColor, 0.15));
@@ -114,8 +118,15 @@ export class DataLoader {
    * Construit les donnees pour l'arbre D3.js (structure nested)
    */
   buildTreeData() {
+    // Construire le mapping des URLs par fonction
+    const functionUrls = {};
+    for (const func of this.rawData.fonctions) {
+      functionUrls[func.fonction] = func.url || '';
+    }
+
     const root = {
       name: this.rootName,
+      url: 'https://www.archives13.fr/n/presentation-des-fonds/n:94',
       children: []
     };
 
@@ -131,7 +142,8 @@ export class DataLoader {
         name: themeName,
         value: theme['Métrage réel'] || 0,
         dateExtreme: theme.date_extreme_thematique || '',
-        nombreEntrees: theme["Nombre d'entrée"] || 0
+        nombreEntrees: theme["Nombre d'entrée"] || 0,
+        url: functionUrls[funcName] || ''
       });
     }
 
@@ -142,6 +154,7 @@ export class DataLoader {
         value: func['Métrage réel'] || 0,
         description: func.Description || '',
         dateExtreme: func.date_extreme_fonction || '',
+        url: func.url || '',
         children: themesByFunction[func.fonction] || []
       };
       root.children.push(funcNode);

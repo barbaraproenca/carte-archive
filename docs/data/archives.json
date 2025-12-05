@@ -8,7 +8,8 @@
       "date_extreme_fonction": "814/1789",
       "Métrage réel": 2500,
       "Nombre d'entrée": 45,
-      "Thematique": "Fonds anciens"
+      "Thematique": "Fonds anciens",
+      "url": "https://www.archives13.fr/n/archives-anciennes/n:101"
     },
     {
       "fonction": "ARCHIVES REVOLUTIONNAIRES",
@@ -18,7 +19,8 @@
       "date_extreme_fonction": "1789/1800",
       "Métrage réel": 800,
       "Nombre d'entrée": 25,
-      "Thematique": "Fonds revolutionnaires"
+      "Thematique": "Fonds revolutionnaires",
+      "url": "https://www.archives13.fr/n/archives-revolutionnaires/n:102"
     },
     {
       "fonction": "ARCHIVES MODERNES ET CONTEMPORAINES",
@@ -28,7 +30,8 @@
       "date_extreme_fonction": "1800/2024",
       "Métrage réel": 35000,
       "Nombre d'entrée": 1500,
-      "Thematique": "Fonds publics modernes"
+      "Thematique": "Fonds publics modernes",
+      "url": "https://www.archives13.fr/n/archives-modernes-et-contemporaines/n:103"
     },
     {
       "fonction": "ARCHIVES HOSPITALIERES",
@@ -38,7 +41,8 @@
       "date_extreme_fonction": "1500/2020",
       "Métrage réel": 3000,
       "Nombre d'entrée": 120,
-      "Thematique": "Sante et assistance"
+      "Thematique": "Sante et assistance",
+      "url": "https://www.archives13.fr/n/archives-hospitalieres/n:104"
     },
     {
       "fonction": "ARCHIVES COMMUNALES ET INTERCOMMUNALES DEPOSEES",
@@ -48,7 +52,8 @@
       "date_extreme_fonction": "1200/1940",
       "Métrage réel": 5000,
       "Nombre d'entrée": 200,
-      "Thematique": "Fonds communaux"
+      "Thematique": "Fonds communaux",
+      "url": "https://www.archives13.fr/n/archives-communales-et-intercommunales-deposees/n:105"
     },
     {
       "fonction": "ARCHIVES PRIVEES",
@@ -58,7 +63,8 @@
       "date_extreme_fonction": "1100/2023",
       "Métrage réel": 4000,
       "Nombre d'entrée": 350,
-      "Thematique": "Fonds prives"
+      "Thematique": "Fonds prives",
+      "url": "https://www.archives13.fr/n/archives-privees/n:106"
     },
     {
       "fonction": "FONDS ICONOGRAPHIQUES ET AUDIOVISUELS",
@@ -68,7 +74,8 @@
       "date_extreme_fonction": "1850/2024",
       "Métrage réel": 2000,
       "Nombre d'entrée": 180,
-      "Thematique": "Images et sons"
+      "Thematique": "Images et sons",
+      "url": "https://www.archives13.fr/n/fonds-iconographiques-et-audiovisuels/n:107"
     },
     {
       "fonction": "BIBLIOTHEQUE",
@@ -78,7 +85,8 @@
       "date_extreme_fonction": "1600/2024",
       "Métrage réel": 1500,
       "Nombre d'entrée": 90,
-      "Thematique": "Documentation"
+      "Thematique": "Documentation",
+      "url": "https://www.archives13.fr/n/bibliotheque/n:108"
     },
     {
       "fonction": "ETAT CIVIL",
@@ -88,7 +96,8 @@
       "date_extreme_fonction": "1530/2023",
       "Métrage réel": 6000,
       "Nombre d'entrée": 400,
-      "Thematique": "Genealogie"
+      "Thematique": "Genealogie",
+      "url": "https://www.archives13.fr/n/etat-civil/n:109"
     },
     {
       "fonction": "ARCHIVES NOTARIALES",
@@ -98,7 +107,8 @@
       "date_extreme_fonction": "1300/1950",
       "Métrage réel": 8000,
       "Nombre d'entrée": 500,
-      "Thematique": "Actes notaries"
+      "Thematique": "Actes notaries",
+      "url": "https://www.archives13.fr/n/archives-notariales/n:110"
     }
   ],
   "thematiques": [

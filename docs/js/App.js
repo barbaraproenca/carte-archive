@@ -176,6 +176,17 @@ class App {
     const dates = document.getElementById('info-dates');
     if (dates) dates.textContent = `Dates extremes: ${data.dateExtreme || '-'}`;
 
+    // Afficher le lien vers le site AD13 si disponible
+    const link = document.getElementById('info-link');
+    if (link) {
+      if (data.url) {
+        link.href = data.url;
+        link.classList.remove('hidden');
+      } else {
+        link.classList.add('hidden');
+      }
+    }
+
     infoPanel.classList.add('visible');
   }
 

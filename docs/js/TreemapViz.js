@@ -190,6 +190,17 @@ Dates: %{customdata.dateExtreme}<br>
     const dates = document.getElementById('info-dates');
     if (dates) dates.textContent = `Dates extremes: ${customdata.dateExtreme || '-'}`;
 
+    // Afficher le lien vers le site AD13 si disponible
+    const link = document.getElementById('info-link');
+    if (link) {
+      if (customdata.url) {
+        link.href = customdata.url;
+        link.classList.remove('hidden');
+      } else {
+        link.classList.add('hidden');
+      }
+    }
+
     infoPanel.classList.add('visible');
   }
 

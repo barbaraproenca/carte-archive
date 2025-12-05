@@ -1,29 +1,20 @@
 # Visualisation des fonds d'archives - AD13
 
-Outil de visualisation interactive des fonds des Archives departementales des Bouches-du-Rhone (AD13).
+Outil de visualisation interactive des fonds des Archives departementales des Bouches-du-Rhone.
 
-Cette application permet d'explorer les 982 inventaires en ligne disponibles sur le portail archives13.fr, organises en categories, series et fonds individuels.
+Deux modes de visualisation sont disponibles :
+- **Treemap** : representation proportionnelle des volumes d'archives par fonction et thematique
+- **Arbre** : representation hierarchique des fonds avec navigation par niveaux
 
-## Auteur
+## Demonstration
 
-Barbara Proenca, archiviste aux Archives departementales des Bouches-du-Rhone
-
-## Fonctionnalites
-
-- Treemap interactif : vue hierarchique des fonds par volume de notices
-- Arbre collapsible : navigation dans la structure des fonds
-- Panneau d'information : details de chaque element selectionne
-- Liens directs vers archives13.fr : acces aux inventaires en ligne
-- 982 inventaires, 215 075 notices, 10 categories, 16 series
+La visualisation est accessible sur GitHub Pages : [Voir la demo](https://[votre-username].github.io/vizu-archive/)
 
 ## Structure du projet
 
 ```
 vizu-archive/
-├── data/
-│   ├── archives.xlsx          # Donnees source (modifiable)
-│   └── inventaires_ad13.json  # Donnees scrappees du portail
-├── docs/                      # Site web (GitHub Pages)
+├── docs/                    # Site web (GitHub Pages)
 │   ├── index.html
 │   ├── js/
 │   │   ├── App.js
@@ -31,128 +22,93 @@ vizu-archive/
 │   │   ├── TreemapViz.js
 │   │   └── TreeViz.js
 │   └── data/
-│       └── archives.json      # Donnees JSON pour la visualisation
+│       └── archives.json
+├── data/
+│   └── archives.xlsx        # Donnees source
 ├── scripts/
-│   ├── convert_excel_to_json.py  # Conversion Excel -> JSON
-│   ├── export_to_excel.py        # Export des donnees vers Excel
-│   └── scrape_ad13_inventaires.py # Scraping du portail AD13
-└── .github/
-    └── workflows/
-        └── update-data.yml    # Mise a jour automatique
+│   └── convert_excel_to_json.py
+├── .github/
+│   └── workflows/
+│       └── update-data.yml
+└── README.md
 ```
 
-## Modifier les donnees
+## Mise a jour des donnees
 
-Le fichier `data/archives.xlsx` contient les donnees de la visualisation. Il peut etre modifie par toute personne ayant acces a Excel ou LibreOffice.
+### Automatique (via GitHub Actions)
 
-### Structure du fichier Excel
+1. Modifier le fichier `data/archives.xlsx`
+2. Commit et push sur le depot
+3. Le workflow genere automatiquement le fichier JSON
 
-Le fichier contient 4 feuilles :
-
-1. **Fonction** : Categories principales des fonds
-   - `fonction` : Nom de la categorie
-   - `Description` : Description detaillee
-   - `url` : Lien vers la page archives13.fr
-   - `nb_inventaires_en_ligne` : Nombre d'inventaires
-   - `nb_notices_en_ligne` : Nombre total de notices
-
-2. **Thematique** : Series archivistiques
-   - `Thematique` : Nom de la serie (ex: "Serie W")
-   - `Fonction` : Categorie parente
-   - `Description` : Description
-   - `nb_inventaires` : Nombre d'inventaires dans la serie
-   - `nb_notices` : Nombre de notices
-
-3. **Inventaire** : Liste des 982 inventaires
-   - `cote` : Cote de l'inventaire (ex: "14 B")
-   - `titre` : Titre de l'inventaire
-   - `dates` : Dates extremes
-   - `nb_notices` : Nombre de notices
-   - `url` : Lien direct vers l'inventaire
-   - `categorie` : Categorie
-   - `serie` : Serie
-
-4. **Producteur** : Producteurs d'archives (optionnel)
-
-### Mettre a jour la visualisation
-
-Apres modification du fichier Excel :
+### Manuelle
 
 ```bash
-# Regenerer le JSON
-python scripts/convert_excel_to_json.py
-
-# Tester localement
-cd docs && python -m http.server 8080
+pip install pandas openpyxl
+python scripts/convert_excel_to_json.py data/archives.xlsx docs/data/archives.json
 ```
 
-Ou simplement : commiter les modifications sur GitHub. Le workflow automatique regenerera le JSON.
+## Format des donnees
 
-## Installation locale
+Le fichier Excel doit contenir trois feuilles :
 
-### Prerequis
+### Feuille "Fonction"
 
-- Python 3.8+
-- Navigateur web moderne
+| Colonne | Description |
+|---------|-------------|
+| fonction | Nom de la fonction |
+| Description | Description detaillee |
+| date_extreme_min | Date la plus ancienne |
+| date_extreme_max | Date la plus recente |
+| date_extreme_fonction | Plage de dates formatee |
+| Metrage reel | Volume en metres lineaires |
+| Nombre d'entree | Nombre de versements |
 
-### Dependances Python
+### Feuille "Thematique"
 
-```bash
-pip install -r requirements.txt
-```
+| Colonne | Description |
+|---------|-------------|
+| Thematique | Nom de la thematique |
+| fonction | Fonction parente |
+| date_extreme_min | Date la plus ancienne |
+| date_extreme_max | Date la plus recente |
+| date_extreme_thematique | Plage de dates formatee |
+| Metrage reel | Volume en metres lineaires |
+| Nombre d'entree | Nombre de versements |
+| Nombre de producteurs | Nombre de producteurs |
 
-### Lancer le serveur local
+### Feuille "Producteur"
 
-```bash
-cd docs
-python -m http.server 8080
-```
+| Colonne | Description |
+|---------|-------------|
+| Numero Ligeo | Identifiant |
+| Nom | Nom du producteur |
+| date_extreme_min | Date la plus ancienne |
+| date_extreme_max | Date la plus recente |
+| date_extreme_producteur | Plage de dates formatee |
+| Metrage reel | Volume en metres lineaires |
+| Nombre d'entree | Nombre de versements |
 
-Ouvrir http://localhost:8080 dans le navigateur.
+## Deploiement sur GitHub Pages
 
-## Deploiement GitHub Pages
-
-1. Activer GitHub Pages dans les parametres du repository
-2. Source : branche `main`, dossier `/docs`
-3. Le site sera accessible sur `https://[username].github.io/[repo-name]/`
+1. Dans les parametres du depot, section "Pages"
+2. Source : "Deploy from a branch"
+3. Branche : main, dossier /docs
+4. Enregistrer
 
 ## Technologies
 
-- Plotly.js : Treemap interactif
-- D3.js : Arbre collapsible
-- Python : Scripts de conversion et scraping
-- GitHub Actions : Automatisation
+- Plotly.js 2.27 (treemap)
+- D3.js v7 (arbre)
+- Vanilla JavaScript (ES6 modules)
+- GitHub Actions (automatisation)
 
-## Scripts disponibles
+## Auteur
 
-### Conversion Excel vers JSON
-
-```bash
-python scripts/convert_excel_to_json.py
-```
-
-Lit le fichier `data/archives.xlsx` et genere `docs/data/archives.json`.
-
-### Export des donnees vers Excel
-
-```bash
-python scripts/export_to_excel.py
-```
-
-Genere un fichier Excel complet a partir des donnees scrappees.
-
-### Scraping du portail AD13
-
-```bash
-python scripts/scrape_ad13_inventaires.py
-```
-
-Extrait les inventaires disponibles sur archives13.fr.
-
-## Source des donnees
-
-Les donnees sont extraites du portail des Archives departementales des Bouches-du-Rhone : https://www.archives13.fr
+Barbara Proenca  
+Archiviste aux Archives departementales des Bouches-du-Rhone
 
 ## Licence
 
-Ce projet est un outil interne des Archives departementales des Bouches-du-Rhone.
+Ce projet est sous licence MIT.
+

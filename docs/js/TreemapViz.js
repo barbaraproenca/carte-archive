@@ -14,7 +14,6 @@ export class TreemapViz {
       onNodeClick: options.onNodeClick || null,
       ...options
     };
-    this.currentPath = [];
   }
 
   /**
@@ -35,27 +34,25 @@ export class TreemapViz {
       customdata: data.customdata,
       
       branchvalues: 'remainder',
-      textinfo: 'label+percent entry',
-      textposition: 'middle center',
+      textinfo: 'label+percent parent',
       
       marker: {
         colors: data.colors,
         line: {
           width: 1.5,
-          color: 'rgba(15, 15, 26, 0.8)'
+          color: 'rgba(15, 15, 26, 0.6)'
         },
         pad: {
-          t: 35,
-          l: 8,
-          r: 8,
-          b: 8
-        },
-        cornerradius: 4
+          t: 28,
+          l: 6,
+          r: 6,
+          b: 6
+        }
       },
       
       textfont: {
         family: 'JetBrains Mono, monospace',
-        size: 14,
+        size: 12,
         color: 'white'
       },
       
@@ -63,10 +60,10 @@ export class TreemapViz {
       
       pathbar: {
         visible: this.options.showBreadcrumb,
-        thickness: 30,
+        thickness: 26,
         textfont: {
           family: 'JetBrains Mono, monospace',
-          size: 13,
+          size: 11,
           color: '#1a1a2e'
         },
         side: 'top'
@@ -77,7 +74,7 @@ export class TreemapViz {
 
     const layout = {
       height: this.options.height,
-      margin: { t: 50, l: 10, r: 10, b: 10 },
+      margin: { t: 40, l: 5, r: 5, b: 5 },
       font: {
         family: 'JetBrains Mono, monospace',
         color: '#f1f5f9'
@@ -102,16 +99,18 @@ export class TreemapViz {
 
     Plotly.newPlot(this.containerId, [trace], layout, config);
 
+    // Gerer les clics
     this.container.on('plotly_click', (eventData) => {
       if (eventData.points && eventData.points[0]) {
         const point = eventData.points[0];
-        this.handleClick(point);
-      }
-    });
-
-    this.container.on('plotly_treemapclick', (eventData) => {
-      if (this.options.onNodeClick) {
-        this.options.onNodeClick(eventData);
+        if (this.options.onNodeClick) {
+          this.options.onNodeClick({
+            id: point.id,
+            label: point.label,
+            value: point.value,
+            customdata: point.customdata
+          });
+        }
       }
     });
   }
@@ -120,149 +119,7 @@ export class TreemapViz {
    * Template pour le hover
    */
   getHoverTemplate() {
-    return `<b style="font-size:14px">%{label}</b><extra></extra>`;
-  }
-
-  /**
-   * Gere le clic sur un noeud
-   */
-  handleClick(point) {
-    const customdata = point.customdata;
-    this.updateInfoPanel(point);
-
-    if (this.options.onNodeClick) {
-      this.options.onNodeClick({
-        id: point.id,
-        label: point.label,
-        value: point.value,
-        customdata
-      });
-    }
-  }
-
-  /**
-   * Met a jour le panneau d'information
-   */
-  updateInfoPanel(point) {
-    const infoPanel = document.getElementById('info-panel');
-    if (!infoPanel) return;
-
-    const customdata = point.customdata || {};
-    const type = customdata.type || 'unknown';
-    
-    const badge = document.getElementById('info-badge');
-    if (badge) badge.textContent = this.getTypeBadge(type);
-    
-    const title = document.getElementById('info-title');
-    if (title) {
-      if (customdata.type === 'inventaire') {
-        title.textContent = `${customdata.cote} - ${customdata.titre || ''}`;
-      } else {
-        title.textContent = point.label;
-      }
-    }
-    
-    const desc = document.getElementById('info-description');
-    if (desc) {
-      if (customdata.type === 'inventaire') {
-        desc.innerHTML = `<strong>${customdata.titre || ''}</strong><br>Dates: ${customdata.dates || '-'}`;
-      } else {
-        desc.textContent = customdata.description || 'Aucune description disponible.';
-      }
-    }
-    
-    const statsContainer = document.getElementById('info-stats-container');
-    if (statsContainer) {
-      let statsHtml = '';
-      
-      if (customdata.type === 'inventaire') {
-        // Affichage pour un inventaire individuel
-        statsHtml = `
-          <div class="stat stat-online">
-            <span class="stat-value">${(customdata.nbNotices || 0).toLocaleString()}</span>
-            <span class="stat-label">notices</span>
-          </div>
-        `;
-      } else if (customdata.type === 'thematique') {
-        // Affichage pour une serie
-        statsHtml = `
-          <div class="stat stat-online">
-            <span class="stat-value">${customdata.nbInventaires || 0}</span>
-            <span class="stat-label">inventaires</span>
-          </div>
-          <div class="stat stat-online">
-            <span class="stat-value">${(customdata.nbNotices || 0).toLocaleString()}</span>
-            <span class="stat-label">notices</span>
-          </div>
-        `;
-      } else {
-        // Affichage pour une fonction/categorie
-        if (customdata.nbInventairesEnLigne) {
-          statsHtml += `
-            <div class="stat stat-online">
-              <span class="stat-value">${customdata.nbInventairesEnLigne}</span>
-              <span class="stat-label">inventaires en ligne</span>
-            </div>
-          `;
-        }
-        if (customdata.nbNoticesEnLigne) {
-          statsHtml += `
-            <div class="stat stat-online">
-              <span class="stat-value">${customdata.nbNoticesEnLigne.toLocaleString()}</span>
-              <span class="stat-label">notices</span>
-            </div>
-          `;
-        }
-      }
-      statsContainer.innerHTML = statsHtml;
-    }
-    
-    const dates = document.getElementById('info-dates');
-    if (dates) {
-      if (customdata.type === 'inventaire') {
-        dates.textContent = `Dates: ${customdata.dates || '-'}`;
-      } else {
-        dates.textContent = `Dates extremes: ${customdata.dateExtreme || '-'}`;
-      }
-    }
-
-    // Afficher le lien vers le site AD13 si disponible
-    const link = document.getElementById('info-link');
-    if (link) {
-      if (customdata.url) {
-        link.href = customdata.url;
-        link.classList.remove('hidden');
-      } else {
-        link.classList.add('hidden');
-      }
-    }
-
-    // Afficher le lien de recherche dans les inventaires
-    const searchLink = document.getElementById('info-search-link');
-    if (searchLink) {
-      if (customdata.urlRecherche) {
-        searchLink.href = customdata.urlRecherche;
-        searchLink.classList.remove('hidden');
-      } else {
-        searchLink.classList.add('hidden');
-      }
-    }
-
-    infoPanel.classList.add('visible');
-  }
-
-  /**
-   * Retourne le badge pour le type
-   */
-  getTypeBadge(type) {
-    const badges = {
-      'root': 'Racine',
-      'fonction': 'Categorie',
-      'thematique': 'Serie',
-      'inventaire': 'Inventaire',
-      'producteur': 'Producteur'
-    };
-    return badges[type] || 'Element';
+    return `<b>%{label}</b><extra></extra>`;
   }
 
   /**

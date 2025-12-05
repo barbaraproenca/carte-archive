@@ -18,9 +18,9 @@
   
   <style>
     :root {
-      --bg-primary: #0a0a12;
-      --bg-secondary: #12121f;
-      --bg-tertiary: #1a1a2e;
+      --bg-primary: #0f0f1a;
+      --bg-secondary: #1a1a2e;
+      --bg-tertiary: #252542;
       --accent-primary: #6366F1;
       --accent-secondary: #8B5CF6;
       --accent-gold: #F59E0B;
@@ -28,9 +28,9 @@
       --text-primary: #f1f5f9;
       --text-secondary: #94a3b8;
       --text-muted: #64748b;
-      --border-color: #2d2d44;
-      --glow-primary: rgba(99, 102, 241, 0.4);
-      --glow-gold: rgba(245, 158, 11, 0.3);
+      --border-color: #334155;
+      --glow-primary: rgba(99, 102, 241, 0.3);
+      --glow-gold: rgba(245, 158, 11, 0.2);
     }
 
     * {
@@ -60,9 +60,9 @@
       width: 100%;
       height: 100%;
       background: 
-        radial-gradient(ellipse at 30% 20%, var(--glow-primary) 0%, transparent 50%),
-        radial-gradient(ellipse at 70% 80%, var(--glow-gold) 0%, transparent 50%),
-        radial-gradient(circle at 50% 50%, rgba(20, 184, 166, 0.1) 0%, transparent 70%);
+        radial-gradient(ellipse at 20% 20%, var(--glow-primary) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 80%, var(--glow-gold) 0%, transparent 50%),
+        linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
       z-index: -1;
       pointer-events: none;
     }
@@ -70,7 +70,7 @@
     .header {
       padding: 0.6rem 1.5rem;
       border-bottom: 1px solid var(--border-color);
-      background: rgba(18, 18, 31, 0.95);
+      background: rgba(26, 26, 46, 0.95);
       backdrop-filter: blur(10px);
       flex-shrink: 0;
     }
@@ -96,7 +96,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 1rem;
+      font-size: 0.9rem;
       font-weight: 700;
       box-shadow: 0 4px 15px var(--glow-primary);
     }
@@ -112,7 +112,7 @@
     }
 
     .logo-text span {
-      font-size: 0.65rem;
+      font-size: 0.6rem;
       color: var(--text-muted);
       display: block;
     }
@@ -136,7 +136,7 @@
     }
 
     .stat-inline .label {
-      font-size: 0.65rem;
+      font-size: 0.6rem;
       color: var(--text-muted);
       text-transform: uppercase;
     }
@@ -176,19 +176,26 @@
       flex: 1;
       display: flex;
       overflow: hidden;
-      padding: 0.5rem;
+      padding: 0.75rem;
+      gap: 0.75rem;
+    }
+
+    .viz-area {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
     }
 
     .viz-container {
       flex: 1;
       background: var(--bg-secondary);
       border: 1px solid var(--border-color);
-      border-radius: 12px;
+      border-radius: 10px;
       position: relative;
       overflow: hidden;
       display: flex;
-      align-items: center;
-      justify-content: center;
+      flex-direction: column;
     }
 
     .viz-container::before {
@@ -201,27 +208,235 @@
       background: linear-gradient(90deg, var(--accent-primary), var(--accent-gold), var(--accent-emerald));
     }
 
-    #sunburst-container, #tree-container {
+    #treemap-container, #tree-container {
+      flex: 1;
       width: 100%;
-      height: 100%;
+      min-height: 0;
     }
 
     .hidden {
       display: none !important;
     }
 
+    /* Liste des inventaires */
+    .inventaires-panel {
+      width: 380px;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .inventaires-panel.collapsed {
+      width: 0;
+      border: none;
+      padding: 0;
+    }
+
+    .inventaires-header {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border-color);
+      background: var(--bg-tertiary);
+      flex-shrink: 0;
+    }
+
+    .inventaires-header h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 0.95rem;
+      color: var(--text-primary);
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .inventaires-header h3 .badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.65rem;
+      background: var(--accent-emerald);
+      color: white;
+      padding: 0.15rem 0.4rem;
+      border-radius: 10px;
+    }
+
+    .inventaires-header .subtitle {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+    }
+
+    .search-box {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 0.6rem;
+    }
+
+    .search-input {
+      flex: 1;
+      padding: 0.5rem 0.75rem;
+      background: var(--bg-primary);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      color: var(--text-primary);
+      font-family: inherit;
+      font-size: 0.75rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .search-input:focus {
+      border-color: var(--accent-primary);
+    }
+
+    .search-input::placeholder {
+      color: var(--text-muted);
+    }
+
+    .inventaires-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 0.5rem;
+    }
+
+    .inventaires-list::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .inventaires-list::-webkit-scrollbar-track {
+      background: var(--bg-primary);
+    }
+
+    .inventaires-list::-webkit-scrollbar-thumb {
+      background: var(--border-color);
+      border-radius: 3px;
+    }
+
+    .inventaire-item {
+      padding: 0.6rem 0.75rem;
+      background: var(--bg-tertiary);
+      border: 1px solid transparent;
+      border-radius: 6px;
+      margin-bottom: 0.4rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: block;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .inventaire-item:hover {
+      background: var(--bg-primary);
+      border-color: var(--accent-primary);
+      transform: translateX(4px);
+    }
+
+    .inventaire-item .cote {
+      font-weight: 600;
+      color: var(--accent-gold);
+      font-size: 0.8rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .inventaire-item .titre {
+      font-size: 0.7rem;
+      color: var(--text-primary);
+      line-height: 1.3;
+      margin-bottom: 0.25rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .inventaire-item .meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.6rem;
+      color: var(--text-muted);
+    }
+
+    .inventaire-item .notices {
+      color: var(--accent-emerald);
+      font-weight: 500;
+    }
+
+    .inventaire-item .link-icon {
+      color: var(--accent-primary);
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    .inventaire-item:hover .link-icon {
+      opacity: 1;
+    }
+
+    .no-results {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--text-muted);
+      font-size: 0.75rem;
+    }
+
+    .placeholder-message {
+      text-align: center;
+      padding: 3rem 1.5rem;
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      line-height: 1.6;
+    }
+
+    .placeholder-message .icon {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      opacity: 0.5;
+    }
+
+    /* Breadcrumb */
+    .breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.5rem 0.75rem;
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      background: var(--bg-primary);
+      border-bottom: 1px solid var(--border-color);
+      flex-shrink: 0;
+    }
+
+    .breadcrumb-item {
+      cursor: pointer;
+      transition: color 0.2s;
+    }
+
+    .breadcrumb-item:hover {
+      color: var(--accent-primary);
+    }
+
+    .breadcrumb-separator {
+      opacity: 0.5;
+    }
+
+    .breadcrumb-current {
+      color: var(--accent-gold);
+      font-weight: 500;
+    }
+
+    /* Tree controls */
     .tree-controls {
-      position: absolute;
-      top: 10px;
-      left: 10px;
       display: flex;
       gap: 0.4rem;
-      z-index: 10;
+      padding: 0.5rem;
+      background: var(--bg-tertiary);
+      border-bottom: 1px solid var(--border-color);
+      flex-shrink: 0;
     }
 
     .tree-controls button {
-      padding: 0.3rem 0.6rem;
-      background: var(--bg-tertiary);
+      padding: 0.35rem 0.7rem;
+      background: var(--bg-primary);
       border: 1px solid var(--border-color);
       border-radius: 4px;
       color: var(--text-secondary);
@@ -235,24 +450,6 @@
       background: var(--accent-primary);
       border-color: var(--accent-primary);
       color: white;
-    }
-
-    .hint {
-      position: absolute;
-      bottom: 10px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: rgba(26, 26, 46, 0.9);
-      padding: 0.4rem 1rem;
-      border-radius: 20px;
-      font-size: 0.7rem;
-      color: var(--text-muted);
-      border: 1px solid var(--border-color);
-      pointer-events: none;
-    }
-
-    .hint strong {
-      color: var(--accent-gold);
     }
 
     .loader {
@@ -295,6 +492,7 @@
       padding: 1rem;
       border-radius: 8px;
       text-align: center;
+      margin-bottom: 0.75rem;
     }
 
     .footer {
@@ -302,9 +500,9 @@
       border-top: 1px solid var(--border-color);
       text-align: center;
       color: var(--text-muted);
-      font-size: 0.65rem;
+      font-size: 0.6rem;
       flex-shrink: 0;
-      background: rgba(18, 18, 31, 0.95);
+      background: rgba(26, 26, 46, 0.95);
     }
 
     .footer a {
@@ -312,9 +510,26 @@
       text-decoration: none;
     }
 
-    @media (max-width: 900px) {
+    @media (max-width: 1000px) {
       .stats-inline {
         display: none;
+      }
+      
+      .inventaires-panel {
+        position: fixed;
+        top: 60px;
+        right: 0;
+        bottom: 30px;
+        width: 90%;
+        max-width: 380px;
+        z-index: 100;
+        border-radius: 10px 0 0 10px;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+      }
+      
+      .inventaires-panel.visible {
+        transform: translateX(0);
       }
     }
 
@@ -325,6 +540,10 @@
 
       .logo-text h1 {
         font-size: 1rem;
+      }
+
+      .main-wrapper {
+        padding: 0.5rem;
       }
     }
   </style>
@@ -365,12 +584,8 @@
       </div>
 
       <nav class="nav-controls">
-        <button class="view-btn active" data-view="sunburst">
-          Sunburst
-        </button>
-        <button class="view-btn" data-view="tree">
-          Arbre
-        </button>
+        <button class="view-btn active" data-view="treemap">Treemap</button>
+        <button class="view-btn" data-view="tree">Arbre</button>
       </nav>
     </div>
   </header>
@@ -378,27 +593,46 @@
   <div class="main-wrapper">
     <div id="error-message" class="error-message hidden"></div>
 
-    <div id="sunburst-view" class="viz-container">
-      <div id="sunburst-container"></div>
-      <div class="hint">
-        <strong>Clic</strong> sur un inventaire pour l'ouvrir sur archives13.fr
+    <div class="viz-area">
+      <div id="treemap-view" class="viz-container">
+        <div id="treemap-container"></div>
+      </div>
+
+      <div id="tree-view" class="viz-container hidden">
+        <div class="tree-controls" id="tree-controls">
+          <button id="expand-all">Tout deplier</button>
+          <button id="collapse-all">Tout replier</button>
+        </div>
+        <div id="tree-container"></div>
       </div>
     </div>
 
-    <div id="tree-view" class="viz-container hidden">
-      <div class="tree-controls">
-        <button id="expand-all">Deplier</button>
-        <button id="collapse-all">Replier</button>
+    <aside id="inventaires-panel" class="inventaires-panel">
+      <div class="inventaires-header">
+        <h3 id="panel-title">
+          <span id="panel-serie-name">Inventaires</span>
+          <span class="badge" id="panel-count">0</span>
+        </h3>
+        <div class="subtitle" id="panel-subtitle">Selectionnez une serie pour voir les inventaires</div>
+        <div class="search-box">
+          <input type="text" id="search-input" class="search-input" placeholder="Rechercher un inventaire...">
+        </div>
       </div>
-      <div id="tree-container"></div>
-    </div>
+      <div class="inventaires-list" id="inventaires-list">
+        <div class="placeholder-message">
+          <div class="icon">📂</div>
+          <p>Cliquez sur une <strong>serie</strong> dans le treemap pour afficher ses inventaires.</p>
+          <p style="margin-top: 0.5rem;">Chaque inventaire est cliquable et ouvrira sa fiche sur archives13.fr</p>
+        </div>
+      </div>
+    </aside>
   </div>
 
   <footer class="footer">
     <p>
       Archives departementales des Bouches-du-Rhone |
-      Barbara Proenca |
-      <a href="https://github.com" target="_blank">Code source</a>
+      Visualisation realisee par Barbara Proenca |
+      <a href="https://github.com/barbaraproenca/carte-archive" target="_blank">Code source</a>
     </p>
   </footer>
 

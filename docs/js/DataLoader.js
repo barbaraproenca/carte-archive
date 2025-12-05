@@ -52,10 +52,12 @@ export class DataLoader {
     // Construire le mapping des couleurs et URLs dynamiquement
     const functionColors = {};
     const functionUrls = {};
+    const functionSearchUrls = {};
     if (this.rawData.fonctions) {
       this.rawData.fonctions.forEach((func, index) => {
         functionColors[func.fonction] = colorPalette[index % colorPalette.length];
         functionUrls[func.fonction] = func.url || '';
+        functionSearchUrls[func.fonction] = func.url_recherche || 'https://www.archives13.fr/archive/recherche/fonds/n:93';
       });
     }
 
@@ -84,7 +86,8 @@ export class DataLoader {
         dateExtreme: func.date_extreme_fonction || '',
         metrage: func['Métrage réel'] || 0,
         nombreEntrees: func["Nombre d'entrée"] || 0,
-        url: func.url || ''
+        url: func.url || '',
+        urlRecherche: func.url_recherche || 'https://www.archives13.fr/archive/recherche/fonds/n:93'
       });
       colors.push(functionColors[func.fonction] || '#888888');
     }
@@ -105,7 +108,8 @@ export class DataLoader {
         metrage: theme['Métrage réel'] || 0,
         nombreEntrees: theme["Nombre d'entrée"] || 0,
         nombreProducteurs: theme['Nombre de producteurs'] || 0,
-        url: functionUrls[funcName] || ''
+        url: functionUrls[funcName] || '',
+        urlRecherche: functionSearchUrls[funcName] || 'https://www.archives13.fr/archive/recherche/fonds/n:93'
       });
       const parentColor = functionColors[funcName] || '#888888';
       colors.push(this.adjustColor(parentColor, 0.15));
@@ -143,7 +147,8 @@ export class DataLoader {
         value: theme['Métrage réel'] || 0,
         dateExtreme: theme.date_extreme_thematique || '',
         nombreEntrees: theme["Nombre d'entrée"] || 0,
-        url: functionUrls[funcName] || ''
+        url: functionUrls[funcName] || '',
+        urlRecherche: functionUrls[funcName] ? 'https://www.archives13.fr/archive/recherche/fonds/n:93' : ''
       });
     }
 
@@ -155,6 +160,7 @@ export class DataLoader {
         description: func.Description || '',
         dateExtreme: func.date_extreme_fonction || '',
         url: func.url || '',
+        urlRecherche: func.url_recherche || 'https://www.archives13.fr/archive/recherche/fonds/n:93',
         children: themesByFunction[func.fonction] || []
       };
       root.children.push(funcNode);

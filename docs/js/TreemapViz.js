@@ -201,6 +201,17 @@ Dates: %{customdata.dateExtreme}<br>
       }
     }
 
+    // Afficher le lien de recherche dans les inventaires
+    const searchLink = document.getElementById('info-search-link');
+    if (searchLink) {
+      if (customdata.urlRecherche) {
+        searchLink.href = customdata.urlRecherche;
+        searchLink.classList.remove('hidden');
+      } else {
+        searchLink.classList.add('hidden');
+      }
+    }
+
     infoPanel.classList.add('visible');
   }
 

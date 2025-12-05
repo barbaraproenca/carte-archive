@@ -187,6 +187,17 @@ class App {
       }
     }
 
+    // Afficher le lien de recherche dans les inventaires
+    const searchLink = document.getElementById('info-search-link');
+    if (searchLink) {
+      if (data.urlRecherche) {
+        searchLink.href = data.urlRecherche;
+        searchLink.classList.remove('hidden');
+      } else {
+        searchLink.classList.add('hidden');
+      }
+    }
+
     infoPanel.classList.add('visible');
   }
 

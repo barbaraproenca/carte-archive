@@ -12,6 +12,13 @@ from pathlib import Path
 
 # Base URL du site AD13
 AD13_BASE_URL = "https://www.archives13.fr"
+AD13_SEARCH_URL = "https://www.archives13.fr/archive/recherche/fonds/n:93"
+
+# Statistiques globales des instruments de recherche en ligne (mise a jour: 2024)
+STATS_IR = {
+    "total_inventaires": 980,
+    "total_notices": 185402
+}
 
 # Donnees des Fonctions (grandes categories de fonds)
 fonctions_data = [
@@ -24,7 +31,8 @@ fonctions_data = [
         "Métrage réel": 2500.0,
         "Nombre d'entrée": 45,
         "Thematique": "Fonds anciens",
-        "url": f"{AD13_BASE_URL}/n/archives-anciennes/n:101"
+        "url": f"{AD13_BASE_URL}/n/archives-anciennes/n:101",
+        "url_recherche": AD13_SEARCH_URL
     },
     {
         "fonction": "ARCHIVES REVOLUTIONNAIRES",
@@ -655,6 +663,11 @@ def main():
     """Cree le fichier Excel avec les donnees des AD13."""
     project_root = Path(__file__).parent.parent
     output_path = project_root / "data" / "archives.xlsx"
+    
+    # Ajouter l'URL de recherche a toutes les fonctions qui n'en ont pas
+    for func in fonctions_data:
+        if 'url_recherche' not in func:
+            func['url_recherche'] = AD13_SEARCH_URL
     
     # Creer les DataFrames
     df_fonctions = pd.DataFrame(fonctions_data)

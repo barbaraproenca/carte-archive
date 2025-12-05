@@ -9,7 +9,8 @@
       "Métrage réel": 2500,
       "Nombre d'entrée": 45,
       "Thematique": "Fonds anciens",
-      "url": "https://www.archives13.fr/n/archives-anciennes/n:101"
+      "url": "https://www.archives13.fr/n/archives-anciennes/n:101",
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
     },
     {
       "fonction": "ARCHIVES REVOLUTIONNAIRES",
@@ -20,7 +21,8 @@
       "Métrage réel": 800,
       "Nombre d'entrée": 25,
       "Thematique": "Fonds revolutionnaires",
-      "url": "https://www.archives13.fr/n/archives-revolutionnaires/n:102"
+      "url": "https://www.archives13.fr/n/archives-revolutionnaires/n:102",
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
     },
     {
       "fonction": "ARCHIVES MODERNES ET CONTEMPORAINES",
@@ -31,7 +33,8 @@
       "Métrage réel": 35000,
       "Nombre d'entrée": 1500,
       "Thematique": "Fonds publics modernes",
-      "url": "https://www.archives13.fr/n/archives-modernes-et-contemporaines/n:103"
+      "url": "https://www.archives13.fr/n/archives-modernes-et-contemporaines/n:103",
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
     },
     {
       "fonction": "ARCHIVES HOSPITALIERES",
@@ -42,7 +45,8 @@
       "Métrage réel": 3000,
       "Nombre d'entrée": 120,
       "Thematique": "Sante et assistance",
-      "url": "https://www.archives13.fr/n/archives-hospitalieres/n:104"
+      "url": "https://www.archives13.fr/n/archives-hospitalieres/n:104",
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
     },
     {
       "fonction": "ARCHIVES COMMUNALES ET INTERCOMMUNALES DEPOSEES",
@@ -53,7 +57,8 @@
       "Métrage réel": 5000,
       "Nombre d'entrée": 200,
       "Thematique": "Fonds communaux",
-      "url": "https://www.archives13.fr/n/archives-communales-et-intercommunales-deposees/n:105"
+      "url": "https://www.archives13.fr/n/archives-communales-et-intercommunales-deposees/n:105",
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
     },
     {
       "fonction": "ARCHIVES PRIVEES",
@@ -64,7 +69,8 @@
       "Métrage réel": 4000,
       "Nombre d'entrée": 350,
       "Thematique": "Fonds prives",
-      "url": "https://www.archives13.fr/n/archives-privees/n:106"
+      "url": "https://www.archives13.fr/n/archives-privees/n:106",
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
     },
     {
       "fonction": "FONDS ICONOGRAPHIQUES ET AUDIOVISUELS",
@@ -75,7 +81,8 @@
       "Métrage réel": 2000,
       "Nombre d'entrée": 180,
       "Thematique": "Images et sons",
-      "url": "https://www.archives13.fr/n/fonds-iconographiques-et-audiovisuels/n:107"
+      "url": "https://www.archives13.fr/n/fonds-iconographiques-et-audiovisuels/n:107",
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
     },
     {
       "fonction": "BIBLIOTHEQUE",
@@ -86,7 +93,8 @@
       "Métrage réel": 1500,
       "Nombre d'entrée": 90,
       "Thematique": "Documentation",
-      "url": "https://www.archives13.fr/n/bibliotheque/n:108"
+      "url": "https://www.archives13.fr/n/bibliotheque/n:108",
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
     },
     {
       "fonction": "ETAT CIVIL",
@@ -97,7 +105,8 @@
       "Métrage réel": 6000,
       "Nombre d'entrée": 400,
       "Thematique": "Genealogie",
-      "url": "https://www.archives13.fr/n/etat-civil/n:109"
+      "url": "https://www.archives13.fr/n/etat-civil/n:109",
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
     },
     {
       "fonction": "ARCHIVES NOTARIALES",
@@ -108,7 +117,8 @@
       "Métrage réel": 8000,
       "Nombre d'entrée": 500,
       "Thematique": "Actes notaries",
-      "url": "https://www.archives13.fr/n/archives-notariales/n:110"
+      "url": "https://www.archives13.fr/n/archives-notariales/n:110",
+      "url_recherche": "https://www.archives13.fr/archive/recherche/fonds/n:93"
     }
   ],
   "thematiques": [

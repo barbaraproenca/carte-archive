@@ -35,20 +35,22 @@ export class TreemapViz {
       customdata: data.customdata,
       
       branchvalues: 'remainder',
-      textinfo: 'label+percent parent',
+      textinfo: 'label+percent entry',
+      textposition: 'middle center',
       
       marker: {
         colors: data.colors,
         line: {
-          width: 2,
-          color: 'white'
+          width: 1.5,
+          color: 'rgba(15, 15, 26, 0.8)'
         },
         pad: {
-          t: 30,
-          l: 10,
-          r: 10,
-          b: 10
-        }
+          t: 35,
+          l: 8,
+          r: 8,
+          b: 8
+        },
+        cornerradius: 4
       },
       
       textfont: {
@@ -118,14 +120,7 @@ export class TreemapViz {
    * Template pour le hover
    */
   getHoverTemplate() {
-    return `
-<b>%{label}</b><br>
-<br>
-Metrage: %{customdata.metrage:.2f} ml<br>
-Entrees: %{customdata.nombreEntrees}<br>
-Dates: %{customdata.dateExtreme}<br>
-<extra></extra>
-    `.trim();
+    return `<b style="font-size:14px">%{label}</b><extra></extra>`;
   }
 
   /**

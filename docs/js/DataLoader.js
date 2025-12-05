@@ -42,11 +42,20 @@ export class DataLoader {
     const customdata = [];
     const colors = [];
 
-    // Palette de couleurs pour les fonctions
+    // Palette de couleurs professionnelle pour les archives
     const colorPalette = [
-      '#4A90D9', '#50C8C6', '#6B8E8E', '#7CB342', '#A4A424',
-      '#FF9800', '#5C4A72', '#FF4081', '#9C7BB8', '#E53935',
-      '#00ACC1', '#8D6E63', '#5E35B1', '#43A047', '#FB8C00'
+      '#3B82F6', // Bleu - Archives anciennes
+      '#8B5CF6', // Violet - Archives revolutionnaires  
+      '#06B6D4', // Cyan - Archives modernes
+      '#10B981', // Emeraude - Archives hospitalieres
+      '#F59E0B', // Ambre - Archives communales
+      '#EF4444', // Rouge - Archives privees
+      '#EC4899', // Rose - Fonds iconographiques
+      '#6366F1', // Indigo - Bibliotheque
+      '#14B8A6', // Teal - Etat civil
+      '#F97316', // Orange - Archives notariales
+      '#84CC16', // Lime
+      '#A855F7', // Fuchsia
     ];
 
     // Construire le mapping des couleurs et URLs dynamiquement
@@ -119,7 +128,7 @@ export class DataLoader {
         inventaires: inventaires
       });
       const parentColor = functionColors[funcName] || '#888888';
-      colors.push(this.adjustColor(parentColor, 0.15));
+      colors.push(this.adjustColor(parentColor, 0.12));
       
       // Niveau 3: Inventaires individuels
       for (const inv of inventaires) {
@@ -137,7 +146,7 @@ export class DataLoader {
           url: inv.url || '',
           urlRecherche: inv.url || ''
         });
-        colors.push(this.adjustColor(parentColor, 0.3));
+        colors.push(this.adjustColor(parentColor, 0.25));
       }
     }
 

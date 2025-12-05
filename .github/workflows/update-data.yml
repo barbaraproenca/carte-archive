@@ -6,6 +6,9 @@ on:
       - 'data/archives.xlsx'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   convert:
     runs-on: ubuntu-latest
@@ -34,4 +37,3 @@ jobs:
           git add docs/data/archives.json
           git diff --staged --quiet || git commit -m "Mise a jour automatique des donnees JSON"
           git push
-

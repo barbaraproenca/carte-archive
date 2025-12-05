@@ -95,27 +95,50 @@ export class DataLoader {
       colors.push(functionColors[func.fonction] || '#888888');
     }
 
-    // Niveau 2: Thematiques
+    // Niveau 2: Thematiques (series)
     for (const theme of this.rawData.thematiques) {
       const funcName = theme.Fonction || theme.fonction;
       const themeName = theme.Thématique || theme.Thematique;
       const themeId = `${funcName}/${themeName}`;
+      const inventaires = theme.inventaires || [];
+      
       ids.push(themeId);
       labels.push(themeName);
       parents.push(funcName);
-      values.push(theme['Métrage réel'] || 0);
+      values.push(theme['Métrage réel'] || theme.nb_notices || 0);
       customdata.push({
         type: 'thematique',
         fonction: funcName,
-        dateExtreme: theme.date_extreme_thematique || '',
+        description: theme.Description || `${inventaires.length} inventaires en ligne`,
         metrage: theme['Métrage réel'] || 0,
-        nombreEntrees: theme["Nombre d'entrée"] || 0,
-        nombreProducteurs: theme['Nombre de producteurs'] || 0,
+        nombreEntrees: theme["Nombre d'entrée"] || inventaires.length,
+        nbInventaires: theme.nb_inventaires || inventaires.length,
+        nbNotices: theme.nb_notices || 0,
         url: functionUrls[funcName] || '',
-        urlRecherche: functionSearchUrls[funcName] || 'https://www.archives13.fr/archive/recherche/fonds/n:93'
+        urlRecherche: functionSearchUrls[funcName] || 'https://www.archives13.fr/archive/recherche/fonds/n:93',
+        inventaires: inventaires
       });
       const parentColor = functionColors[funcName] || '#888888';
       colors.push(this.adjustColor(parentColor, 0.15));
+      
+      // Niveau 3: Inventaires individuels
+      for (const inv of inventaires) {
+        const invId = `${themeId}/${inv.cote}`;
+        ids.push(invId);
+        labels.push(inv.cote);
+        parents.push(themeId);
+        values.push(inv.nb_notices || 1);
+        customdata.push({
+          type: 'inventaire',
+          cote: inv.cote,
+          titre: inv.titre,
+          dates: inv.dates,
+          nbNotices: inv.nb_notices || 0,
+          url: inv.url || '',
+          urlRecherche: inv.url || ''
+        });
+        colors.push(this.adjustColor(parentColor, 0.3));
+      }
     }
 
     return { ids, labels, parents, values, customdata, colors, functionColors };
@@ -142,16 +165,32 @@ export class DataLoader {
     for (const theme of this.rawData.thematiques) {
       const funcName = theme.Fonction || theme.fonction;
       const themeName = theme.Thématique || theme.Thematique;
+      const inventaires = theme.inventaires || [];
+      
       if (!themesByFunction[funcName]) {
         themesByFunction[funcName] = [];
       }
+      
+      // Creer les enfants (inventaires) pour cette thematique
+      const invChildren = inventaires.map(inv => ({
+        name: inv.cote,
+        titre: inv.titre,
+        dates: inv.dates,
+        value: inv.nb_notices || 1,
+        nbNotices: inv.nb_notices || 0,
+        url: inv.url || '',
+        type: 'inventaire'
+      }));
+      
       themesByFunction[funcName].push({
         name: themeName,
-        value: theme['Métrage réel'] || 0,
-        dateExtreme: theme.date_extreme_thematique || '',
-        nombreEntrees: theme["Nombre d'entrée"] || 0,
+        value: theme['Métrage réel'] || theme.nb_notices || 0,
+        description: theme.Description || `${inventaires.length} inventaires`,
+        nbInventaires: inventaires.length,
+        nbNotices: theme.nb_notices || 0,
         url: functionUrls[funcName] || '',
-        urlRecherche: functionUrls[funcName] ? 'https://www.archives13.fr/archive/recherche/fonds/n:93' : ''
+        urlRecherche: 'https://www.archives13.fr/archive/recherche/fonds/n:93',
+        children: invChildren
       });
     }
 
@@ -161,7 +200,8 @@ export class DataLoader {
         name: func.fonction,
         value: func['Métrage réel'] || 0,
         description: func.Description || '',
-        dateExtreme: func.date_extreme_fonction || '',
+        nbInventaires: func.nb_inventaires_en_ligne || 0,
+        nbNotices: func.nb_notices_en_ligne || 0,
         url: func.url || '',
         urlRecherche: func.url_recherche || 'https://www.archives13.fr/archive/recherche/fonds/n:93',
         children: themesByFunction[func.fonction] || []
@@ -190,19 +230,19 @@ export class DataLoader {
   getStats() {
     if (!this.rawData) return null;
 
-    const totalMetrage = this.rawData.fonctions.reduce(
-      (sum, f) => sum + (f['Métrage réel'] || 0), 0
+    const totalInventaires = this.rawData.fonctions.reduce(
+      (sum, f) => sum + (f.nb_inventaires_en_ligne || 0), 0
     );
-    const totalEntrees = this.rawData.fonctions.reduce(
-      (sum, f) => sum + (f["Nombre d'entrée"] || 0), 0
+    const totalNotices = this.rawData.fonctions.reduce(
+      (sum, f) => sum + (f.nb_notices_en_ligne || 0), 0
     );
 
     return {
       nombreFonctions: this.rawData.fonctions.length,
       nombreThematiques: this.rawData.thematiques.length,
-      nombreProducteurs: this.rawData.producteurs.length,
-      totalMetrage: totalMetrage.toFixed(2),
-      totalEntrees
+      nombreProducteurs: this.rawData.producteurs?.length || 0,
+      totalInventaires,
+      totalNotices
     };
   }
 }

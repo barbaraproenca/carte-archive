@@ -70,7 +70,7 @@ export class TreemapViz {
         side: 'top'
       },
       
-      maxdepth: 2
+      maxdepth: 3
     };
 
     const layout = {
@@ -159,44 +159,77 @@ Dates: %{customdata.dateExtreme}<br>
     if (badge) badge.textContent = this.getTypeBadge(type);
     
     const title = document.getElementById('info-title');
-    if (title) title.textContent = point.label;
+    if (title) {
+      if (customdata.type === 'inventaire') {
+        title.textContent = `${customdata.cote} - ${customdata.titre || ''}`;
+      } else {
+        title.textContent = point.label;
+      }
+    }
     
     const desc = document.getElementById('info-description');
-    if (desc) desc.textContent = customdata.description || 'Aucune description disponible.';
+    if (desc) {
+      if (customdata.type === 'inventaire') {
+        desc.innerHTML = `<strong>${customdata.titre || ''}</strong><br>Dates: ${customdata.dates || '-'}`;
+      } else {
+        desc.textContent = customdata.description || 'Aucune description disponible.';
+      }
+    }
     
     const statsContainer = document.getElementById('info-stats-container');
     if (statsContainer) {
-      let statsHtml = `
-        <div class="stat">
-          <span class="stat-value">${(customdata.metrage || 0).toFixed(2)}</span>
-          <span class="stat-label">metres lineaires</span>
-        </div>
-        <div class="stat">
-          <span class="stat-value">${customdata.nombreEntrees || 0}</span>
-          <span class="stat-label">versements</span>
-        </div>
-      `;
-      if (customdata.nbInventairesEnLigne) {
-        statsHtml += `
+      let statsHtml = '';
+      
+      if (customdata.type === 'inventaire') {
+        // Affichage pour un inventaire individuel
+        statsHtml = `
           <div class="stat stat-online">
-            <span class="stat-value">${customdata.nbInventairesEnLigne}</span>
-            <span class="stat-label">inventaires en ligne</span>
-          </div>
-        `;
-      }
-      if (customdata.nbNoticesEnLigne) {
-        statsHtml += `
-          <div class="stat stat-online">
-            <span class="stat-value">${customdata.nbNoticesEnLigne.toLocaleString()}</span>
+            <span class="stat-value">${(customdata.nbNotices || 0).toLocaleString()}</span>
             <span class="stat-label">notices</span>
           </div>
         `;
+      } else if (customdata.type === 'thematique') {
+        // Affichage pour une serie
+        statsHtml = `
+          <div class="stat stat-online">
+            <span class="stat-value">${customdata.nbInventaires || 0}</span>
+            <span class="stat-label">inventaires</span>
+          </div>
+          <div class="stat stat-online">
+            <span class="stat-value">${(customdata.nbNotices || 0).toLocaleString()}</span>
+            <span class="stat-label">notices</span>
+          </div>
+        `;
+      } else {
+        // Affichage pour une fonction/categorie
+        if (customdata.nbInventairesEnLigne) {
+          statsHtml += `
+            <div class="stat stat-online">
+              <span class="stat-value">${customdata.nbInventairesEnLigne}</span>
+              <span class="stat-label">inventaires en ligne</span>
+            </div>
+          `;
+        }
+        if (customdata.nbNoticesEnLigne) {
+          statsHtml += `
+            <div class="stat stat-online">
+              <span class="stat-value">${customdata.nbNoticesEnLigne.toLocaleString()}</span>
+              <span class="stat-label">notices</span>
+            </div>
+          `;
+        }
       }
       statsContainer.innerHTML = statsHtml;
     }
     
     const dates = document.getElementById('info-dates');
-    if (dates) dates.textContent = `Dates extremes: ${customdata.dateExtreme || '-'}`;
+    if (dates) {
+      if (customdata.type === 'inventaire') {
+        dates.textContent = `Dates: ${customdata.dates || '-'}`;
+      } else {
+        dates.textContent = `Dates extremes: ${customdata.dateExtreme || '-'}`;
+      }
+    }
 
     // Afficher le lien vers le site AD13 si disponible
     const link = document.getElementById('info-link');
@@ -229,8 +262,9 @@ Dates: %{customdata.dateExtreme}<br>
   getTypeBadge(type) {
     const badges = {
       'root': 'Racine',
-      'fonction': 'Fonction',
-      'thematique': 'Thematique',
+      'fonction': 'Categorie',
+      'thematique': 'Serie',
+      'inventaire': 'Inventaire',
       'producteur': 'Producteur'
     };
     return badges[type] || 'Element';
